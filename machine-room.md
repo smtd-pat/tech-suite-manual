@@ -1,7 +1,24 @@
-[helpdesk]: https://sites.google.com/umich.edu/pat/tech-suite/helpdesk
+<!-- Document links. Please put all links here to make broken link checking easier. -->
+[av-panels]: /av-panels.md
+[clearcom]: /clearcom.md
+[control-room]: /control-room.md
+[dante]: /dante.md
+[edit-rooms]: /edit-rooms.md
+[lan]: /lan.md
+[machine-room]: /machine-room.md
+[mtl]: /mtl.md
+[video-switcher]: /video-switcher.md
+[workshop]: /workshop.md
+[helpdesk]: https://sites.google.com/umich.edu/pat/helpdesk
 
 # The Machine Room
-The machine room is the heart of the Tech Suite, and arguably, the heart of the entire Moore building. The machine room features patch bays to route all [AV panels](/av-panels.md) and equipment throughout the building, as well as playing host to some of the primary Dante network audio equipment used throughout the building.
+?> The Machine Room requires a [certification][training] to use.
+
+The machine room is the heart of the Tech Suite, and arguably, the heart of the entire Moore building. The machine room features patch bays to route all [AV panels][av-panels] and equipment throughout the building, as well as playing host to some of the primary Dante network audio equipment used throughout the building.
+
+The switches for the [Tech Suite LAN][lan] are also located in the Machine Room.
+
+<!-- TODO: More Images -->
 
 ## Known Issues
 
@@ -63,7 +80,7 @@ Cables come in three colors. While all cables are functionally the same, we can 
 - :green_heart: Green for Davis Ambisonic system speaker output **(do not use for other purposes or remove)**
 
 ### Tips
-- All connections are [non-normalled](https://www.sweetwater.com/insync/non-normalled/)
+- All connections are [non-normalled][https://www.sweetwater.com/insync/non-normalled/]
 - A tie line can be patched to any other tie line. *However* you must ensure that your signal is flowing in the correct direction or you will risk damaging equipment connected to the patch. Do not patch 2 transmitter devices or 2 receiver devices together. Your signal should always flow from a transmitter to a receiver.
 - All active tie line ports on the patch bays are labeled with their location and/or device.
 - Tie lines can be connected directly together
@@ -73,7 +90,7 @@ Cables come in three colors. While all cables are functionally the same, we can 
 !> Always turn speakers off before patching
 
 ## Microphone Patch Bays
-Microphones can be patched using blue XLR patch cables. Microphones almost always go into our Focusrite RedNet MP8R mic preamplifiers exposed on the patch bay. These racks are controlled via a piece of software called [RedNet Control 2](/rednet.md). Microphone lines can also be routed to the Control Room.
+Microphones can be patched using blue XLR patch cables. Microphones almost always go into our Focusrite RedNet MP8R mic preamplifiers exposed on the patch bay. These racks are controlled via a piece of software called [RedNet Control 2][dante]. Microphone lines can also be routed to the Control Room.
 
 ### Tips
 - Microphones can be patched using blue XLR patch cables.
@@ -85,9 +102,9 @@ Microphones can be patched using blue XLR patch cables. Microphones almost alway
 !> Always turn speakers off before patching
 
 ## AV Data Patch Bay
-The AV Data patch bay is just a bunch of ethernet/RJ45 ports. They are agnostic to what you use them for. If you just need to make a peer to peer (P2P) connection to another device, you can to connect two AV ports directly together. However, normally you are going to want to connect to the [Tech Suite LAN](/lan.md). To do that, you can plug into any of the open ports on the two Cisco ethernet switches above the AV data patchbay.
+The AV Data patch bay is just a bunch of ethernet/RJ45 ports. They are agnostic to what you use them for. If you just need to make a peer to peer (P2P) connection to another device, you can to connect two AV ports directly together. However, normally you are going to want to connect to the [Tech Suite LAN][lan]. To do that, you can plug into any of the open ports on the two Cisco ethernet switches above the AV data patchbay.
 
-?> You can use this patch bay to patch your personal computer into the [Tech Suite LAN](/lan.md) which will allow you to use [Dante Virtual Soundcard](/dvs.md) (if you have it), [Dante Controller](/dante-controller.md), and [RedNet Control 2](/rednet.md).
+?> You can use this patch bay to patch your personal computer into the [Tech Suite LAN][lan] which will allow you to use [Dante Virtual Soundcard][dante] (if you have it), [Dante Controller][dante], and [RedNet Control 2][dante].
 
 !> **Do not remove Black Cables** as they go to equipment that is always plugged in
 
@@ -96,7 +113,7 @@ The AV Data patch bay is just a bunch of ethernet/RJ45 ports. They are agnostic 
 - All RJ45 ports are labeled with their AV Panel location and ID.
 
 ## SDI Patch Bay
-The SDI patch bay can be used to route any SDI connection between AV panels or to the [AJA Kumo SDI switcher](/video-switcher.md).
+The SDI patch bay can be used to route any SDI connection between AV panels or to the [AJA Kumo SDI switcher][video-switcher].
 
 ## Other patch bays
 The **multimode fiber** patch bay can be used to route fiber devices, however this is a seldom used connection in the Tech Suite.

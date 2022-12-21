@@ -1,6 +1,15 @@
-- [Welcome](/)
+- **Facilities**
+- [Music Technology Lab (MTL)](/mtl.md)
+- [Edit Rooms](/edit-rooms.md)
 - [Machine Room](/machine-room.md)
+- [Davis Studio](/davis-studio.md)
+- [Control Room](/control-room.md)
+- [Workshop](/workshop.md)
+- **Systems**
 - [AV Panels](/av-panels.md)
 - [Tech Suite LAN](/lan.md)
 - [Dante](/dante.md)
 - [Video Switcher](/video-switcher.md)
+- [ClearCom](/clearcom.md)
+- **Guides**
+- Ambisonic Playback (Coming soon...)
