@@ -10,8 +10,11 @@
 [video-switcher]: /video-switcher.md
 [workshop]: /workshop.md
 [helpdesk]: https://sites.google.com/umich.edu/pat/helpdesk
+[training]: https://sites.google.com/umich.edu/pat/training
 
-# The Machine Room
+[non-normalled]: https://www.sweetwater.com/insync/non-normalled/
+
+# The Machine Room <small>*Moore 372*</small>
 ?> The Machine Room requires a [certification][training] to use.
 
 The machine room is the heart of the Tech Suite, and arguably, the heart of the entire Moore building. The machine room features patch bays to route all [AV panels][av-panels] and equipment throughout the building, as well as playing host to some of the primary Dante network audio equipment used throughout the building.
@@ -22,11 +25,11 @@ The switches for the [Tech Suite LAN][lan] are also located in the Machine Room.
 
 ## Known Issues
 
-**Found an issue?** Submit a [Helpdesk Ticket][helpdesk].
+**Found an urgent issue?** Submit a [Helpdesk Ticket][helpdesk].
 
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrxNqE7lInLejewY?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="300px" style="background: transparent; border: 1px solid #ccc;"></iframe>
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrxNqE7lInLejewY?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="600px" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
-## Equipment Inventory
+## Equipment Overview
 
 ?> ITS Networking Equipment is not included in this inventory
 
@@ -80,7 +83,7 @@ Cables come in three colors. While all cables are functionally the same, we can 
 - :green_heart: Green for Davis Ambisonic system speaker output **(do not use for other purposes or remove)**
 
 ### Tips
-- All connections are [non-normalled][https://www.sweetwater.com/insync/non-normalled/]
+- All connections are [non-normalled][non-normalled]
 - A tie line can be patched to any other tie line. *However* you must ensure that your signal is flowing in the correct direction or you will risk damaging equipment connected to the patch. Do not patch 2 transmitter devices or 2 receiver devices together. Your signal should always flow from a transmitter to a receiver.
 - All active tie line ports on the patch bays are labeled with their location and/or device.
 - Tie lines can be connected directly together

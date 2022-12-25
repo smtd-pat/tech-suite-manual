@@ -16,8 +16,8 @@
 
 > As of January 2023, the Tech Suite Manual is fully online! This allows us to keep a historical record of the manual, as well as push updates quickly.
 
-- Are you tech-savvy? [Contribute to the manual on GitHub!](https://github.com/smtd-pat/tech-suite-manual)
-- Are you a little less tech-savvy? [Report issues with the manual](https://github.com/smtd-pat/tech-suite-manual/issues) (GitHub account required)
+- Want to make improvements to the manual yourself? [Contribute to the manual on GitHub!](https://github.com/smtd-pat/tech-suite-manual)
+- See a problem? Have a suggestion? Submit a [helpdesk ticket][helpdesk]!
 
 ## Recent Changes
 

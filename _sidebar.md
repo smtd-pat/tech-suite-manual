@@ -11,5 +11,8 @@
 - [Dante](/dante.md)
 - [Video Switcher](/video-switcher.md)
 - [ClearCom](/clearcom.md)
-- **Guides**
-- Ambisonic Playback (Coming soon...)
+- **Guides *(Coming Soon)***
+- Ambisonic Playback
+- Wrapping cables
+- Collapsing mic stands
+- Terminology

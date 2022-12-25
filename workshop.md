@@ -11,3 +11,5 @@
 [workshop]: /workshop.md
 [helpdesk]: https://sites.google.com/umich.edu/pat/helpdesk
 [training]: https://sites.google.com/umich.edu/pat/training
+
+?> The Workshop manual is coming soon...

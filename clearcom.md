@@ -21,11 +21,14 @@ The intercom system has an A and B channel. On the front panel of the PS-702 mai
 !> Please do not adjust the send levels or turn the Test Tone on.
 
 ## Belt Packs
-![Beltpack Bottom](/_media/RS-701-Bottom.jpg ':size=300px')
-![Beltpack Top](/_media/RS-701-Top-1.jpg ':size=300px')
+<center>
 
-![Phone attachment](/_media/HS6-A-2.jpg ':size=300px')
-![Headset](/_media/CC-300-Right-1.jpg ':size=300px')
+![Beltpack Bottom](/_media/RS-701-Bottom.jpg ':size=200px')
+![Beltpack Top](/_media/RS-701-Top-1.jpg ':size=200px')
+![Phone attachment](/_media/HS6-A-2.jpg ':size=200px')
+![Headset](/_media/CC-300-Right-1.jpg ':size=200px')
+
+</center>
 
 The ClearCom belt packs can be connected to the system using XLR cables. Locate the A and B intercom ports on select AV panels. Belt packs that are supposed to be on the same channel can be daisy chained together. A headset or handset can then be plugged into the headset port on each beltpack.
 

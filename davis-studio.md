@@ -15,19 +15,22 @@
 
 [etc-offline]: https://www.etcconnect.com/Products/Consoles/Eos-Family/
 
-# The Davis Studio
+# The Davis Studio <small>*Moore 376*</small>
+
 ?> The Davis Studio requires a [certification][training] to use.
 
 The Davis Studio is a multipurpose adaptable classroom/studio/performance space with 2 multichannel speaker arrays, a lighting system, Motion Capture System, and VR Station. It is available for recitals, project documentation, installations, rehearsals, prototyping, system testing, and much more.
 
 ## Known Issues
 
-**Found an issue?** Submit a [Helpdesk Ticket][helpdesk].
+**Found an urgent issue?** Submit a [Helpdesk Ticket][helpdesk].
 
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrY8Y1hhs8iuaIfF?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="300px" style="background: transparent; border: 1px solid #ccc;"></iframe>
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrY8Y1hhs8iuaIfF?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="600px" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
 ## Equipment Overview
 ?> Links go to item manuals
+
+<!-- tabs:start -->
 
 <!-- Section excluded from document links -->
 
@@ -35,7 +38,7 @@ The Davis Studio is a multipurpose adaptable classroom/studio/performance space 
 
 - [Bösendorfer Imperial 290 CEUS Grand Piano and Digital Player Piano](https://drive.google.com/file/d/1QUpoD5lmA5tuK5EY3zyssfW5-XuzCG7a/view?usp=sharing)
 
-### Sound System
+### **Sound System**
 - [Roland OHRCA M-5000 Live Mixing Console](https://proav.roland.com/global/support/by_product/m-5000/owners_manuals/)
 - Mac Pro 2013
 - ExpressBox 1T
@@ -45,7 +48,7 @@ The Davis Studio is a multipurpose adaptable classroom/studio/performance space 
 - Genelec 1037C *x2* (Front Stereo)
 - RCF Sub 8004-AS
 
-### Lighting System
+### **Lighting System**
 - [ETC Ion Lighting Console](https://www.etcconnect.com/Products/Legacy/Console/Eos-Family/Ion/Documentation.aspx)
 - ETC Paradigm Controller
 - [ETC Desire D22 Studio LED Par](https://www.etcconnect.com/Products/Architectural-Fixtures/Desire-D22/Documentation.aspx) *x12*
@@ -54,7 +57,7 @@ The Davis Studio is a multipurpose adaptable classroom/studio/performance space 
 - [Elation E Spot III](https://www.elationlighting.com/e-spot-iii) *x4*
 - [Elation ZCL 360i](https://www.elationlighting.com/zcl-360i) *x2*
 
-### Motion Capture System
+### **Motion Capture System**
 - Qualisys Miqus M3 Camera *x16*
 - Qualisys Analog interface 64 channel
 - Qualisys Miqus Sync Unit
@@ -63,20 +66,20 @@ The Davis Studio is a multipurpose adaptable classroom/studio/performance space 
 - MOTU 828 mk3 Hybrid
 - Middle Atlantic Products PD-915R
 
-### VR System
+### **VR System**
 - [HTC VIVE](https://www.vive.com/us/support/vive/)
 - Alienware Aurora R7 | [Service Tag: J76HBM2](https://www.dell.com/support/home/en-us/product-support/servicetag/0-MitvNnJzSEEwWm1RVHp3TnN4RkpGZz090/overview)
 
-### Teaching Station
+### **Teaching Station**
 - Focusrite Scarlett 6i6
 - USB-C to HDMI dongle
 - USB-C to Ethernet dongle
 - AVerVision CP135 Document Camera + Power Adaptor
 
-### Projection
+### **Projection**
 - NEC PX602UL-BK Projector + Remote
 
-### Davis Quick Specs
+### **Davis Quick Specs**
 - DMX-controllable House/Work Lights
 - DMX-controllable guide lights
 - Stereo Pair Speakers
@@ -93,6 +96,8 @@ The Davis Studio is a multipurpose adaptable classroom/studio/performance space 
 - RJ45 Patch Lines
 - 1 Word Clock Line
 - 1 Fiber Line
+
+<!-- tabs:end -->
 
 ## Getting Started
 

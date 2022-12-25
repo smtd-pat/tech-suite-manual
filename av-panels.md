@@ -16,7 +16,7 @@
 
 AV Panels are large black wall plates and grid boxes (boxes in the Davis pipe grid) with a number of ports that lead into the [Machine Room][machine-room]. Below is an example of an AV panel. These can found all over the Tech Suite, as well as in Britton recital hall, MacIntosh recital hall, Hankinson rehearsal hall, and Watkins lecture hall. Below is Davis AVP-101, which has every port that can be found on a Tech Suite AV panel. Each panel and port is labeled to make it easier to find in the Machine Room patch bay. Note that not all panels look alike or have the same ports.
 
-![A diagram of AV Panel 101 in the Davis Studio](/_media/av-panel.png)
+![A diagram of AV Panel 101 in the Davis Studio](/_media/av-panel.png ':size=50%')
 
 ## Line types
 
