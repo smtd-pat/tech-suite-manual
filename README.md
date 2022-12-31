@@ -19,6 +19,9 @@
 - Want to make improvements to the manual yourself? [Contribute to the manual on GitHub!](https://github.com/smtd-pat/tech-suite-manual)
 - See a problem? Have a suggestion? Submit a [helpdesk ticket][helpdesk]!
 
+## All Known and Solved Issues
+<iframe class="airtable-embed" src="https://airtable.com/embed/shr9tdmszWO6ewX2R?backgroundColor=blue&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="500px" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
 ## Recent Changes
 
 > **January 1, 2023**
