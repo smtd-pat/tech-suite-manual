@@ -18,7 +18,7 @@ The Kumo 1616 SDI video switcher can be controlled via any computer connected to
 
 !> Always reset the **Davis Projector** back to **Davis Teacher** so lecturers don't have to switch it back before a class.
 
-![](/_media/kumo-ui.png)
+![](/_media/kumo-ui.webp)
 
 - Select a destination, then select a source
 - Click the **Defaults** salvo and then click **TAKE SALVO** to reset to the default routing. Be weary of other people using the switcher.

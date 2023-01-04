@@ -157,7 +157,7 @@ This switch is always unlocked.
 
 <!-- div:right-panel -->
 
-![](/_media/speaker-system-switch.png)
+![](/_media/speaker-system-switch.webp)
 
 <!-- div:left-panel -->
 
@@ -167,7 +167,7 @@ The Genelec 1037Cs are the large “front-of-house” speakers on either side of
 
 <!-- div:right-panel -->
 
-![](/_media/main-speaker-switch.png ':size=50%')
+![](/_media/main-speaker-switch.webp ':size=50%')
 
 <!-- panels:end -->
 
@@ -175,7 +175,7 @@ The Genelec 1037Cs are the large “front-of-house” speakers on either side of
 
 <center>
 
-![](/_media/black-outlet.png 'Building Mains Power :size=60%') ![](/_media/grey-outlet.png 'Programmable / Isolated Ground :size=60%')
+![](/_media/black-outlet.webp 'Building Mains Power :size=60%') ![](/_media/grey-outlet.webp 'Programmable / Isolated Ground :size=60%')
 
 </center>
 
@@ -206,7 +206,7 @@ The projector input is controlled with the [Video Switcher][video-switcher] whic
 
 <!-- div:left-panel -->
 
-![](/_media/davis-speaker-map.jpg)
+![](/_media/davis-speaker-map.webp)
 
 <!-- div:right-panel -->
 
@@ -251,7 +251,7 @@ The main "front-of-house" speakers are Genelec 1037Cs. They can be routed to the
 
 <!-- div:left-panel -->
 
-![](/_media/ambisonic-speaker-map.jpg)
+![](/_media/ambisonic-speaker-map.webp)
 
 <!-- div:right-panel -->
 
@@ -387,7 +387,7 @@ Each of the 7 groups in the default project corresponds to a stereo pair of spea
 
 <!-- div:right-panel -->
 
-![](/_media/simple-speaker-map.png)
+![](/_media/simple-speaker-map.webp)
 
 <!-- div:title-panel -->
 
@@ -399,7 +399,7 @@ Each of the 7 groups in the default project corresponds to a stereo pair of spea
 
 <!-- div:right-panel -->
 
-![](/_media/group-assign-2.png)
+![](/_media/group-assign-2.webp)
 
 <!-- div:title-panel -->
 
@@ -411,7 +411,7 @@ Each of the 7 groups in the default project corresponds to a stereo pair of spea
 
 <!-- div:right-panel -->
 
-![](/_media/group-assign-3.png)
+![](/_media/group-assign-3.webp)
 
 <!-- div:title-panel -->
 
@@ -434,14 +434,14 @@ Tap the **X** on the *CH EDIT* window or press <kbd>SEL</kbd> again on the selec
 
 <!-- div:right-panel -->
 
-![](/_media/subwoofer-1.png)
+![](/_media/subwoofer-1.webp)
 
 <!-- div:left-panel -->
 2. The bottom row of knobs under the touchscreen should turn yellow. Use the first two knobs to assign the send level to SUB L and SUB R.
 
 <!-- div:right-panel -->
 
-![](/_media/subwoofer-2.png)
+![](/_media/subwoofer-2.webp)
 
 <!-- div:title-panel -->
 3. Tap the X on the channel edit window or press <kbd>SEL</kbd> on the selected channel strip to deselect the channel.
@@ -451,7 +451,7 @@ Tap the **X** on the *CH EDIT* window or press <kbd>SEL</kbd> again on the selec
 
 <!-- div:right-panel -->
 
-![](/_media/subwoofer-3.png)
+![](/_media/subwoofer-3.webp)
 
 <!-- panels:end -->
 

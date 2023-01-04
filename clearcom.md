@@ -13,7 +13,7 @@
 [training]: https://sites.google.com/umich.edu/pat/training
 
 # ClearCom System
-![ClearCom PS-702 front panel](/_media/clearcom-rack.jpg)
+![ClearCom PS-702 front panel](/_media/clearcom-rack.webp)
 ClearCom is a way for you to communicate across the Tech Suite using wired headsets. You may want to do this for a number of reasons such as trying to troubleshoot a problem or to communicate with crew while running a performance or recording session. The ClearCom system goes to Britton, Macintosh, Hankinson, Watkins, the Edit Rooms, the Control Room, and Davis.
 
 The intercom system has an A and B channel. On the front panel of the PS-702 main station (located in the Machine Room), you are able to plug a beltpack directly into the system and talk with either channel A or B using the switch. You can also link A and B together if needed. There is currently no program feed hooked up to the ClearCom system and flipping the switch will not do anything. 
@@ -23,10 +23,10 @@ The intercom system has an A and B channel. On the front panel of the PS-702 mai
 ## Belt Packs
 <center>
 
-![Beltpack Bottom](/_media/RS-701-Bottom.jpg ':size=200px')
-![Beltpack Top](/_media/RS-701-Top-1.jpg ':size=200px')
-![Phone attachment](/_media/HS6-A-2.jpg ':size=200px')
-![Headset](/_media/CC-300-Right-1.jpg ':size=200px')
+![Beltpack Bottom](/_media/RS-701-Bottom.webp ':size=200px')
+![Beltpack Top](/_media/RS-701-Top-1.webp ':size=200px')
+![Phone attachment](/_media/HS6-A-2.webp ':size=200px')
+![Headset](/_media/CC-300-Right-1.webp ':size=200px')
 
 </center>
 

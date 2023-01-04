@@ -22,6 +22,14 @@
 # The Control Room <small>*Moore 370*</small>
 The Control Room is a state-of-the-art digital audio studio system that can be used for recording, mixing, and mastering. The control room is connected to nearly every large rehearsal and performance space in the Moore building via a Dante audio network and cameras.
 
+## Known Issues
+
+**Found an urgent issue?** Submit a [Helpdesk Ticket][helpdesk].
+
+Also see [Troubleshooting](#troubleshooting)
+
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrt3ZlN4uSplxlpO?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="600px" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
 ## Equipment Overview
 ?> Links go to item manuals
 
@@ -113,7 +121,7 @@ More information can be found on the [checkout system][checkout]
 4. Unmute the Blue Sky Bass Management Controller Remote on top of sidecar rack (shown on the right)
 
 <!-- div:right-panel -->
-![](/_media/blue-sky.png ':size=50%')
+![](/_media/blue-sky.webp ':size=50%')
 
 <!-- panels:end -->
 
@@ -134,7 +142,12 @@ More information can be found on the [checkout system][checkout]
 - <input type="checkbox"> Close all doors
 
 ## S6 Basics
+<!-- panels:start -->
+<!-- div:left-panel -->
 The Avid S6 is a modular digital mixing console/control surface made for use with Pro Tools. It communicates with a computer running a DAW like Pro Tools or Logic Pro using Avid’s proprietary EUCON protocol.
+<!-- div:right-panel -->
+![](/_media/s6.webp)
+<!-- panels:end -->
 
 ### Using Pro Tools
 In Pro Tools, you must enable EUCON support in order to use it with the S6. You can learn how to enable EUCON in Pro Tools and find troubleshooting tips in the [troubleshooting](#s6-is-not-communicating-with-pro-tools) section.
@@ -156,9 +169,9 @@ The S6 is made up of modules. Our console has a total of 14 modules. *1* Master 
 #### **Master**
 <!-- panels:start -->
 <!-- div:left-panel -->
-The **S6 Master Module M40** is main computer within the console. It controls all other modules in the console.
+The **S6 Master Module M40** is main computer within the console. It is the brains of the console and controls all other modules. You can use it to control monitoring, talkback, settings, channel parameters, and more.
 <!-- div:right-panel -->
-![](/_media/master-module.png)
+![](/_media/s6-master-module.webp)
 <!-- panels:end -->
 
 #### **Automation**
@@ -166,7 +179,7 @@ The **S6 Master Module M40** is main computer within the console. It controls al
 <!-- div:left-panel -->
 The **S6 Automation Module** allows you to access features from your DAW as well as additional functionality for the selected channel strip.
 <!-- div:right-panel -->
-![](/_media/automation-module.png)
+![](/_media/s6-automation-module.webp)
 <!-- panels:end -->
 
 #### **Display**
@@ -174,7 +187,7 @@ The **S6 Automation Module** allows you to access features from your DAW as well
 <!-- div:left-panel -->
 The **S6 Display Module** displays channel information
 <!-- div:right-panel -->
-![](/_media/display-module.png)
+![](/_media/s6-display-module.webp)
 <!-- panels:end -->
 
 #### **Knob**
@@ -182,23 +195,23 @@ The **S6 Display Module** displays channel information
 <!-- div:left-panel -->
 The **S6 Knob Module** contains knobs to control various channel parameters
 <!-- div:right-panel -->
-![](/_media/knob-module.png)
+![](/_media/s6-knob-module.webp)
 <!-- panels:end -->
 
 #### **Process**
 <!-- panels:start -->
 <!-- div:left-panel -->
-The **S6 Process Module** contains buttons to select and manipulate various channel parameters
+The **S6 Process Module** allows you to select what parameters are controlled by the knob module.
 <!-- div:right-panel -->
-![](/_media/process-module.png)
+![](/_media/s6-process-module.webp)
 <!-- panels:end -->
 
 #### **Fader**
 <!-- panels:start -->
 <!-- div:left-panel -->
-The **S6 Fader Module** contains the faders along with important buttons like select, mute, and solo.
+The **S6 Fader Module** contains the faders along with important buttons like select, mute, and solo. 
 <!-- div:right-panel -->
-![](/_media/fader-module.png)
+![](/_media/s6-fader-module.webp)
 <!-- panels:end -->
 
 <!-- tabs:end -->
@@ -213,7 +226,7 @@ The **S6 Fader Module** contains the faders along with important buttons like se
 <!-- div:left-panel -->
 Press the **Home** button to navigate to the home menu
 <!-- div:right-panel -->
-![](/_media/s6-home.png)
+![](/_media/s6-home.webp)
 <!-- panels:end -->
 
 #### **Monitoring**
@@ -221,7 +234,7 @@ Press the **Home** button to navigate to the home menu
 <!-- div:left-panel -->
 The **Monitoring** button (which can also be pressed using the physical buttons below the screen) will open the monitoring menu.
 <!-- div:right-panel -->
-![](/_media/s6-monitoring.png)
+![](/_media/s6-monitoring.webp)
 <!-- panels:end -->
 
 #### **Settings**
@@ -229,7 +242,7 @@ The **Monitoring** button (which can also be pressed using the physical buttons 
 <!-- div:left-panel -->
 The **Settings** button (which can also be pressed using the physical buttons below the screen) will open the settings menu.
 <!-- div:right-panel -->
-![](/_media/s6-settings.png)
+![](/_media/s6-settings.webp)
 <!-- panels:end -->
 
 #### **Shutdown**
@@ -237,13 +250,13 @@ The **Settings** button (which can also be pressed using the physical buttons be
 <!-- div:left-panel -->
 Go to Home > Settings > About > Shutdown
 <!-- div:right-panel -->
-![](/_media/s6-settings-shutdown.png)
+![](/_media/s6-settings-shutdown.webp)
 <!-- panels:end -->
 
 <!-- tabs:end -->
 
 ## Using the XMon system
-![](/_media/xmon.png ':size=75%') ![](/_media/xmon-app.png ':size=12%')
+![](/_media/xmon.webp ':size=75%') ![](/_media/xmon-app.webp ':size=12%')
 
 The Avid XMon rack is responsible for routing all the speakers in the Control Room. This rack is controlled by the XMon software utility. The S6 monitoring setup controls the XMon software utility. Both use Avid’s proprietary EUCON protocol to communicate.
 
@@ -256,29 +269,26 @@ The S6 displays additional configuration options that are not available in the X
 <!-- div:left-panel -->
 1. Press the **Home** button on the S6 (if you aren't already on the home screen)
 <!-- div:right-panel -->
-![](/_media/s6-home.png)
+![](/_media/s6-home.webp)
 
 <!-- div:left-panel -->
 2. Go to **Monitoring**
 <!-- div:right-panel -->
-![](/_media/s6-monitoring.png)
+![](/_media/s6-monitoring.webp)
 
 <!-- div:left-panel -->
 3. From there you are able to enable and disable individual sources and outputs. You can also adjust the mix volume from there.
 <!-- div:right-panel -->
-![](/_media/s6-settings-monitoring.png ':size=50%')
+![](/_media/s6-settings-monitoring.webp ':size=50%')
 <!-- panels:end -->
 
-> There’s also a shortcut **Setup** button next to the monitoring section of the Master Module that will take you directly to the monitor settings
+> - On the monitoring section of the Master Module you can also switch between the Meyers and the Genelecs as well as adjust the mix volume.
+> - There’s also a shortcut **Setup** button next to the monitoring section of the Master Module that will take you directly to the monitor settings
 >
-> ![](/_media/s6-monitoring-shortcut.png)
-
-> On the monitoring section of the Master Module you can also switch between the Meyers and the Genelecs as well as adjust the mix volume.
->
-> ![](/_media/s6-monitor-buttons.png)
+> ![](/_media/s6-monitoring-shortcut.webp ':size=30%')
 
 ## Digital Audio Output
-?> These guides expects that you will be using the [default Dante preset][dante]
+?> These guides expect that you will be using the [default Dante preset][dante]
 
 The standard sample rate for the Tech Suite is 48kHz.
 
@@ -300,7 +310,7 @@ You need to make sure to configure Pro Tools to use the HDX playback engine. Usu
 <!-- div:left-panel -->
 2. Set the **Playback Engine** to **HDX**
 <!-- div:right-panel -->
-![](/_media/pro-tools-playback-engine.png)
+![](/_media/pro-tools-playback-engine.webp)
 <!-- panels:end -->
 
 #### Now you can set up your I/O settings
@@ -315,7 +325,7 @@ You need to make sure to configure Pro Tools to use the HDX playback engine. Usu
 
 You’ll see (shown on the right) that you now have routings for many different variations of the Main output. These can all be accessed within your project and assigned to tracks. This should work for both 5.1 and stereo projects. By default, new tracks will use a stereo routing.
 <!-- div:right-panel -->
-![](/_media/pro-tools-5.1.png)
+![](/_media/pro-tools-5.1.webp)
 <!-- panels:end -->
 
 ### **Logic Pro**
@@ -325,7 +335,7 @@ You’ll see (shown on the right) that you now have routings for many different 
 
 > **If you are using 5.1:** In Logic Pro: go to the **I/O Assignments** tab, set **Show as** to **5.1 (ITU 775)** and click the **Default** button
 >
-> ![](/_media/logic-cr-output.png ':size=50%')
+> ![](/_media/logic-cr-output.webp ':size=50%')
 
 ### **Ableton Live**
 ?> Only enable the outputs you need to save resources. Setting the labels is optional but recommended.
@@ -339,7 +349,7 @@ You’ll see (shown on the right) that you now have routings for many different 
 
 > Note that Ableton Live is not designed for 5.1 playback. However, Ableton has made a free [Surround Panner][ableton-surround-panner] Max for Live device. Cycling 74' has also made a free [suite of multichannel Max for Live devices][cycling74-ableton-multichannel]. There are also a multitude of other third-party multichannel tools made for Ableton and Max for Live.
 <!-- div:right-panel -->
-![](/_media/ableton-5.1.png)
+![](/_media/ableton-5.1.webp)
 <!-- panels:end -->
 
 ### **Reaper**
@@ -350,7 +360,7 @@ You’ll see (shown on the right) that you now have routings for many different 
 <!-- div:left-panel -->
 2. Ensure your Audio Device is set to Avid HDX
 <!-- div:right-panel -->
-![](/_media/reaper-preferences.png)
+![](/_media/reaper-preferences.webp)
 <!-- div:title-panel -->
 #### For stereo
 3. Open the routing for your master track and add a hardware output for 1/2
@@ -362,11 +372,11 @@ You’ll see (shown on the right) that you now have routings for many different 
 5. Add hardware outputs 1-6 as stereo outputs
 6. Set the output routing as show in yellow
 <!-- div:right-panel -->
-![](/_media/reaper-surround-output.png)
+![](/_media/reaper-surround-output.webp)
 <!-- div:left-panel -->
 7. Add ReaSurround (or ReaSurroundPan) to the end of your effects chain on all your tracks (make sure they are set to be 6 channel tracks) and set the speaker layout to 5.1 surround using the dropdown.
 <!-- div:right-panel -->
-![](/_media/reaper-5.1.png)
+![](/_media/reaper-5.1.webp)
 <!-- panels:end -->
 
 > You can use automation to change the panning over time.
@@ -394,20 +404,98 @@ Use the longline pigtail (usually hanging on the right side of the sidecar) to p
 
 ## Troubleshooting
 
+Remember to check the [known issues list](#known-issues)
+
+**Jump to:**
+- [No audio output](#no-audio-output)
+- [Audio is outputting to every channel](#audio-is-outputting-to-every-channel)
+- [No RedNet racks in Dante](#no-rednet-racks-in-dante)
+- [S6 is not communicating with Pro Tools](#s6-is-not-communicating-with-pro-tools)
+- [S6 is not communicating with the computer](#s6-is-not-communicating-with-the-computer)
+- [Dante Controller routing unavailable](#dante-controller-routing-unavailable)
+- [HDX driver not showing up in audio devices](#hdx-driver-not-showing-up-in-audio-devices)
+- [No output from HDX](#no-output-from-hdx)
+- [Computer not waking up](#computer-not-waking-up)
+
 ### No audio output
 
+<!-- panels:start -->
+<!-- div:left-panel -->
+- Ensure the Blue Sky remote is not muted
+<!-- div:right-panel -->
+![](/_media/blue-sky.webp ":size=50%")
+<!-- div:left-panel -->
+- Check that XMon utility is set to the USB2MIDI port by right clicking on the dock icon and selecting **USB2MIDI**
+<!-- div:right-panel -->
+![](/_media/xmon-midi.webp)
+<!-- div:left-panel -->
+1. Check the XMon rack is on. The power button should be illuminated green.
+2. Check the XMon utility is communicating with the rack. If you move a slider, a green light should blink on the XMon rack. Also make sure the red mute light is off.
+4. Restart the XMon utility and try **step 2** again.
+5. Power cycle (turn off and on) the XMon rack, then restart the XMon utility after the mute light turns on and try **step 2** again.
+
+You may need to try this multiple times
+<!-- div:right-panel -->
+![](/_media/xmon.webp)
+<!-- panels:end -->
+
 ### Audio is outputting to every channel
+The XMon, in its infinite wisdom (sarcasm), will output to all the main channels if not all the main channels are patched in Dante. Either use a Dante preset or make sure all the XMon channels are routed to *something* in Dante Controller.
+
+> In a recent update, it appears this may be fixed by selecting “mono” or “7.1” in the folddown section on the S6 or using the button on the main fader in the XMon app. However this needs to be tested.
 
 ### No RedNet racks in Dante
+<!-- panels:start -->
+<!-- div:left-panel -->
+- Make sure the sidecar rack power switch is on
+- Ensure the RedNet units located in the sidecar are indicating they are connected and locked. If not, power cycle the unit.
+<!-- div:right-panel -->
+![](/_media/rednet-1.webp 'RedNet 1 Unit')
+
+![](/_media/rednet-2.webp 'RedNet 2 Unit')
+
+![](/_media/rednet-power.webp 'RedNet Power Switch')
+<!-- panels:end -->
 
 ### S6 is not communicating with Pro Tools
 
+<!-- panels:start -->
+<!-- div:left-panel -->
+1. **In Pro Tools:** In the menubar, go to **Setup > Peripherals…**
+2. Make sure **EUCON Control Surfaces** is checked
+<!-- div:right-panel -->
+![](/_media/pro-tools-eucon.webp)
+<!-- panels:end -->
+
 ### S6 is not communicating with the computer
+<!-- panels:start -->
+<!-- div:title-panel -->
+1. Restart the S6 driver by clicking the S6 WSControl icon in the menubar ![](/_media/ws-control-error.webp)
+<!-- div:left-panel -->
+2. Click **Network Setup…**
+<!-- div:right-panel -->
+![](/_media/ws-control-menu.webp)
+<!-- div:left-panel -->
+3. Then click **Apply and relaunch**
+<!-- div:right-panel -->
+![](/_media/ws-control.webp)
+<!-- panels:end -->
 
 ### Dante Controller routing unavailable
+All Dante hardware in the Tech Suite is standardized to a **48kHz** Sample Rate. Use one of the following methods to update the sample rate.
+- **Method A:** Change the tab sample rate in RedNet Control (assuming you have all your devices in a tab)
+- **Method B:** In Dante Controller, use the Device Config tab in the Device View window and ensure all devices you are using are set to 48kHz.
 
 ### HDX driver not showing up in audio devices
+If Pro Tools is open, the HDX driver will not show up in other software.
 
 ### No output from HDX
+1. Open **Audio MIDI Setup**.
+2. If the window named **Audio Devices** isn't open, in the menubar go to **Window > Show Audio Devices** or press <kbd>⌘ command</kbd> + <kbd>1</kbd>
+3. Select **Avid HDX** (make sure Pro Tools is closed)
+4. In the **Output** tab, turn the **Master** fader up (make sure to lower the XMon's volume so you don’t blow out your ears or the speakers)
 
 ### Computer not waking up
+It may be off. In the storage closet, you will a rack with a [black "trashcan" Mac Pro](https://imgur.com/gallery/lKQRffg) on its side. Press the [power button](https://www.howtogeek.com/440630/how-to-turn-your-mac-on-and-off/) to wake it up.
+
+If the computer doesn't make a startup sound, it may be an issue with the display or peripheral connections. Please don't try to fix it. Submit a [Helpdesk][helpdesk] ticket. 

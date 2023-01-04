@@ -12,8 +12,9 @@
 [helpdesk]: https://sites.google.com/umich.edu/pat/helpdesk
 [training]: https://sites.google.com/umich.edu/pat/training
 [policies]: https://sites.google.com/umich.edu/pat/tech-suite/policies
-[slack]: http://www.google.com/url?q=http%3A%2F%2Fum-smtd-tech-suite.slack.com&sa=D&sntz=1&usg=AOvVaw2gqNoycvIamkVK8pChYGQw
+[slack]: http://um-smtd-tech-suite.slack.com
 [studio-log]: https://airtable.com/shr7JLVvBXZWAFSaD
+[smtd-it]: https://smtd.umich.edu/intranet-portal/it-resources/
 
 [learn-live]: https://www.ableton.com/en/live/learn-live/
 [learn-push]: https://www.ableton.com/en/push/learn-push/
@@ -27,7 +28,7 @@
 # The Music Technology Lab <small>*Moore 378*</small>
 ?> The MTL requires the completion of the [Tech Suite Orientation][training] to use.
 
-![](/_media/mtl-station.jpg ':size=50%')
+![](/_media/mtl-station.webp ':size=50%')
 
 The MTL is a classroom space featuring 12 audio workstations. Each workstation features an Ableton Push, a MIDI keyboard, audio interface, and headphone amp.
 
@@ -39,6 +40,12 @@ The MTL is a classroom space featuring 12 audio workstations. Each workstation f
 - If you use the Ableton Push, please turn it off at the end of your session.
 
 [View the full list of Tech Suite policies here][policies]
+
+## Known Issues
+
+**Found an urgent issue?** Submit a [Helpdesk Ticket][helpdesk].
+
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrHMC2yGOeWWybJg?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="600px" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
 ## Equipment Overview
 
@@ -57,7 +64,7 @@ The Ableton Push is made to be used with the software [Ableton Live][learn-live]
 <!-- TODO: Link "DAWs" to terminology page -->
 
 <!-- div:right-panel -->
-![](/_media/push.jpg)
+![](/_media/push.webp)
 
 <!-- panels:end -->
 
@@ -77,7 +84,7 @@ This is called an Audio Interface. It allows to to...
 It can do all of that and more!
 
 <!-- div:right-panel -->
-![](/_media/8i6.jpg)
+![](/_media/8i6.webp)
 
 <!-- panels:end -->
 
@@ -109,7 +116,7 @@ This is a MIDI keyboard. It can be used to send MIDI piano data into a DAW or ot
 <!-- TODO: Link stuff to terminology page -->
 
 <!-- div:right-panel -->
-![](/_media/keyboard.jpg)
+![](/_media/keyboard.webp)
 
 <!-- panels:end -->
 
@@ -119,7 +126,7 @@ This is a MIDI keyboard. It can be used to send MIDI piano data into a DAW or ot
 <!-- panels:start -->
 
 <!-- div:left-panel -->
-Using ![](/_media/control-center.png ':no-zoom :size=30px') [Control Center][mac-audio-settings] menu in the top-right of the screen, set your system output device to **Scarlett 8i6 USB** as shown on the right.
+Using ![](/_media/control-center.webp ':no-zoom :size=30px') [Control Center][mac-audio-settings] menu in the top-right of the screen, set your system output device to **Scarlett 8i6 USB** as shown on the right.
 
 In a DAW you may need to change the output settings
 - [Ableton][ableton-audio-settings]
@@ -128,9 +135,12 @@ In a DAW you may need to change the output settings
 - [Reaper][reaper-audio-settings]
 
 <!-- div:right-panel -->
-![](/_media/mtl-audio-1.png) ![](/_media/mtl-audio-2.png)
+![](/_media/mtl-audio-1.webp) ![](/_media/mtl-audio-2.webp)
 
 <!-- panels:end -->
+
+## Setting up Ableton
+
 
 ## Using the room speakers
 
@@ -145,13 +155,13 @@ In a DAW you may need to change the output settings
 > *Wait 10 seconds (seriously, wait for everything to turn on)*
 
 <!-- div:right-panel -->
-![](/_media/mtl-av-on-1.jpg)
+![](/_media/mtl-av-on-1.webp)
 
 <!-- div:left-panel -->
 2. Turn on the speakers
 
 <!-- div:right-panel -->
-![](/_media/mtl-av-on-2.jpg)
+![](/_media/mtl-av-on-2.webp)
 
 <!-- panels:end -->
 
@@ -176,7 +186,7 @@ In a DAW you may need to change the output settings
 !> When you are done, turn down the **Monitor** knob on the audio interface and turn down your station's volume knob on the AV rack. Keep the **Main Out** knob on the top blue mixer turned to 5.
 
 <!-- div:right-panel -->
-![](/_media/mtl-av-station-audio.jpg)
+![](/_media/mtl-av-station-audio.webp)
 
 <!-- panels:end -->
 
@@ -192,7 +202,7 @@ In a DAW you may need to change the output settings
 !> When you are done, turn the volume down before unplugging. Keep the **Main Mix** knob turned to 5.
 
 <!-- div:right-panel -->
-![](/_media/mtl-aux.jpg)
+![](/_media/mtl-aux.webp)
 
 <!-- panels:end -->
 
@@ -206,3 +216,8 @@ In a DAW you may need to change the output settings
 
 ## Need help?
 If you are running into technical problems, [include it in your Studio Log][studio-log] or submit a [Helpdesk Ticket][helpdesk] if its an urgent issue.
+
+Remember to check the [known issues list](#known-issues)
+
+### Live encountered a licensing error
+Try relaunching Live. If that doesn't work, please contact [SMTD IT][smtd-it] directly, as they are in charge of the licensing server.

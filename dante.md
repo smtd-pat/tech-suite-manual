@@ -37,7 +37,7 @@ Additionally you can review the [Dante Level 1 Certification Training][dante-lev
 - When loading the default preset, please take care you are not interrupting someone else’s session.
 
 ## Dante Controller
-![](/_media/dante-controller.png ':size=80%')
+![](/_media/dante-controller.webp ':size=80%')
 
 Dante Controller is used to configure a Dante network.
 
@@ -55,20 +55,20 @@ Dante Controller is used to configure a Dante network.
 1. Helpful Dante presets for the Tech Suite are placed on your desktop automatically on all the relevant Tech Suite computers.
 
 <!-- div:right-panel -->
-![](/_media/presets-folder.png)
+![](/_media/presets-folder.webp)
 
 <!-- div:left-panel -->
 2. In Dante Controller, click the :file_folder: **Load a Preset** button.
 
 <!-- div:right-panel -->
-![](/_media/load-preset-2.png)
+![](/_media/load-preset-2.webp)
 
 <!-- div:left-panel -->
 3. Sometimes the file browser dialog isn’t in the right folder. To get it to the Dante Presets folder, drag it from your Desktop into the dropdown bar at the top of the window.
 <br/><br/> Then you can open a preset file.
 
 <!-- div:right-panel -->
-![](/_media/load-preset-3.png)
+![](/_media/load-preset-3.webp)
 
 <!-- panels:end -->
 
@@ -292,7 +292,7 @@ By default when you create a preset in Dante Controller, it creates a full-syste
 
 <!-- div:right-panel -->
 
-![](/_media/dante-controller.png 'Setting subscriptions in Dante Controller')
+![](/_media/dante-controller.webp 'Setting subscriptions in Dante Controller')
 
 <!-- div:title-panel -->
 
@@ -304,7 +304,7 @@ By default when you create a preset in Dante Controller, it creates a full-syste
 
 <!-- div:right-panel -->
 
-![](/_media/safe-presets-2.png 'Click the "Advanced" button')
+![](/_media/safe-presets-2.webp 'Click the "Advanced" button')
 
 <!-- div:left-panel -->
 
@@ -312,7 +312,7 @@ By default when you create a preset in Dante Controller, it creates a full-syste
 
 <!-- div:right-panel -->
 
-![](/_media/safe-presets-3.png 'Select the devices you are using')
+![](/_media/safe-presets-3.webp 'Select the devices you are using')
 
 <!-- div:left-panel -->
 
@@ -328,7 +328,7 @@ Then click save
 
 <!-- div:right-panel -->
 
-![](/_media/safe-presets-4.png 'Select relevant parameters for the preset')
+![](/_media/safe-presets-4.webp 'Select relevant parameters for the preset')
 
 <!-- panels:end -->
 
@@ -362,7 +362,7 @@ Please **do not** update the device names using the text box at the top of each 
 
 <!-- div:right-panel -->
 
-![](/_media/rednet-control-2.png)
+![](/_media/rednet-control-2.webp)
 
 <!-- panels:end -->
 
@@ -378,7 +378,7 @@ The [Machine Room][machine-room] has three RedNet 2s. All the I/O for the RedNet
 
 <!-- div:right-panel -->
 
-![](/_media/rednet-2.png)
+![](/_media/rednet-2.webp)
 
 <!-- panels:end -->
 
@@ -414,7 +414,7 @@ The gain of an analog mic preamp can be set by clicking and dragging on the circ
 You can also click the channel name text to edit the channel name. Make sure to reload the **Default Preset** at the end of your session if you do this.
 
 <!-- div:right-panel -->
-![](/_media/mp8r-1.png)
+![](/_media/mp8r-1.webp)
 
 <!-- panels:end -->
 
@@ -435,7 +435,7 @@ You get the following parameters for each channel, shown in order
 !> Always open the **Default Settings.rc2snap** preset from the Dante Presets folder at the end of your session.<br/><small>This will reset the settings for the preamps to ensure microphones or other hardware is not accidentally damaged from phantom power or unmuted preamps.</small>
 
 <!-- div:right-panel -->
-![](/_media/mp8r-2.png)
+![](/_media/mp8r-2.webp)
 
 <!-- panels:end -->
 

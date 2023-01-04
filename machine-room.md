@@ -68,11 +68,11 @@ Long pigtails should be folded in half twice, tied in a loose knot, and hung on 
 
 ## Tie Line Patch Bay
 
-![A 48-port Longframe patch bay](/_media/patch-bay.jpg ':size=80%')
+![A 48-port Longframe patch bay](/_media/patch-bay.webp ':size=80%')
 
 Tie lines can be used to route line level audio to and from the RedNet 2 Dante audio interfaces or to another AV panel.
 
-!> Do not use ¼” connectors with the tie line patch bay. The tie line patch bay only uses Longframe/B-Gauge/Bantam/TT connectors. These are not the same as ¼” TS/TRS connectors. <br/><br/> ![The difference between a typical quarter inch TRS cable and a Longframe patch cable](/_media/dont-use-trs.png ':size=150px')
+!> Do not use ¼” connectors with the tie line patch bay. The tie line patch bay only uses Longframe/B-Gauge/Bantam/TT connectors. These are not the same as ¼” TS/TRS connectors. <br/><br/> ![The difference between a typical quarter inch TRS cable and a Longframe patch cable](/_media/dont-use-trs.webp ':size=150px')
 
 > Please reset all patch bay connections to their default settings after use
 

@@ -12,10 +12,9 @@
 - [Video Switcher](/video-switcher.md)
 - [ClearCom](/clearcom.md)
 - **Guides *(Coming Soon)***
-- Must-have Personal Gear
 - Ambisonic Playback
 - Wrapping cables
-- Collapsing mic stands
+- Using mic stands
 - Terminology
 - **Disaster Recovery *(Coming Soon)***
 - Data protocol

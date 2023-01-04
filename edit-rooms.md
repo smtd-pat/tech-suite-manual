@@ -12,7 +12,7 @@
 [workshop]: /workshop.md
 [helpdesk]: https://sites.google.com/umich.edu/pat/helpdesk
 [training]: https://sites.google.com/umich.edu/pat/training
-[slack]: http://www.google.com/url?q=http%3A%2F%2Fum-smtd-tech-suite.slack.com&sa=D&sntz=1&usg=AOvVaw2gqNoycvIamkVK8pChYGQw
+[slack]: http://um-smtd-tech-suite.slack.com
 [studio-log]: https://airtable.com/shr7JLVvBXZWAFSaD
 
 [motu-drivers]: https://motu.com/en-us/download/
@@ -92,7 +92,7 @@ The Edit Rooms use a sequenced power switch. All you need to do is tilt the swit
 !> Always turn the power off when you are done!
 
 <!-- div:right-panel -->
-![](/_media/edit-room-1.jpg)
+![](/_media/edit-room-1.webp)
 
 <!-- panels:end -->
 
@@ -103,7 +103,7 @@ The Edit Rooms use a sequenced power switch. All you need to do is tilt the swit
 !> Make sure to turn down the Main knob on the PreSonus Monitor Station first.
 
 <!-- div:right-panel -->
-![](/_media/edit-room-2.jpg)
+![](/_media/edit-room-2.webp)
 
 <!-- panels:end -->
 
@@ -119,12 +119,12 @@ The Edit Rooms use a sequenced power switch. All you need to do is tilt the swit
 - Make sure **Laptop** is chosen if you are using your own computer. You may need to [install drivers][motu-drivers] to make it work.
 
 <!-- div:right-panel -->
-![](/_media/edit-room-4.jpg)
+![](/_media/edit-room-4.webp)
 
 <!-- div:left-panel -->
 2. Make sure the computer's output is set to **8M**
 
-- On a Mac, you can use ![](/_media/control-center.png ':no-zoom :size=30px') [Control Center][mac-audio-settings] as shown on the right.
+- On a Mac, you can use ![](/_media/control-center.webp ':no-zoom :size=30px') [Control Center][mac-audio-settings] as shown on the right.
 - On Windows, open your [sound settings][windows-audio-settings] from the taskbar. 
 - In a DAW you may need to change the output settings
     - [Ableton][ableton-audio-settings]
@@ -135,13 +135,13 @@ The Edit Rooms use a sequenced power switch. All you need to do is tilt the swit
 > If you had to change the USB switcher in step 1, it may take around 30 seconds for the MOTU to show up in the audio devices. If it doesn't show up, see [troubleshooting tips](#troubleshooting-tips)
 
 <!-- div:right-panel -->
-![](/_media/control-center-1.png) ![](/_media/edit-room-3.png)
+![](/_media/control-center-1.webp) ![](/_media/edit-room-3.webp)
 
 <!-- div:left-panel -->
 3. Press the <kbd>ST1</kbd> button under **Main Source** on the PreSonus Monitor Station
 
 <!-- div:right-panel -->
-![](/_media/edit-room-2.jpg)
+![](/_media/edit-room-2.webp)
 
 <!-- div:title-panel -->
 4. Play audio and slowly turn up the main knob on the PreSonus to set your volume.
@@ -159,7 +159,7 @@ The Edit Rooms use a sequenced power switch. All you need to do is tilt the swit
 > Make sure the switch labeled **AUX SPDIF** is unpressed as show in the diagram above the switch
 
 <!-- div:right-panel -->
-![](/_media/edit-room-2.jpg)
+![](/_media/edit-room-2.webp)
 
 <!-- div:title-panel -->
 3. Turn up your device to its max volume and start playing audio
@@ -177,6 +177,7 @@ The TV is controlled using the provided TV remote. **DON'T LOSE IT!** Put it bac
 Make sure to turn it off when you are done.
 
 ## Troubleshooting tips
+- Remember to check the [known issues list](#known-issues)
 - If the MOTU doesn't connect:
     1. Try restarting the MOTU using the MOTU's power switch
     2. Restart the computer
