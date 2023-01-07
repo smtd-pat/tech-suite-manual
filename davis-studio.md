@@ -30,13 +30,13 @@ The Davis Studio is a multipurpose adaptable classroom/studio/performance space 
 ## Equipment Overview
 ?> Links go to item manuals
 
+- [Bösendorfer Imperial 290 CEUS Grand Piano and Digital Player Piano](https://drive.google.com/file/d/1QUpoD5lmA5tuK5EY3zyssfW5-XuzCG7a/view?usp=sharing)
+
 <!-- tabs:start -->
 
 <!-- Section excluded from document links -->
 
 <!--TODO: Software Inventory -->
-
-- [Bösendorfer Imperial 290 CEUS Grand Piano and Digital Player Piano](https://drive.google.com/file/d/1QUpoD5lmA5tuK5EY3zyssfW5-XuzCG7a/view?usp=sharing)
 
 ### **Sound System**
 - [Roland OHRCA M-5000 Live Mixing Console](https://proav.roland.com/global/support/by_product/m-5000/owners_manuals/)
