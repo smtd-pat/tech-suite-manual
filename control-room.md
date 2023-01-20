@@ -20,6 +20,9 @@
 !> The Control Room manual is incomplete
 
 # The Control Room <small>*Moore 370*</small>
+
+?> The Control Room requires a [certification][training] to use.
+
 The Control Room is a state-of-the-art digital audio studio system that can be used for recording, mixing, and mastering. The control room is connected to nearly every large rehearsal and performance space in the Moore building via a Dante audio network and cameras.
 
 ## Known Issues
@@ -162,8 +165,6 @@ You should see the details of your session reflected on the console if configure
 ### Modules
 The S6 is made up of modules. Our console has a total of 14 modules. *1* Master Module M40, *1* Automation Module, *3* Display Modules, *3* Knob Modules, *3* Process Modules, and *3* Fader Modules.
 
-<!-- TODO: Get higher resolution images -->
-
 <!-- tabs:start -->
 
 #### **Master**
@@ -217,7 +218,6 @@ The **S6 Fader Module** contains the faders along with important buttons like se
 <!-- tabs:end -->
 
 ### Navigating the Master Module
-<!-- TODO: Get higher resolution images -->
 
 <!-- tabs:start -->
 
@@ -391,16 +391,43 @@ Use the longline pigtail (usually hanging on the right side of the sidecar) to p
 <!-- tabs:end -->
 
 ## Microphone Patching
+1. Plug your mic into an [AV Panel](/av-panels.md)
+2. Patch your mic into a [RedNet MP8R](/dante.md#rednet-mp8r) via the Machine Room [Microphone Patch Bay](/machine-room.md#microphone-patch-bays)
+3. Route the MP8R into your desired input via **Dante Controller**
+4. [Configure the MP8R and set levels](/dante.md#setting-up-an-mp8r-channel)
+
+### Grace m801
+<!-- TODO -->
 
 ## Line Level Patching
+<!-- TODO -->
 
 ## Headphone Monitoring
+The headphone monitoring system is contained within a portable rack stored in the Control Room. The rack contains drawers of black ethernet of various lengths and a set of headphones that are intended to be used exclusively with the Aviom system.
+<!-- panels:start -->
+<!-- div:left-panel -->
+1. Ensure the **Aviom D400** is connected to power
+2. Ensure the **Aviom D400** is connected to the Dante network via an ethernet cable plugged into the “primary” Dante port. You may need to [patch an AV panel port in the machine room][machine-room#av-data-patch-bay].
+3. Set up the **A320 personal mixers** in your desired locations and then connect them to the **A-Net** In ports on the **Aviom D400**
+4. **In Dante Controller:** Route your desired outputs (Likely out of the **ControlRoom-SC-RedNetHD32R-HDX**) to the Aviom receiver channels in your desired configuration
+<!-- div:right-panel -->
+![](/_media/d400.webp 'Aviom D400')
+
+![](/_media/a320.webp 'Aviom A320 personal mixer')
+<!-- panels:end -->
+
+The volume of each channel can be set on the **A320 personal mixers**.
+
+?> More information on the Aviom kit can be found [on the inventory system](https://app.cheqroom.com/pHMoanvebv1NemoreoyF74/items/5mhueusqJziGJSHfDcQ9Xm).
 
 ## Talkback
+<!-- TODO -->
 
 ## Synth Rack
+<!-- TODO -->
 
 ## TV
+<!-- TODO -->
 
 ## Troubleshooting
 
@@ -423,11 +450,11 @@ Remember to check the [known issues list](#known-issues)
 <!-- div:left-panel -->
 - Ensure the Blue Sky remote is not muted
 <!-- div:right-panel -->
-![](/_media/blue-sky.webp ":size=50%")
+![](/_media/blue-sky.webp "Blue Sky :size=50%")
 <!-- div:left-panel -->
 - Check that XMon utility is set to the USB2MIDI port by right clicking on the dock icon and selecting **USB2MIDI**
 <!-- div:right-panel -->
-![](/_media/xmon-midi.webp)
+![](/_media/xmon-midi.webp 'XMon MIDI settings')
 <!-- div:left-panel -->
 1. Check the XMon rack is on. The power button should be illuminated green.
 2. Check the XMon utility is communicating with the rack. If you move a slider, a green light should blink on the XMon rack. Also make sure the red mute light is off.
@@ -436,7 +463,14 @@ Remember to check the [known issues list](#known-issues)
 
 You may need to try this multiple times
 <!-- div:right-panel -->
-![](/_media/xmon.webp)
+![](/_media/xmon.webp 'XMon Rack')
+
+<!-- div:left-panel -->
+- Power cycle the RedNet HD32R. You can find the HD32R under the XLR patch bay in the storage closet.
+<!-- div:right-panel -->
+![](/_media/HD32R.webp 'RedNet HD32R')
+
+![](/_media/rednet-power.webp 'RedNet Power Switch')
 <!-- panels:end -->
 
 ### Audio is outputting to every channel
