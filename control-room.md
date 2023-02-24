@@ -144,6 +144,115 @@ More information can be found on the [checkout system][checkout]
 - <input type="checkbox"> Cover the S6
 - <input type="checkbox"> Close all doors
 
+## Digital Audio Output
+?> These guides expect that you will be using the [default Dante preset][dante]
+
+The standard sample rate for the Tech Suite is 48kHz.
+
+<!-- tabs:start -->
+
+### **System Audio**
+Make sure that your system audio output is set to **Avid HDX**
+
+> **Tip:** you can do this using [Control Center][mac-audio-settings]
+
+> **Tip:** The **Avid HDX** device will not be available if Pro Tools is open
+
+### **Pro Tools**
+You need to make sure to configure Pro Tools to use the HDX playback engine. Usually you only need to do this once.
+
+<!-- panels:start -->
+<!-- div:title-panel -->
+1. In Pro Tools, go to the menubar and click **Setup > Playback Engine…**
+<!-- div:left-panel -->
+2. Set the **Playback Engine** to **HDX**
+<!-- div:right-panel -->
+![](/_media/pro-tools-playback-engine.webp)
+<!-- panels:end -->
+
+#### Now you can set up your I/O settings
+<!-- panels:start -->
+<!-- div:left-panel -->
+1. In Pro Tools, go to the menubar and click **Setup > I/O…**
+2. In the **I/O Setup** window, click the **Apply to all tabs** checkbox and then click **Import Settings…**
+3. Navigate to the Pro Tools Configuration folder. It should have an alias on your Desktop. If not, go to **/Users/Shared/Pro Tools Configuration**.
+> **Tip:** Use <kbd>⌘ command</kbd> + <kbd>shift</kbd> + <kbd>G</kbd> to navigate to **/Users/Shared/Pro Tools Configuration**
+4. Load the **XMon 5.1.pio** I/O settings file.
+5. Check **yes** on the **Replace all buses?** dialog, unless you have special buses setup already
+
+You’ll see (shown on the right) that you now have routings for many different variations of the Main output. These can all be accessed within your project and assigned to tracks. This should work for both 5.1 and stereo projects. By default, new tracks will use a stereo routing.
+<!-- div:right-panel -->
+![](/_media/pro-tools-5.1.webp)
+<!-- panels:end -->
+
+### **Logic Pro**
+1. Create a new Logic Pro project or open an existing one
+2. In the menubar go to **Logic Pro > Preferences > Audio…**
+3. Set the input and output device to **Avid HDX** (make sure Pro Tools is closed)
+
+> **If you are using 5.1:** In Logic Pro: go to the **I/O Assignments** tab, set **Show as** to **5.1 (ITU 775)** and click the **Default** button
+>
+> ![](/_media/logic-cr-output.webp ':size=50%')
+
+### **Ableton Live**
+?> Only enable the outputs you need to save resources. Setting the labels is optional but recommended.
+
+<!-- panels:start -->
+<!-- div:left-panel -->
+1. In the menubar, go to **Live > Preferences**
+2. In the **Audio** tab, set the **Input Device** to **Avid HDX** and **Output Device** to **Avid HDX**
+3. Click on **Output Config**
+4. Set the output config as shown *(labels optional)*
+
+> Note that Ableton Live is not designed for 5.1 playback. However, Ableton has made a free [Surround Panner][ableton-surround-panner] Max for Live device. Cycling 74' has also made a free [suite of multichannel Max for Live devices][cycling74-ableton-multichannel]. There are also a multitude of other third-party multichannel tools made for Ableton and Max for Live.
+<!-- div:right-panel -->
+![](/_media/ableton-5.1.webp)
+<!-- panels:end -->
+
+### **Reaper**
+<!-- panels:start -->
+<!-- div:title-panel -->
+#### For stereo or 5.1
+1. Go to Reaper > Preferences in the menu bar
+<!-- div:left-panel -->
+2. Ensure your Audio Device is set to Avid HDX
+<!-- div:right-panel -->
+![](/_media/reaper-preferences.webp)
+<!-- div:title-panel -->
+#### For stereo
+3. Open the routing for your master track and add a hardware output for 1/2
+<!-- div:title-panel -->
+#### For 5.1
+<!-- div:left-panel -->
+3. Open the routing window for your master track
+4. Set the track channels to 6 as shown in red
+5. Add hardware outputs 1-6 as stereo outputs
+6. Set the output routing as show in yellow
+<!-- div:right-panel -->
+![](/_media/reaper-surround-output.webp)
+<!-- div:left-panel -->
+7. Add ReaSurround (or ReaSurroundPan) to the end of your effects chain on all your tracks (make sure they are set to be 6 channel tracks) and set the speaker layout to 5.1 surround using the dropdown.
+<!-- div:right-panel -->
+![](/_media/reaper-5.1.webp)
+<!-- panels:end -->
+
+> You can use automation to change the panning over time.
+
+### **External Audio**
+
+Use the longline pigtail (usually hanging on the right side of the sidecar) to plug into one of the following:
+- **XMon ST Input(s) *(preferred)*:** Use any of the 4 pairs of L/R inputs to go directly to the [XMon](#using-the-xmon-system).<br><small>Note that 1L, 1R, 2L, and 2R are half normalled to the RedNet 1. 4L and 4R are normalled to the Oppo BDP-103 CD/BlueRay Player.</small>
+- **RedNet 2 Longline Inputs:** Use any 2 of inputs 9-16 on the RedNet 2. They can be routed using Dante Controller.<br><small>Note that inputs 1-6 are hardwired to the m801. Inputs 7 and 8 are half normalled to the Oppo BDP-103 CD/BlueRay Player.</small>
+- **RedNet 1 Longline Inputs:** Use any 2 inputs on the RedNet 1. They can be routed using Dante Controller.<br><small>Note that inputs 1-6 are half normalled the the m801.</small>
+
+<!-- tabs:end -->
+
+## Synth Rack
+<!-- TODO -->
+
+## TV
+<!-- TODO -->
+
 ## S6 Basics
 <!-- panels:start -->
 <!-- div:left-panel -->
@@ -287,109 +396,6 @@ The S6 displays additional configuration options that are not available in the X
 >
 > ![](/_media/s6-monitoring-shortcut.webp ':size=30%')
 
-## Digital Audio Output
-?> These guides expect that you will be using the [default Dante preset][dante]
-
-The standard sample rate for the Tech Suite is 48kHz.
-
-<!-- tabs:start -->
-
-### **System Audio**
-Make sure that your system audio output is set to **Avid HDX**
-
-> **Tip:** you can do this using [Control Center][mac-audio-settings]
-
-> **Tip:** The **Avid HDX** device will not be available if Pro Tools is open
-
-### **Pro Tools**
-You need to make sure to configure Pro Tools to use the HDX playback engine. Usually you only need to do this once.
-
-<!-- panels:start -->
-<!-- div:title-panel -->
-1. In Pro Tools, go to the menubar and click **Setup > Playback Engine…**
-<!-- div:left-panel -->
-2. Set the **Playback Engine** to **HDX**
-<!-- div:right-panel -->
-![](/_media/pro-tools-playback-engine.webp)
-<!-- panels:end -->
-
-#### Now you can set up your I/O settings
-<!-- panels:start -->
-<!-- div:left-panel -->
-1. In Pro Tools, go to the menubar and click **Setup > I/O…**
-2. In the **I/O Setup** window, click the **Apply to all tabs** checkbox and then click **Import Settings…**
-3. Navigate to the Pro Tools Configuration folder. It should have an alias on your Desktop. If not, go to **/Users/Shared/Pro Tools Configuration**.
-> **Tip:** Use <kbd>⌘ command</kbd> + <kbd>shift</kbd> + <kbd>G</kbd> to navigate to **/Users/Shared/Pro Tools Configuration**
-4. Load the **XMon 5.1.pio** I/O settings file.
-5. Check **yes** on the **Replace all buses?** dialog, unless you have special buses setup already
-
-You’ll see (shown on the right) that you now have routings for many different variations of the Main output. These can all be accessed within your project and assigned to tracks. This should work for both 5.1 and stereo projects. By default, new tracks will use a stereo routing.
-<!-- div:right-panel -->
-![](/_media/pro-tools-5.1.webp)
-<!-- panels:end -->
-
-### **Logic Pro**
-1. Create a new Logic Pro project or open an existing one
-2. In the menubar go to **Logic Pro > Preferences > Audio…**
-3. Set the input and output device to **Avid HDX** (make sure Pro Tools is closed)
-
-> **If you are using 5.1:** In Logic Pro: go to the **I/O Assignments** tab, set **Show as** to **5.1 (ITU 775)** and click the **Default** button
->
-> ![](/_media/logic-cr-output.webp ':size=50%')
-
-### **Ableton Live**
-?> Only enable the outputs you need to save resources. Setting the labels is optional but recommended.
-
-<!-- panels:start -->
-<!-- div:left-panel -->
-1. In the menubar, go to **Live > Preferences**
-2. In the **Audio** tab, set the **Input Device** to **Avid HDX** and **Output Device** to **Avid HDX**
-3. Click on **Output Config**
-4. Set the output config as shown *(labels optional)*
-
-> Note that Ableton Live is not designed for 5.1 playback. However, Ableton has made a free [Surround Panner][ableton-surround-panner] Max for Live device. Cycling 74' has also made a free [suite of multichannel Max for Live devices][cycling74-ableton-multichannel]. There are also a multitude of other third-party multichannel tools made for Ableton and Max for Live.
-<!-- div:right-panel -->
-![](/_media/ableton-5.1.webp)
-<!-- panels:end -->
-
-### **Reaper**
-<!-- panels:start -->
-<!-- div:title-panel -->
-#### For stereo or 5.1
-1. Go to Reaper > Preferences in the menu bar
-<!-- div:left-panel -->
-2. Ensure your Audio Device is set to Avid HDX
-<!-- div:right-panel -->
-![](/_media/reaper-preferences.webp)
-<!-- div:title-panel -->
-#### For stereo
-3. Open the routing for your master track and add a hardware output for 1/2
-<!-- div:title-panel -->
-#### For 5.1
-<!-- div:left-panel -->
-3. Open the routing window for your master track
-4. Set the track channels to 6 as shown in red
-5. Add hardware outputs 1-6 as stereo outputs
-6. Set the output routing as show in yellow
-<!-- div:right-panel -->
-![](/_media/reaper-surround-output.webp)
-<!-- div:left-panel -->
-7. Add ReaSurround (or ReaSurroundPan) to the end of your effects chain on all your tracks (make sure they are set to be 6 channel tracks) and set the speaker layout to 5.1 surround using the dropdown.
-<!-- div:right-panel -->
-![](/_media/reaper-5.1.webp)
-<!-- panels:end -->
-
-> You can use automation to change the panning over time.
-
-### **External Audio**
-
-Use the longline pigtail (usually hanging on the right side of the sidecar) to plug into one of the following:
-- **XMon ST Input(s) *(preferred)*:** Use any of the 4 pairs of L/R inputs to go directly to the XMon.<br><small>Note that 1L, 1R, 2L, and 2R are half normalled to the RedNet 1. 4L and 4R are normalled to the Oppo BDP-103 CD/BlueRay Player.</small>
-- **RedNet 2 Longline Inputs:** Use any 2 of inputs 9-16 on the RedNet 2. They can be routed using Dante Controller.<br><small>Note that inputs 1-6 are hardwired to the m801. Inputs 7 and 8 are half normalled to the Oppo BDP-103 CD/BlueRay Player.</small>
-- **RedNet 1 Longline Inputs:** Use any 2 inputs on the RedNet 1. They can be routed using Dante Controller.<br><small>Note that inputs 1-6 are half normalled the the m801.</small>
-
-<!-- tabs:end -->
-
 ## Microphone Patching
 1. Plug your mic into an [AV Panel](/av-panels.md)
 2. Patch your mic into a [RedNet MP8R](/dante.md#rednet-mp8r) via the Machine Room [Microphone Patch Bay](/machine-room.md#microphone-patch-bays)
@@ -421,12 +427,6 @@ The volume of each channel can be set on the **A320 personal mixers**.
 ?> More information on the Aviom kit can be found [on the inventory system](https://app.cheqroom.com/pHMoanvebv1NemoreoyF74/items/5mhueusqJziGJSHfDcQ9Xm).
 
 ## Talkback
-<!-- TODO -->
-
-## Synth Rack
-<!-- TODO -->
-
-## TV
 <!-- TODO -->
 
 ## Troubleshooting
