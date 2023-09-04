@@ -34,12 +34,22 @@ The MTL is a classroom space featuring 12 audio workstations. Each workstation f
 
 ## Policies
 
-- Please do not unplug and re-route any USB, power, or audio cables from the back any device. If you need to hook things up to your personal computer, please use the Edit Rooms.
-- Remember, your files are not safe in the Tech Suite
-- Keep your station clean and tidy. Put everything back where you found it when you are done.
-- If you use the Ableton Push, please turn it off at the end of your session.
-
 [View the full list of Tech Suite policies here][policies]
+
+- Adhere to all Tech Suite policies posted on the wiki
+- Remember, your files are not safe in the Tech Suite
+- DO NOT unplug or reconfigure USB and unlabeled cables/ports
+- DO NOT remove equipment or furniture from the MTL or Edit Rooms under any circumstances
+- Keep your station clean and tidy. Put everything back where you found it when you are done.
+    - Push in chairs
+    - Clear furniture in path of doors
+    - Logout and turn off equipment (Edit Room rack, Push, etc...)
+    - If you use the Ableton Push, please turn it off at the end of your session.
+- Please leave the computers on so they can perform updates overnight
+- You are responsible for any guests you let into the Edit Rooms or MTL
+- Fill out a Studio Log every time you finish a session!
+
+**Failure to adhere to these policies will result in permanent loss of access to the Edit Rooms and MTL**
 
 ## Known Issues
 
@@ -139,80 +149,114 @@ In a DAW you may need to change the output settings
 
 <!-- panels:end -->
 
-## Setting up Ableton
+## Using your own computer
 
+![](/_media/mtl-laptop.webp ':size=50%')
 
-## Using the room speakers
+Every MTL station grants you the ability to use your own personal laptop in lieu of the provided computers. Instructions are provided on a sticker, but lets quickly go over it here.
 
-### Turning everything on
-!> Always turn things on in this order or you may damage the speakers
+1. Plug in your latoptop to the USB-C cable labeled "Laptop"
+2. Press the button (shown above) so that "2" is illuminated.
+
+This will allow you to use the audio interface, MIDI keyboard, and Ableton Push with your own laptop. It will also license any software stored on our iLok license USB, if you have iLok and the respective software installed.
+
+**You never should unplug anything from the back of the computer stations**
+
+## Using the teaching station
+
+![](/_media/mtl-lectern.webp ':size=50%')
 
 <!-- panels:start -->
 
-<!-- div:left-panel -->
-1. First turn on the rack power
-
-> *Wait 10 seconds (seriously, wait for everything to turn on)*
-
-<!-- div:right-panel -->
-![](/_media/mtl-av-on-1.webp)
+<!-- div:title-panel -->
+### The Cable Cubby
 
 <!-- div:left-panel -->
-2. Turn on the speakers
+Looking for the aux cable? Want to hook up your laptop to the projector or audio interface? Need power? That can all be found in the cable cubby!
+<!-- div:right-panel -->
+![](/_media/mtl-cubby.webp)
+
+<!-- div:title-panel -->
+### Changing the projector input
+
+<!-- div:left-panel -->
+Use the Extron rack.
+
+- **Input 1:** Laptop VGA
+
+- **Input 3:** Teaching station / iMac
+
+- **Input 4:** Laptop HDMI
 
 <!-- div:right-panel -->
-![](/_media/mtl-av-on-2.webp)
+[IMAGE]
+
+<!-- div:title-panel -->
+## Spaker Audio Output
+
+![](/_media/mtl-lectern-controller.webp ':size=50%')
+
+<!-- div:title-panel -->
+### Turn the room speakers on
+
+<!-- div:left-panel -->
+Turn the volume all the way down on the monitor station (see above). Flip the labeled switches on the wall.
+<!-- div:right-panel -->
+[IMAGE]
+
+<!-- div:title-panel -->
+### From the iMac
+
+<!-- div:left-panel -->
+**Step 1:** Turn the volume knob down
+
+**Step 2:** Make sure the iMac audio output is set to "Clarett 8pre". If you don't see "Clarett 8pre" then turn the audio interface off and back on again.
+
+**Step 3:** Ensure "Clarett 8pre" is selected on the monitor controller.
+
+<!-- div:right-panel -->
+[IMAGES]
+
+<!-- div:title-panel -->
+### From the aux cable
+
+<!-- div:left-panel -->
+**Step 1:** Turn the volume knob down
+
+**Step 2:** Plug in your device to the aux cable in the cable cubby.
+
+**Step 3:** On the Monitor Controller under "Main Source", make sure "AUX" is illuminated
+<!-- div:right-panel -->
+[IMAGE]
+
+<!-- div:title-panel -->
+### From your own computer
+
+<!-- div:left-panel -->
+**Step 1:** Turn the volume knob down
+
+**Step 2:** Plug in your computer to the USB cable in the cable cubby and press the button on the top right of the monitor controller until "2" is illuminated.
+
+**Step 3:** On the Monitor Controller under "Main Source", make sure "ST1" is illuminated
+
+> If "Clarett 8pre" doesn't show up as an output device on your computer, turn the Clarett off and back on again
+
+<!-- div:right-panel -->
+[IMAGE]
+
+<!-- div:title-panel -->
+### From the student stations
+
+<!-- div:left-panel -->
+**Step 1:** Turn the volume knob down
+
+**Step 2:** Make sure the "monitor" knob on the audio interface of the desired student station is turned up.
+
+**Step 3:** On the Monitor Controller under "Main Source", make sure "ST2" is illuminated
+<!-- div:right-panel -->
+[IMAGE]
 
 <!-- panels:end -->
-
-### Turning everything off
-!> Always turn things off in this order or you may damage the speakers
-
-1. Turn off the speakers
-2. Turn off the rack power
-
-### Sending audio to the speakers from any workstation
-<!-- panels:start -->
-
-<!-- div:left-panel -->
-1. *At your workstation:* On the audio interface, turn up the **Monitor** knob all the way down. Note what number your station is.
-
-> Each station has a label on the computer that says "MTL #". That "#" is your station number.
-
-2. *At the AV rack:* Find your station number on one of the blue mixers. Each channel has a front knob (volume) and a back knob (pan). Turn the front knob to about 5.
-
-3. *At your workstation:* Play audio out of the audio interface. Slowly turn up the **Monitor** knob.
-
-!> When you are done, turn down the **Monitor** knob on the audio interface and turn down your station's volume knob on the AV rack. Keep the **Main Out** knob on the top blue mixer turned to 5.
-
-<!-- div:right-panel -->
-![](/_media/mtl-av-station-audio.webp)
-
-<!-- panels:end -->
-
-### Audio output from the aux cable
-<!-- panels:start -->
-
-<!-- div:left-panel -->
-1. Turn the highlighted white knob all the way down
-2. Plug in the aux cable
-3. Turn up your device to its max volume and start playing audio
-4. Slowly turn up the white knob to the desired volume
-
-!> When you are done, turn the volume down before unplugging. Keep the **Main Mix** knob turned to 5.
-
-<!-- div:right-panel -->
-![](/_media/mtl-aux.webp)
-
-<!-- panels:end -->
-
-### Audio output from the teaching station computer
-1. Turn the white knob labeled **Teaching Station** all the way down. Its directly left of the knob shown above.
-2. On the teaching station audio interface, turn up the **Monitor** knob to about 5
-3. Play audio out of the audio interface from the teaching station
-4. Slowly turn up the white knob labeled **Teaching Station** to the desired volume
-
-!> When you are done, turn the volume back down. Keep the **Main Mix** knob turned to 5.
 
 ## Need help?
 If you are running into technical problems, [include it in your Studio Log][studio-log] or submit a [Helpdesk Ticket][helpdesk] if its an urgent issue.

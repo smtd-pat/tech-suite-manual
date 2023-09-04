@@ -11,15 +11,10 @@
 - [Dante](/dante.md)
 - [Video Switcher](/video-switcher.md)
 - [ClearCom](/clearcom.md)
+- [Motion Capture System](/motion-capture.md)
 - **Guides *(Coming Soon)***
+- [Room Numbers & Zones](room-numbers)
 - Ambisonic Playback
 - Wrapping cables
 - Using mic stands
 - Terminology
-- **Disaster Recovery *(Coming Soon)***
-- Data protocol
-- Power outage
-- Evacuation protocol
-- EMP / Severe Grid Failure
-- Hardware failure
-- UofM service outages

@@ -345,6 +345,10 @@ The power switch to the M-5000 is located on the back of the console above the p
 4. Tap **D: DANTE 1**
 5. Tap the Dante input channel you desire
 
+?> If you are using the **Default Preset**, check the routing on the [Dante](dante#the-default-preset) page.
+
+?> Using a **microphone?** [Make sure your preamps are turned up in RedNet Control 2](dante#rednet-control-2)
+
 > **Tip:** Use the sequence assign field to assign multiple channels at once.
 > 
 > For example:
@@ -459,7 +463,7 @@ Tap the **X** on the *CH EDIT* window or press <kbd>SEL</kbd> again on the selec
 
 ## Lighting System
 
-This manual only contains basic documentation on the lighting system. Keep in mind that you must have a Davis Studio Certification L to use the system. For information on using the console, please refer to the console’s manual.
+This manual only contains basic documentation on the lighting system. Keep in mind that you must have a Davis Studio L Certification to use the system. For information on using the console, please refer to the [console’s manual](https://www.etcconnect.com/WorkArea/DownloadAsset.aspx?id=10737510864).
 
 ### ETC Ion Basics
 
@@ -468,3 +472,57 @@ ETC provides [offline software][etc-offline] that can be run on nearly any compu
 A complete series of video tutorials on the EOS software that runs on the Ion is provided by ETC on their website. Simply find the feature you need help with. You can also hold down the “Help” key on the console or in the EOS offline software and press the key you need help with.
 
 <!-- TODO: Finish lighting documentation transfer -->
+
+### Gateway Information
+The Davis lighting system currently operates entirely in Universe 51. The console connects via DMX, not Net3, which means we currently cannot control additional universes. However the DMX gateways can be reconfigured if desired.
+
+### Reserved Address in Universe 51
+Do not patch lights to these addresses
+- 1-48
+- 101-121
+
+### House Lights
+
+**51/41:** House Light Power Relay<br>
+<small>Must be on to use house lights</small>
+
+#### Davis Studio
+
+<small>↑ Upstage</small>
+
+| 51/116 | 51/112 | 51/108 | 51/104 |
+|--------|--------|--------|--------|
+
+| 51/115 | 51/111 | 51/107 | 51/103 |
+|--------|--------|--------|--------|
+
+| 51/114 | 51/110 | 51/106 | 51/102 |
+|--------|--------|--------|--------|
+
+| 51/113 | 51/109 | 51/105 | 51/101 |
+|--------|--------|--------|--------|
+
+#### Hallway
+
+<small>← Entry Door</small>
+
+| 51/118 | 51/119 | 51/120 | 51/121 |
+|:------:|:------:|:------:|:------:|
+
+#### Vestibule
+
+**51/117** Vestibule Overhead Light
+
+### Relays
+
+| Address(es)   | Relay Number(s) | Location               |
+|---------------|-----------------|------------------------|
+| 51/1 - 51/12  | R1 - R12        | Overhead Rails         |
+| 51/13 - 51/20 | R13 - R20       | Wall Pockets           |
+| 51/23 - 51/28 | R23 - R28       | Hallway Grid           |
+| 51/30 - 51/31 | R30 - R31       | Vestibule Grid         |
+| 51/21         | R21             | Davis Guide Lights     |
+| 51/22         | R22             | Hallway Guide Lights   |
+| 51/29         | R29             | Vestibule Guide Lights |
+
+All unlisted relays are spares. 32-40 are 120V and 42-48 are 227V.

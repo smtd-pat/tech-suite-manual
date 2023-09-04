@@ -29,9 +29,9 @@
 
 The Edit Rooms are essentially more advanced versions of the MTL stations. They can be used for recording, mixing, mastering, and more!
 
-Each Edit Room has a different set of studio monitor speakers so you can listen to your work using real reference speakers. The two different models of speakers allows you compare and contrast on different setups. Instead of the red Scarlett audio interface, the Edit Rooms are equipped with a larger MOTU 8M. Each Edit Room has a dynamic and condenser microphone.
+Each Edit Room has a different set of studio monitor speakers so you can listen to your work using real reference speakers. The two different models of speakers allows you compare and contrast on different setups. Instead of the red Scarlett audio interface, the Edit Rooms are equipped with a larger Audient EVO 16. Each Edit Room has a dynamic and condenser microphone.
 
-For more advanced users, the Edit Rooms computers connected to the [Dante][dante] network and the Tech Suite [video switcher][video-switcher]. Both rooms also have an [AV panel][av-panels]. This means they can be used as isolation booths in conjunction with the [Control Room][control-room]. The can be used as remote mixing/recording/control stations for performances in [Davis][davis], Hankinson, Watkins, and MacIntosh. Reach out on [Slack][slack] or submit a [Helpdesk Ticket][helpdesk] for assistance on setting up these advanced configurations.
+For more advanced users, the Edit Rooms computers connected to the [Dante][dante] network and the Tech Suite [video switcher][video-switcher]. Both rooms also have an [AV panel][av-panels]. This means they can be used as isolation booths in conjunction with the [Control Room][control-room]. The can be used as remote mixing/recording/control stations for performances in [Davis][davis], Hankinson, Watkins, and MacIntosh. Submit a [Helpdesk Ticket][helpdesk] for assistance on setting up these advanced configurations.
 
 <!-- TODO: More Images -->
 
@@ -53,8 +53,7 @@ For more advanced users, the Edit Rooms computers connected to the [Dante][dante
 - TV Screen
 - Dynamic Microphone
 - Condenser Microphone
-- Audio Interface (MOTU 8M)
-- Monitor Controller (PreSonus)
+- Audio Interface (EVO 16)
 - [Ableton Push 2](https://www.ableton.com/en/push/learn-push/) Controller
 - [Arturia MiniBrute 2S](https://www.arturia.com/minibrute-2s/resources) Step Sequencing Analog Synth
 - MIDI Keyboard Controller
@@ -66,8 +65,7 @@ For more advanced users, the Edit Rooms computers connected to the [Dante][dante
 - TV Screen
 - Dynamic Microphone + cable + stand — *Shure BETA 58A*
 - Condenser Microphone + cable + stand — *Audio Technica AT2020*
-- Audio Interface — *MOTU 8M*
-- Monitor Controller — *PreSonus Monitor Station v2*
+- Audio Interface — *Audient EVO 16*
 - [Ableton Push 2](https://www.ableton.com/en/push/learn-push/) Controller
 - [Arturia MiniBrute 2S](https://www.arturia.com/minibrute-2s/resources) Step Sequencing Analog Synth
 
@@ -92,37 +90,32 @@ The Edit Rooms use a sequenced power switch. All you need to do is tilt the swit
 !> Always turn the power off when you are done!
 
 <!-- div:right-panel -->
-![](/_media/edit-room-1.webp)
+![](/_media/er-rack.webp)
 
 <!-- panels:end -->
 
-## How to get audio output
+## Using your own laptop
+![](/_media/er-usb.webp ':size=50%')
+
+To use your own computer with the audio interface, all you need to do is plug in the USB connector provided and hit the button USB switcher button until **2** is illuminated.
+
+This will allow you to use the audio interface, MIDI keyboard, and Ableton Push with your own laptop. It will also license any software stored on our iLok license USB, if you have iLok and the respective software installed.
+
+## Audio Output
+
 <!-- panels:start -->
 
 <!-- div:left-panel -->
-!> Make sure to turn down the Main knob on the PreSonus Monitor Station first.
+1. Check the USB switcher.
+
+- Make sure **1** is chosen if you are using the iMac
+- Make sure **2** is chosen if you are using your own computer. You may need to [install drivers](https://evo.audio/products/audio-interfaces/evo-16/downloads/) to make it work.
 
 <!-- div:right-panel -->
-![](/_media/edit-room-2.webp)
-
-<!-- panels:end -->
-
-<!-- tabs:start -->
-
-### **From Audio Interface**
-<!-- panels:start -->
+![](/_media/er-usb.webp)
 
 <!-- div:left-panel -->
-1. Check the MOTU USB switcher.
-
-- Make sure **Desktop** is chosen if you are using the iMac
-- Make sure **Laptop** is chosen if you are using your own computer. You may need to [install drivers][motu-drivers] to make it work.
-
-<!-- div:right-panel -->
-![](/_media/edit-room-4.webp)
-
-<!-- div:left-panel -->
-2. Make sure the computer's output is set to **8M**
+2. Make sure the computer's output is set to **EVO 16**
 
 - On a Mac, you can use ![](/_media/control-center.webp ':no-zoom :size=30px') [Control Center][mac-audio-settings] as shown on the right.
 - On Windows, open your [sound settings][windows-audio-settings] from the taskbar. 
@@ -132,41 +125,53 @@ The Edit Rooms use a sequenced power switch. All you need to do is tilt the swit
     - [Pro Tools][protools-audio-settings]
     - [Reaper][reaper-audio-settings]
 
-> If you had to change the USB switcher in step 1, it may take around 30 seconds for the MOTU to show up in the audio devices. If it doesn't show up, see [troubleshooting tips](#troubleshooting-tips)
+> If you had to change the USB switcher in step 1, it may take around 10 seconds for the EVO 16 to show up in the audio devices.
 
 <!-- div:right-panel -->
-![](/_media/control-center-1.webp) ![](/_media/edit-room-3.webp)
+![](/_media/control-center-1.webp)
 
 <!-- div:left-panel -->
-3. Press the <kbd>ST1</kbd> button under **Main Source** on the PreSonus Monitor Station
+3. On the EVO 16, select the monitor **(10)** button and turn up the main control knob **(9)**
+
+> You can also plug in headphones **(3)** and control the volume **(9)** of each channel in the same way as the monitor using the corresponding numbered button **(12)**
 
 <!-- div:right-panel -->
-![](/_media/edit-room-2.webp)
-
-<!-- div:title-panel -->
-4. Play audio and slowly turn up the main knob on the PreSonus to set your volume.
+![](/_media/evo16.webp)
 
 <!-- panels:end -->
 
-### **Aux Audio**
+## Microphones
+
 <!-- panels:start -->
-<!-- div:title-panel -->
-1. Plug in your audio device to the aux cable
 
 <!-- div:left-panel -->
-2. Press the <kbd>AUX</kbd> button under **Main Source** on the PreSonus Monitor Station
-
-> Make sure the switch labeled **AUX SPDIF** is unpressed as show in the diagram above the switch
+- Both mics are equipped with pop guards. Please be gentle with the pop guard on the condenser as it is fragile.
+- The condenser mic requires phantom power to use (see [audio input](#audio-input) guide below)
+- Each mic has a corresponding blue XLR cable that should be coiled (over-under!) neatly and hung up after each session, as shown
 
 <!-- div:right-panel -->
-![](/_media/edit-room-2.webp)
+![](/_media/er-mics.webp 'The condenser (AT2020) is on the left and the dynamic (BETA 58A) is on the right.')
 
-<!-- div:title-panel -->
-3. Turn up your device to its max volume and start playing audio
-4. Slowly turn up the main knob on the PreSonus to set your volume.
 <!-- panels:end -->
 
-<!-- tabs:end -->
+
+## Audio Input
+
+<!-- panels:start -->
+
+<!-- div:left-panel -->
+
+- To control input gain on the EVO, hit the numbered button corresponding to your channel number and rotate the main control knob **(9)**
+- The condenser mic (the AT2020) requires phantom power! To turn on phantom power, hit the numbered button corresponding to your channel number and hit the <kbd>48V</kbd> **(7)** button.
+- Some line-level instruments like guitars require additional amplification. To turn on instrument mode for a channel, hit the numbered button corresponding to your channel number and hit the guitar **(8)** button.
+- See the quick start guide to learn more about the EVO 16's smart gain feature
+
+To learn more about how to use the EVO 16, follow this [quick start guide](https://d9w4fhj63j193.cloudfront.net/EVO/EVO%2016/EVO%2016%20Quick%20Start%20Guide%20V1%20(Web%20Version).pdf) or [flip through the manual](https://d9w4fhj63j193.cloudfront.net/2022/EVO%2016/6.%20User%20Guide/EVO%2016%20Manual%20V2.2.pdf)
+
+<!-- div:right-panel -->
+![](/_media/evo16.webp)
+
+<!-- panels:end -->
 
 ## Using the TV
 The TV is controlled using the provided TV remote. **DON'T LOSE IT!** Put it back on top of the rack when you aren't using it.
@@ -176,11 +181,23 @@ The TV is controlled using the provided TV remote. **DON'T LOSE IT!** Put it bac
 
 Make sure to turn it off when you are done.
 
+## Zero Setting
+
+- <input type="checkbox"> Turn off the rack
+- <input type="checkbox"> Log out
+- <input type="checkbox"> Push the chairs in
+- <input type="checkbox"> Coil up (using over-under!) and hang blue XLR cables
+- <input type="checkbox"> Put the mics off to the side of the room out of the way
+- <input type="checkbox"> Fill out the studio log
+- <input type="checkbox"> Take all your personal belongings with you
+
+> Please leave the computer on so it can perform updates overnight
+
 ## Troubleshooting tips
 - Remember to check the [known issues list](#known-issues)
-- If the MOTU doesn't connect:
-    1. Try restarting the MOTU using the MOTU's power switch
+- If the EVO 16 doesn't connect:
+    1. Try turning the rack off and on again
     2. Restart the computer
-    3. Make sure you have the latest version of the MOTU driver
+    3. Make sure you have the latest version of the EVO 16 driver
 
 > If you continue to have issues or your issue isn't listed here, [include it in your Studio Log][studio-log] or submit a [Helpdesk Ticket][helpdesk] if its an urgent issue.
