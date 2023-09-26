@@ -40,32 +40,22 @@ Also see [Troubleshooting](#troubleshooting)
 
 ### **Control Room**
 - Avid S6
+- Grace m908 Monitor Controller (RCU)
 - Meyer Sound HD1 *x2*
 - Genelec 8050B *x5*
-- Samsung UN55J6300 TV Monitor 
+- Samsung UN55J6300 TV 
 
 ### **Sidecar Rack**
+- Grace m908 Monitor Controller (ACU)
 - LynTec Audio System Power Rack *x2*
-- Oppo BlueRay Player
-- Tascam LA-80 mkII Unbalanced to Balanced Line Converter
-- Oppo BDP-103 CD/BlueRay Player
 - Kramer VS-62H 6x2 HDMI Switcher
-- Black Box IC402A USB 2.0 over Ethernet *x2*
-- Extron SW 2 USB Switcher
 - T.C. Electronic System 6000
     - Remote CPU Rack
     - TC Icon Controller
 - SurgeX SU-1000Li UPS
 - Grace Design m801 Mic Preamp Rack
-- 24x2 Longline Patchbay
-- Focusrite RedNet 1
+- 24x2 TT Patchbay
 - Focusrite RedNet 2
-- Blue Sky Bass Management Controller mkII
-    - Blue Sky Bass Management Controller Remote
-- Avid XMon
-- Grace Design m920 High Resolution Headphone Monitoring System
-- Shure 450 Series II Talkback Microphone
-- Symetrix SX202 Mic Preamp
 
 ### **Synth Rack**
 - Korg SQ-1
@@ -75,7 +65,6 @@ Also see [Troubleshooting](#troubleshooting)
 - Korg MS-20 Mini
 - Moog Subsequent 37 CV
 - Korg microKorg
-- Gefen USB 2.0 Extender
 
 ### **Storage Closet Rack**
 - Focusrite RedNet HD32R
@@ -110,7 +99,7 @@ More information can be found on the [checkout system][checkout]
 
 ## Startup
 
-1. Login to the computer (you will need to do this even if you don't plan on using it)
+1. Login to the computer (optional)
 
 ?><small>Upon your first time signing in to the Control Room computer, you will be prompted to allow Python to make changes. You may also be asked to allow network access for Dante Controller and RedNet Control 2. Click Allow for all the above.</small>
 
@@ -118,31 +107,58 @@ More information can be found on the [checkout system][checkout]
 
 3. Turn on relevant speaker set from sidecar rack using the LynTec rack units
 
-<!-- panels:start -->
-
-<!-- div:left-panel -->
-4. Unmute the Blue Sky Bass Management Controller Remote on top of sidecar rack (shown on the right)
-
-<!-- div:right-panel -->
-![](/_media/blue-sky.webp ':size=50%')
-
-<!-- panels:end -->
-
 ## Shutdown
 !> Do not turn off any rack equipment. Always turn off using the rack power switch.
 
 1. Turn off speakers from Sidecar Rack using the LynTec rack units
-2. Shut down S6 via Home > Settings > About > Shutdown<br><small>See [Navigating the Master Module](#navigating-the-master-module) for more info</small>
-3. Turn off sidecar rack power 
-4. Log out of the control room computer
+2. Turn off sidecar rack power 
+3. Log out of the control room computer (if relevant)
+
+> Please leave the computer on so it can perform updates overnight
 
 ## Zero Setting
+- <input type="checkbox"> Power down the room
 - <input type="checkbox"> Remove all patch cables and reset all modifications
 - <input type="checkbox"> Push black console chairs in front of the S6
 - <input type="checkbox"> Push blue chairs to reasonable location or stack
 - <input type="checkbox"> Put all equipment in its respective home
 - <input type="checkbox"> Cover the S6
 - <input type="checkbox"> Close all doors
+
+## Monitor Controller
+
+The Grace m908 controls the speakers in the Control Room.
+
+!> Please do not modify any settings in the setup menu!
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pZBdihS4UWE?si=JlHOVtxEoJRzfKkL&amp;start=346" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### Input Information
+
+Currently the Control Room has 2 input sources:
+
+- Stereo USB (via the m908 USB cable on the sidecar)
+- Stereo Dante
+
+<!--TODO-->
+> Additional input options will be added in the future as additional hardware is installed
+
+### Output Information
+
+- **CR1** - Stereo output from the Meyer HD-1s
+
+<!--TODO-->
+> Currently the Control Room only has stereo monitoring via the Meyer HD-1s. Additional out options will be added in the future as additional hardware is installed
+
+### Talkback
+
+The talkback microphone is the microphone peeking over the screen of the [S6 master module](#s6-basics).
+
+!> Currently is not set up and functional. It will be functional soon as additional hardware is installed.
+
+### Cue Outputs
+
+!> Currently is not set up and functional. It will be functional soon as additional hardware is installed.
 
 ## Digital Audio Output
 ?> These guides expect that you will be using the [default Dante preset][dante]
@@ -152,106 +168,53 @@ The standard sample rate for the Tech Suite is 48kHz.
 <!-- tabs:start -->
 
 ### **System Audio**
-Make sure that your system audio output is set to **Avid HDX**
+Make sure that your system audio output is set to **Digiface Dante USB**
 
 > **Tip:** you can do this using [Control Center][mac-audio-settings]
 
-> **Tip:** The **Avid HDX** device will not be available if Pro Tools is open
-
 ### **Pro Tools**
-You need to make sure to configure Pro Tools to use the HDX playback engine. Usually you only need to do this once.
+You need to make sure to configure Pro Tools to use the Digiface Dante playback engine. Usually you only need to do this once.
 
-<!-- panels:start -->
-<!-- div:title-panel -->
 1. In Pro Tools, go to the menubar and click **Setup > Playback Engine…**
-<!-- div:left-panel -->
-2. Set the **Playback Engine** to **HDX**
-<!-- div:right-panel -->
-![](/_media/pro-tools-playback-engine.webp)
-<!-- panels:end -->
+2. Set the **Playback Engine** to **Digiface Dante**
 
-#### Now you can set up your I/O settings
-<!-- panels:start -->
-<!-- div:left-panel -->
-1. In Pro Tools, go to the menubar and click **Setup > I/O…**
-2. In the **I/O Setup** window, click the **Apply to all tabs** checkbox and then click **Import Settings…**
-3. Navigate to the Pro Tools Configuration folder. It should have an alias on your Desktop. If not, go to **/Users/Shared/Pro Tools Configuration**.
-> **Tip:** Use <kbd>⌘ command</kbd> + <kbd>shift</kbd> + <kbd>G</kbd> to navigate to **/Users/Shared/Pro Tools Configuration**
-4. Load the **XMon 5.1.pio** I/O settings file.
-5. Check **yes** on the **Replace all buses?** dialog, unless you have special buses setup already
-
-You’ll see (shown on the right) that you now have routings for many different variations of the Main output. These can all be accessed within your project and assigned to tracks. This should work for both 5.1 and stereo projects. By default, new tracks will use a stereo routing.
-<!-- div:right-panel -->
-![](/_media/pro-tools-5.1.webp)
-<!-- panels:end -->
 
 ### **Logic Pro**
 1. Create a new Logic Pro project or open an existing one
 2. In the menubar go to **Logic Pro > Preferences > Audio…**
-3. Set the input and output device to **Avid HDX** (make sure Pro Tools is closed)
-
-> **If you are using 5.1:** In Logic Pro: go to the **I/O Assignments** tab, set **Show as** to **5.1 (ITU 775)** and click the **Default** button
->
-> ![](/_media/logic-cr-output.webp ':size=50%')
+3. Set the input and output device to **Digiface Dante**
 
 ### **Ableton Live**
 ?> Only enable the outputs you need to save resources. Setting the labels is optional but recommended.
 
-<!-- panels:start -->
-<!-- div:left-panel -->
 1. In the menubar, go to **Live > Preferences**
-2. In the **Audio** tab, set the **Input Device** to **Avid HDX** and **Output Device** to **Avid HDX**
-3. Click on **Output Config**
-4. Set the output config as shown *(labels optional)*
-
-> Note that Ableton Live is not designed for 5.1 playback. However, Ableton has made a free [Surround Panner][ableton-surround-panner] Max for Live device. Cycling 74' has also made a free [suite of multichannel Max for Live devices][cycling74-ableton-multichannel]. There are also a multitude of other third-party multichannel tools made for Ableton and Max for Live.
-<!-- div:right-panel -->
-![](/_media/ableton-5.1.webp)
-<!-- panels:end -->
-
-### **Reaper**
-<!-- panels:start -->
-<!-- div:title-panel -->
-#### For stereo or 5.1
-1. Go to Reaper > Preferences in the menu bar
-<!-- div:left-panel -->
-2. Ensure your Audio Device is set to Avid HDX
-<!-- div:right-panel -->
-![](/_media/reaper-preferences.webp)
-<!-- div:title-panel -->
-#### For stereo
-3. Open the routing for your master track and add a hardware output for 1/2
-<!-- div:title-panel -->
-#### For 5.1
-<!-- div:left-panel -->
-3. Open the routing window for your master track
-4. Set the track channels to 6 as shown in red
-5. Add hardware outputs 1-6 as stereo outputs
-6. Set the output routing as show in yellow
-<!-- div:right-panel -->
-![](/_media/reaper-surround-output.webp)
-<!-- div:left-panel -->
-7. Add ReaSurround (or ReaSurroundPan) to the end of your effects chain on all your tracks (make sure they are set to be 6 channel tracks) and set the speaker layout to 5.1 surround using the dropdown.
-<!-- div:right-panel -->
-![](/_media/reaper-5.1.webp)
-<!-- panels:end -->
-
-> You can use automation to change the panning over time.
-
-### **External Audio**
-
-Use the longline pigtail (usually hanging on the right side of the sidecar) to plug into one of the following:
-- **XMon ST Input(s) *(preferred)*:** Use any of the 4 pairs of L/R inputs to go directly to the [XMon](#using-the-xmon-system).<br><small>Note that 1L, 1R, 2L, and 2R are half normalled to the RedNet 1. 4L and 4R are normalled to the Oppo BDP-103 CD/BlueRay Player.</small>
-- **RedNet 2 Longline Inputs:** Use any 2 of inputs 9-16 on the RedNet 2. They can be routed using Dante Controller.<br><small>Note that inputs 1-6 are hardwired to the m801. Inputs 7 and 8 are half normalled to the Oppo BDP-103 CD/BlueRay Player.</small>
-- **RedNet 1 Longline Inputs:** Use any 2 inputs on the RedNet 1. They can be routed using Dante Controller.<br><small>Note that inputs 1-6 are half normalled the the m801.</small>
+2. In the **Audio** tab, set the **Input Device** to **Digiface Dante** and **Output Device** to **Digiface Dante**
 
 <!-- tabs:end -->
 
-## Synth Rack
-<!-- TODO -->
+## Analog Audio Output
 
-## TV
-<!-- TODO -->
+<!--TODO-->
+!> Currently is not set up and functional. It will be functional soon as additional hardware is installed.
+
+## Synth Rack
+
+<!--TODO-->
+!> Currently is not set up and functional. It will be functional soon as additional hardware is installed.
+
+## TV and Computer Monitor
+<!-- panels:start -->
+<!-- div:left-panel -->
+The TV and computer monitor on the S6 can change inputs using the matrix switcher in the sidecar rack.
+<!-- div:right-panel -->
+<!--TODO-->
+[IMAGE]
+<!-- panels:end -->
+
+### TV
+
+- **HDMI 1** – Input from the matrix switcher in the sidecar rack
+- **HDMI 2** – Input from the [Video Switcher](/video-switcher.md)
 
 ## S6 Basics
 <!-- panels:start -->
@@ -326,87 +289,25 @@ The **S6 Fader Module** contains the faders along with important buttons like se
 
 <!-- tabs:end -->
 
-### Navigating the Master Module
-
-<!-- tabs:start -->
-
-#### **Home**
-<!-- panels:start -->
-<!-- div:left-panel -->
-Press the **Home** button to navigate to the home menu
-<!-- div:right-panel -->
-![](/_media/s6-home.webp)
-<!-- panels:end -->
-
-#### **Monitoring**
-<!-- panels:start -->
-<!-- div:left-panel -->
-The **Monitoring** button (which can also be pressed using the physical buttons below the screen) will open the monitoring menu.
-<!-- div:right-panel -->
-![](/_media/s6-monitoring.webp)
-<!-- panels:end -->
-
-#### **Settings**
-<!-- panels:start -->
-<!-- div:left-panel -->
-The **Settings** button (which can also be pressed using the physical buttons below the screen) will open the settings menu.
-<!-- div:right-panel -->
-![](/_media/s6-settings.webp)
-<!-- panels:end -->
-
-#### **Shutdown**
-<!-- panels:start -->
-<!-- div:left-panel -->
-Go to Home > Settings > About > Shutdown
-<!-- div:right-panel -->
-![](/_media/s6-settings-shutdown.webp)
-<!-- panels:end -->
-
-<!-- tabs:end -->
-
-## Using the XMon system
-![](/_media/xmon.webp ':size=75%') ![](/_media/xmon-app.webp ':size=12%')
-
-The Avid XMon rack is responsible for routing all the speakers in the Control Room. This rack is controlled by the XMon software utility. The S6 monitoring setup controls the XMon software utility. Both use Avid’s proprietary EUCON protocol to communicate.
-
-> The S6 is able to control parameters of the XMon that are not available in the XMon software utility. See below for how to change monitoring parameters within the S6. If you are still experiencing issues, please see the [Troubleshooting](#troubleshooting) section.
-
-### XMon and the S6
-The S6 displays additional configuration options that are not available in the XMon app. To access these settings:
-
-<!-- panels:start -->
-<!-- div:left-panel -->
-1. Press the **Home** button on the S6 (if you aren't already on the home screen)
-<!-- div:right-panel -->
-![](/_media/s6-home.webp)
-
-<!-- div:left-panel -->
-2. Go to **Monitoring**
-<!-- div:right-panel -->
-![](/_media/s6-monitoring.webp)
-
-<!-- div:left-panel -->
-3. From there you are able to enable and disable individual sources and outputs. You can also adjust the mix volume from there.
-<!-- div:right-panel -->
-![](/_media/s6-settings-monitoring.webp ':size=50%')
-<!-- panels:end -->
-
-> - On the monitoring section of the Master Module you can also switch between the Meyers and the Genelecs as well as adjust the mix volume.
-> - There’s also a shortcut **Setup** button next to the monitoring section of the Master Module that will take you directly to the monitor settings
->
-> ![](/_media/s6-monitoring-shortcut.webp ':size=30%')
-
 ## Microphone Patching
 1. Plug your mic into an [AV Panel](/av-panels.md)
 2. Patch your mic into a [RedNet MP8R](/dante.md#rednet-mp8r) via the Machine Room [Microphone Patch Bay](/machine-room.md#microphone-patch-bays)
 3. Route the MP8R into your desired input via **Dante Controller**
 4. [Configure the MP8R and set levels](/dante.md#setting-up-an-mp8r-channel)
 
-### Grace m801
-<!-- TODO -->
+### Grace m801 Mic Preamp
+
+<!-- panels:start -->
+<!-- div:left-panel -->
+Patching for the m801 can be found in the Control Room closet. This XLR patch bay exposes inputs from the Machine Room microphone patch bay as well as the Tech Suite AV panels in Hankinson, Watkins, MacIntosh, and Britton. 
+<!-- div:right-panel -->
+<!--TODO-->
+[IMAGES]
+<!-- panels:end -->
 
 ## Line Level Patching
-<!-- TODO -->
+
+> The patch bay is current being reconfigured.
 
 ## Headphone Monitoring
 The headphone monitoring system is contained within a portable rack stored in the Control Room. The rack contains drawers of black ethernet of various lengths and a set of headphones that are intended to be used exclusively with the Aviom system.
@@ -415,7 +316,7 @@ The headphone monitoring system is contained within a portable rack stored in th
 1. Ensure the **Aviom D400** is connected to power
 2. Ensure the **Aviom D400** is connected to the Dante network via an ethernet cable plugged into the “primary” Dante port. You may need to [patch an AV panel port in the machine room][machine-room#av-data-patch-bay].
 3. Set up the **A320 personal mixers** in your desired locations and then connect them to the **A-Net** In ports on the **Aviom D400**
-4. **In Dante Controller:** Route your desired outputs (Likely out of the **ControlRoom-SC-RedNetHD32R-HDX**) to the Aviom receiver channels in your desired configuration
+4. **In Dante Controller:** Route your desired outputs to the Aviom receiver channels in your desired configuration
 <!-- div:right-panel -->
 ![](/_media/d400.webp 'Aviom D400')
 
@@ -427,78 +328,25 @@ The volume of each channel can be set on the **A320 personal mixers**.
 ?> More information on the Aviom kit can be found [on the inventory system](https://app.cheqroom.com/pHMoanvebv1NemoreoyF74/items/5mhueusqJziGJSHfDcQ9Xm).
 
 ## Talkback
-<!-- TODO -->
+<!--TODO-->
+!> Currently is not set up and functional. It will be functional soon as additional hardware is installed.
 
 ## Troubleshooting
 
 Remember to check the [known issues list](#known-issues)
 
 **Jump to:**
-- [No audio output](#no-audio-output)
-- [Audio is outputting to every channel](#audio-is-outputting-to-every-channel)
-- [No RedNet racks in Dante](#no-rednet-racks-in-dante)
 - [S6 is not communicating with Pro Tools](#s6-is-not-communicating-with-pro-tools)
 - [S6 is not communicating with the computer](#s6-is-not-communicating-with-the-computer)
-- [Dante Controller routing unavailable](#dante-controller-routing-unavailable)
-- [HDX driver not showing up in audio devices](#hdx-driver-not-showing-up-in-audio-devices)
-- [No output from HDX](#no-output-from-hdx)
 - [Computer not waking up](#computer-not-waking-up)
-
-### No audio output
-
-<!-- panels:start -->
-<!-- div:left-panel -->
-- Ensure the Blue Sky remote is not muted
-<!-- div:right-panel -->
-![](/_media/blue-sky.webp "Blue Sky :size=50%")
-<!-- div:left-panel -->
-- Check that XMon utility is set to the USB2MIDI port by right clicking on the dock icon and selecting **USB2MIDI**
-<!-- div:right-panel -->
-![](/_media/xmon-midi.webp 'XMon MIDI settings')
-<!-- div:left-panel -->
-1. Check the XMon rack is on. The power button should be illuminated green.
-2. Check the XMon utility is communicating with the rack. If you move a slider, a green light should blink on the XMon rack. Also make sure the red mute light is off.
-4. Restart the XMon utility and try **step 2** again.
-5. Power cycle (turn off and on) the XMon rack, then restart the XMon utility after the mute light turns on and try **step 2** again.
-
-You may need to try this multiple times
-<!-- div:right-panel -->
-![](/_media/xmon.webp 'XMon Rack')
-
-<!-- div:left-panel -->
-- Power cycle the RedNet HD32R. You can find the HD32R under the XLR patch bay in the storage closet.
-<!-- div:right-panel -->
-![](/_media/HD32R.webp 'RedNet HD32R')
-
-![](/_media/rednet-power.webp 'RedNet Power Switch')
-<!-- panels:end -->
-
-### Audio is outputting to every channel
-The XMon, in its infinite wisdom (sarcasm), will output to all the main channels if not all the main channels are patched in Dante. Either use a Dante preset or make sure all the XMon channels are routed to *something* in Dante Controller.
-
-> In a recent update, it appears this may be fixed by selecting “mono” or “7.1” in the folddown section on the S6 or using the button on the main fader in the XMon app. However this needs to be tested.
-
-### No RedNet racks in Dante
-<!-- panels:start -->
-<!-- div:left-panel -->
-- Make sure the sidecar rack power switch is on
-- Ensure the RedNet units located in the sidecar are indicating they are connected and locked. If not, power cycle the unit.
-<!-- div:right-panel -->
-![](/_media/rednet-1.webp 'RedNet 1 Unit')
-
-![](/_media/rednet-2.webp 'RedNet 2 Unit')
-
-![](/_media/rednet-power.webp 'RedNet Power Switch')
-<!-- panels:end -->
 
 ### S6 is not communicating with Pro Tools
 
 <!-- panels:start -->
 <!-- div:left-panel -->
-1. **In Pro Tools:** In the menubar, go to **Setup > Peripherals…**
-2. Make sure **EUCON Control Surfaces** is checked
-<!-- div:right-panel -->
-![](/_media/pro-tools-eucon.webp)
+
+> Avid has recently changed this. The EUCON toggle is now in the edit window of Pro Tools. Guide coming soon...
+
 <!-- panels:end -->
 
 ### S6 is not communicating with the computer
@@ -515,21 +363,7 @@ The XMon, in its infinite wisdom (sarcasm), will output to all the main channels
 ![](/_media/ws-control.webp)
 <!-- panels:end -->
 
-### Dante Controller routing unavailable
-All Dante hardware in the Tech Suite is standardized to a **48kHz** Sample Rate. Use one of the following methods to update the sample rate.
-- **Method A:** Change the tab sample rate in RedNet Control (assuming you have all your devices in a tab)
-- **Method B:** In Dante Controller, use the Device Config tab in the Device View window and ensure all devices you are using are set to 48kHz.
-
-### HDX driver not showing up in audio devices
-If Pro Tools is open, the HDX driver will not show up in other software.
-
-### No output from HDX
-1. Open **Audio MIDI Setup**.
-2. If the window named **Audio Devices** isn't open, in the menubar go to **Window > Show Audio Devices** or press <kbd>⌘ command</kbd> + <kbd>1</kbd>
-3. Select **Avid HDX** (make sure Pro Tools is closed)
-4. In the **Output** tab, turn the **Master** fader up (make sure to lower the XMon's volume so you don’t blow out your ears or the speakers)
-
 ### Computer not waking up
-It may be off. In the storage closet, you will a rack with a [black "trashcan" Mac Pro](https://imgur.com/gallery/lKQRffg) on its side. Press the [power button](https://www.howtogeek.com/440630/how-to-turn-your-mac-on-and-off/) to wake it up.
+It may be off. In the storage closet, you will a rack with a Mac Studio. Press the power button on the back to wake it up.
 
 If the computer doesn't make a startup sound, it may be an issue with the display or peripheral connections. Please don't try to fix it. Submit a [Helpdesk][helpdesk] ticket. 

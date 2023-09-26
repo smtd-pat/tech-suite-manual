@@ -189,6 +189,7 @@ Use the Extron rack.
 - **Input 4:** Laptop HDMI
 
 <!-- div:right-panel -->
+<!--TODO-->
 [IMAGE]
 
 <!-- div:title-panel -->
@@ -202,6 +203,7 @@ Use the Extron rack.
 <!-- div:left-panel -->
 Turn the volume all the way down on the monitor station (see above). Flip the labeled switches on the wall.
 <!-- div:right-panel -->
+<!--TODO-->
 [IMAGE]
 
 <!-- div:title-panel -->
@@ -215,6 +217,7 @@ Turn the volume all the way down on the monitor station (see above). Flip the la
 **Step 3:** Ensure "Clarett 8pre" is selected on the monitor controller.
 
 <!-- div:right-panel -->
+<!--TODO-->
 [IMAGES]
 
 <!-- div:title-panel -->
@@ -227,6 +230,7 @@ Turn the volume all the way down on the monitor station (see above). Flip the la
 
 **Step 3:** On the Monitor Controller under "Main Source", make sure "AUX" is illuminated
 <!-- div:right-panel -->
+<!--TODO-->
 [IMAGE]
 
 <!-- div:title-panel -->
@@ -242,6 +246,7 @@ Turn the volume all the way down on the monitor station (see above). Flip the la
 > If "Clarett 8pre" doesn't show up as an output device on your computer, turn the Clarett off and back on again
 
 <!-- div:right-panel -->
+<!--TODO-->
 [IMAGE]
 
 <!-- div:title-panel -->
@@ -254,6 +259,7 @@ Turn the volume all the way down on the monitor station (see above). Flip the la
 
 **Step 3:** On the Monitor Controller under "Main Source", make sure "ST2" is illuminated
 <!-- div:right-panel -->
+<!--TODO-->
 [IMAGE]
 
 <!-- panels:end -->

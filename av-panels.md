@@ -65,3 +65,11 @@ The multimode fiber port can be used with fiber optic devices and patched in the
 The Word Clock port can be used to sync digital devices so they can communicate properly. However, since the studios primarily use Dante for routing, this syncing is handled automatically for all Dante devices.
 
 <!-- tabs:end -->
+
+## Other AV panels
+
+Additional AV panels for the Tech Suite can be found in Hankinson, Watkins, MacIntosh, and Britton
+
+<!--TODO-->
+
+[IMAGES]

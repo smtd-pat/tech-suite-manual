@@ -15,6 +15,3 @@
 - **Guides *(Coming Soon)***
 - [Room Numbers & Zones](room-numbers)
 - Ambisonic Playback
-- Wrapping cables
-- Using mic stands
-- Terminology

@@ -99,28 +99,6 @@ The Davis Studio is a multipurpose adaptable classroom/studio/performance space 
 
 <!-- tabs:end -->
 
-## Getting Started
-
-### Turning on the lights
-
-[See the house light section](#house-lights)
-
-### Sound System
-<!-- tabs:start -->
-#### **Startup**
-1. Plug in and turn on all input devices (computer, synth, etc...)
-2. If needed, turn on the M-5000 and wait until fully booted
-3. [Turn on the speaker systems](#speaker-power-switches)
-
-!> Always turn on the speakers last.
-
-#### **Shutdown**
-1. Turn off the speaker systems **(always turn off speakers before unplugging or turning anything else off)**
-2. Turn off the M-5000 (if relevant)
-3. Turn off and unplug input devices
-
-<!-- tabs:end -->
-
 ## Zero Setting
 
 !>Check this list every time you leave the studio
@@ -143,9 +121,40 @@ The Davis Studio is a multipurpose adaptable classroom/studio/performance space 
 
 **No non-Davis equipment is to be stored in Davis unless you have explicit permission from the Studio Coordinator**
 
+## House Lights
+
+<!-- TODO: Images -->
+
+The house/work lights in Davis, along with the vestibule and adjacent hallway, are controlled by a single system that integrates with the Davis lighting system. Small buttons on black panels that illuminate blue can be used to control a specific zone such as the vestibule and hallway lights when needed. The Davis lighting is controlled by a touch panel on the back wall next to the door leading to the hallway or using the illuminated blue button next to the main exit door.
+
+?> **Tip:** Pressing the blue button next to the main exit door can turn the Davis house lights on and off. If the lights were turned on using the touch panel, you may need to press this button a few times to turn the lights off.
+
+### Presets
+
+?> Use Preset 6 when leaving the room
+
+1. All On
+2. Projection
+3. Performance Dim Center
+4. Performance
+5. Performance with dim wings
+6. Turn off all lights. **Use when leaving the room.**
+
+**Off:** Leaves guide lights on. **Use for performances. Do not use to turn lights off.**
+
 ## Speaker Power Switches
 
 <!-- panels:start -->
+
+### Main L-R Pair Speaker Power
+
+<!-- div:left-panel -->
+
+The Genelec 1037Cs are the large “front-of-house” speakers on either side of the projection screen. Their power is controlled by a black light switch by the teaching station.
+
+<!-- div:right-panel -->
+
+![](/_media/main-speaker-switch.webp ':size=50%')
 
 <!-- div:left-panel -->
 
@@ -158,16 +167,6 @@ This switch is always unlocked.
 <!-- div:right-panel -->
 
 ![](/_media/speaker-system-switch.webp)
-
-<!-- div:left-panel -->
-
-### Main L-R Pair Speaker Power
-
-The Genelec 1037Cs are the large “front-of-house” speakers on either side of the projection screen. Their power is controlled by a black light switch by the teaching station.
-
-<!-- div:right-panel -->
-
-![](/_media/main-speaker-switch.webp ':size=50%')
 
 <!-- panels:end -->
 
@@ -294,27 +293,6 @@ The ambisonic system is best utilized through a specialized Max patch or the Amb
 
 <!-- panels:end -->
 
-## House Lights
-
-<!-- TODO: Images -->
-
-The house/work lights in Davis, along with the vestibule and adjacent hallway, are controlled by a single system that integrates with the Davis lighting system. Small buttons on black panels that illuminate blue can be used to control a specific zone such as the vestibule and hallway lights when needed. The Davis lighting is controlled by a touch panel on the back wall next to the door leading to the hallway or using the illuminated blue button next to the main exit door.
-
-?> **Tip:** Pressing the blue button next to the main exit door can turn the Davis house lights on and off. If the lights were turned on using the touch panel, you may need to press this button a few times to turn the lights off.
-
-### Presets
-
-?> Use Preset 6 when leaving the room
-
-1. All On
-2. Projection
-3. Performance Dim Center
-4. Performance
-5. Performance with dim wings
-6. Turn off all lights. **Use when leaving the room.**
-
-**Off:** Leaves guide lights on. **Use for performances. Do not use to turn lights off.**
-
 ## Roland M-5000 Basics
 The power switch to the M-5000 is located on the back of the console above the power cable. Generally the console saves all your changes as you make them, so when you are done you can just turn the console off. However to ensure you can get back to your configuration if someone changes it, you should save it as a project file.
 
@@ -344,8 +322,6 @@ The power switch to the M-5000 is located on the back of the console above the p
 3. Under **CATEGORY** at the bottom of the dialog tap the blue box
 4. Tap **D: DANTE 1**
 5. Tap the Dante input channel you desire
-
-?> If you are using the **Default Preset**, check the routing on the [Dante](dante#the-default-preset) page.
 
 ?> Using a **microphone?** [Make sure your preamps are turned up in RedNet Control 2](dante#rednet-control-2)
 
