@@ -11,7 +11,7 @@
 | **Workshop**                   | 374    |
 | **Machine Room**               | 372    |
 | **Davis Studio**               | 376    |
-| ↳ **Davis Closet**             | 376B   |
+| ↳ **Davis Closet**             | 376A   |
 | ↳ **Davis Vestibule**          | 376-C1 |
 | **Music Technology Lab (MTL)** | 378    |
 | ↳ **MTL Vestibule**            | 378-C1 |
