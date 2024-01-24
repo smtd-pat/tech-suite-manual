@@ -76,6 +76,8 @@ Tie lines can be used to route line level audio to and from the RedNet 2 Dante a
 
 > Please reset all patch bay connections to their default settings after use
 
+> This patch bay does not prevent you from doing stupid things like patching outputs to outputs or inputs to inputs. Please don't do this. 
+
 ### Cables
 Cables come in three colors. While all cables are functionally the same, we can use color to indicate the purpose or signal type of the cable. Our current system is as follows:
 - :heart: Red for all temporary patches

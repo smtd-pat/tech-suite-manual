@@ -17,8 +17,6 @@
 [ableton-surround-panner]: https://www.ableton.com/en/packs/surround-panner/
 [cycling74-ableton-multichannel]: https://cycling74.com/articles/audio-routings-a-new-system-for-multi-channel-routing-in-ableton-live
 
-!> The Control Room manual is incomplete
-
 # The Control Room <small>*Moore 370*</small>
 
 ?> The Control Room requires a [certification][training] to use.
@@ -125,6 +123,14 @@ More information can be found on the [checkout system][checkout]
 - <input type="checkbox"> Cover the S6
 - <input type="checkbox"> Close all doors
 
+## Line Level Patching
+
+There is a 24x2 patch bay located in the sidecar rack that can be used to reroute nearly any signal path in the Control Room using TT patch cables. Make sure the patch cables are pushed all the way in when you patch something. 
+
+The top row outputs signals, the bottom row are inputs. Ports **1-32** are [half-normalled](https://www.sweetwater.com/sweetcare/articles/what-normalling-what-difference-between-full-normal-half-nornal/). The rest are non-normalled.
+
+> This patch bay does not prevent you from doing stupid things like patching outputs to outputs or inputs to inputs. Please don't do this. 
+
 ## Monitor Controller
 
 The Grace m908 controls the speakers in the Control Room.
@@ -137,11 +143,14 @@ The Grace m908 controls the speakers in the Control Room.
 
 Currently the Control Room has 2 input sources:
 
-- Stereo USB (via the m908 USB cable on the sidecar)
 - Stereo Dante
+- Stereo USB - via the m908 USB cable on the sidecar
+- Stereo Patch - via the Sidecar patchbay
 
 <!--TODO-->
 > Additional input options will be added in the future as additional hardware is installed
+
+See how to use these in [Audio Output](#audio-output)
 
 ### Output Information
 
@@ -150,57 +159,63 @@ Currently the Control Room has 2 input sources:
 <!--TODO-->
 > Currently the Control Room only has stereo monitoring via the Meyer HD-1s. Additional out options will be added in the future as additional hardware is installed
 
+See how to use these in [Audio Output](#audio-output)
+
 ### Talkback
 
 The talkback microphone is the microphone peeking over the screen of the [S6 master module](#s6-basics).
 
-!> Currently is not set up and functional. It will be functional soon as additional hardware is installed.
+See how to route the talkback mic in [Talkback](#talkback-1)
 
-### Cue Outputs
-
-!> Currently is not set up and functional. It will be functional soon as additional hardware is installed.
-
-## Digital Audio Output
-?> These guides expect that you will be using the [default Dante preset][dante]
+## Audio Output
 
 The standard sample rate for the Tech Suite is 48kHz.
 
 <!-- tabs:start -->
 
-### **System Audio**
+### **Via iMac**
+
+Set the output to **Stereo Dante** on the m908
+
+#### System Audio
 Make sure that your system audio output is set to **Digiface Dante USB**
 
 > **Tip:** you can do this using [Control Center][mac-audio-settings]
 
-### **Pro Tools**
+#### Pro Tools
 You need to make sure to configure Pro Tools to use the Digiface Dante playback engine. Usually you only need to do this once.
 
 1. In Pro Tools, go to the menubar and click **Setup > Playback Engine…**
 2. Set the **Playback Engine** to **Digiface Dante**
 
 
-### **Logic Pro**
+#### Logic Pro
 1. Create a new Logic Pro project or open an existing one
 2. In the menubar go to **Logic Pro > Preferences > Audio…**
 3. Set the input and output device to **Digiface Dante**
 
-### **Ableton Live**
-?> Only enable the outputs you need to save resources. Setting the labels is optional but recommended.
+#### Ableton Live
 
 1. In the menubar, go to **Live > Preferences**
 2. In the **Audio** tab, set the **Input Device** to **Digiface Dante** and **Output Device** to **Digiface Dante**
 
+### **Via Laptop**
+
+1. Set the output to **Stereo USB** on the m908
+
+2. Plug in your laptop to the USB cable hanging on the left side of the sidecar rack and use the **m908** output device.
+
+### **Via Patchbay**
+
+1. Set the output to **Stereo Patch** on the m908
+
+2. Connect to patchbay inputs **33** and **34**
+
 <!-- tabs:end -->
-
-## Analog Audio Output
-
-<!--TODO-->
-!> Currently is not set up and functional. It will be functional soon as additional hardware is installed.
 
 ## Synth Rack
 
-<!--TODO-->
-!> Currently is not set up and functional. It will be functional soon as additional hardware is installed.
+The synth rack is routed via patch bay outputs **9-16**, which are half-normalled to transmitters **9-16** on the RedNet 2.
 
 ## TV and Computer Monitor
 <!-- panels:start -->
@@ -305,9 +320,7 @@ Patching for the m801 can be found in the Control Room closet. This XLR patch ba
 [IMAGES]
 <!-- panels:end -->
 
-## Line Level Patching
-
-> The patch bay is current being reconfigured.
+The output of the m801 is routed via patch bay outputs **1-8** to transmitters **1-8** on the RedNet 2
 
 ## Headphone Monitoring
 The headphone monitoring system is contained within a portable rack stored in the Control Room. The rack contains drawers of black ethernet of various lengths and a set of headphones that are intended to be used exclusively with the Aviom system.
@@ -328,8 +341,10 @@ The volume of each channel can be set on the **A320 personal mixers**.
 ?> More information on the Aviom kit can be found [on the inventory system](https://app.cheqroom.com/pHMoanvebv1NemoreoyF74/items/5mhueusqJziGJSHfDcQ9Xm).
 
 ## Talkback
-<!--TODO-->
-!> Currently is not set up and functional. It will be functional soon as additional hardware is installed.
+
+The talkback microphone is routed through the Grace m908 via its Dante outputs on channels **1** and **2**.
+
+The mic can be controlled via the **Talkback** button on the m908 RCU.
 
 ## Troubleshooting
 

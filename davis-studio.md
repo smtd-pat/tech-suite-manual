@@ -197,8 +197,6 @@ The projector input is controlled with the [Video Switcher][video-switcher] whic
 
 ## Speakers and routing
 
-> Dante speaker routing using the Default Preset can be found on the [Dante][dante] page.
-
 <!-- TODO: Better routing documentation -->
 
 <!-- panels:start -->
@@ -259,30 +257,30 @@ The main "front-of-house" speakers are Genelec 1037Cs. They can be routed to the
 <details>
 <summary>View Routing Table</summary>
 
-| Speaker # | Default Preset PCIe Output | RedNet2 #2 Output | Davis Tie Line |
-| --------- | -------------------------- | ----------------- | -------------- |
-| 1         | 3                          | 1                 | 56             |
-| 2         | 4                          | 2                 | 2              |
-| 3         | 5                          | 3                 | 64             |
-| 4         | 6                          | 4                 | 59             |
-| 5         | 7                          | 5                 | 51             |
-| 6         | 8                          | 6                 | 55             |
-| 7         | 9                          | 7                 | 4              |
-| 8         | 10                         | 8                 | 58             |
-| 9         | 11                         | 9                 | 60             |
-| 10        | 12                         | 10                | 50             |
-| 11        | 13                         | 11                | 3              |
-| 12        | 14                         | 12                | 1              |
-| 13        | 15                         | 13                | 62             |
-| 14        | 16                         | 14                | 35             |
-| 15        | 17                         | 15                | 36             |
-| 16        | 18                         | 16                | 54             |
-| 17        | 19                         | 1                 | 63             |
-| 18        | 20                         | 2                 | 47             |
-| 19        | 21                         | 3                 | 52             |
-| 20        | 22                         | 4                 | 49             |
-| 21        | 23                         | 5                 | 44             |
-| 22        | 24                         | 6                 | 41             |
+| Speaker # | RedNet2 Output | Davis Tie Line |
+| --------- | ----------------- | -------------- |
+| 1         | 2-1               | 56             |
+| 2         | 2-2               | 2              |
+| 3         | 2-3               | 64             |
+| 4         | 2-4               | 59             |
+| 5         | 2-5               | 51             |
+| 6         | 2-6               | 55             |
+| 7         | 2-7               | 4              |
+| 8         | 2-8               | 58             |
+| 9         | 2-9               | 60             |
+| 10        | 2-10              | 50             |
+| 11        | 2-11              | 3              |
+| 12        | 2-12              | 1              |
+| 13        | 2-13              | 62             |
+| 14        | 2-14              | 35             |
+| 15        | 2-15              | 36             |
+| 16        | 2-16              | 54             |
+| 17        | 3-1               | 63             |
+| 18        | 3-2               | 47             |
+| 19        | 3-3               | 52             |
+| 20        | 3-4               | 49             |
+| 21        | 3-5               | 44             |
+| 22        | 3-6               | 41             |
 </details>
 
 The smaller Genelec 8040B speakers are part of a 22-channel ambisonic isohedron aimed at the spike at the center of the room.

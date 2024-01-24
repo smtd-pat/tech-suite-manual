@@ -31,7 +31,6 @@ Additionally you can review the [Dante Level 1 Certification Training][dante-lev
 
 ## Important Reminders
 
-- **You should rarely need to use Dante for your routing.** The default preset allows you to make 99% of your patch via the physical patch bays in the Machine Room and Control Room. 
 - If you decide to make major changes to device configurations on the Dante network, please load the default preset at the end of your session.
 - Please refrain from renaming devices as this can disrupt subscriptions and stop presets from loading correctly.
 - When loading the default preset, please take care you are not interrupting someone else’s session.
