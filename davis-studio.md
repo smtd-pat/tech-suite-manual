@@ -111,8 +111,6 @@ The Davis Studio is a multipurpose adaptable classroom/studio/performance space 
 - <input type="checkbox"> Extra equipment and cables should be returned to their respective homes
 - <input type="checkbox"> Ensure music stands have been returned to where they were borrowed from, if any.<br><small>Do not keep any music stands in the Davis Studio.</small>
 - <input type="checkbox"> [Both speaker switches should be turned off](#speaker-power-switches)
-- <input type="checkbox"> Podium should be next to the teaching station equipment
-- <input type="checkbox"> Teaching station routing knob should be set to the Audio interface
 - <input type="checkbox"> Piano should be covered returned to its normal storage location (back left corner next to the audio console)
 - <input type="checkbox"> M-5000 should be off and covered
 - <input type="checkbox"> ETC Ion should be off and covered
