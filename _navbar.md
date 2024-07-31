@@ -1,2 +1,2 @@
-- [Tech Suite Wiki](https://sites.google.com/umich.edu/pat/)
-- [Submit a Studio Log](https://airtable.com/shr7JLVvBXZWAFSaD)
+- [Tech Suite Wiki](https://pat.smtd.umich.edu/)
+- [Submit a Studio Log](https://pat.smtd.umich.edu/studiolog)

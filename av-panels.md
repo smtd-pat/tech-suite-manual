@@ -1,4 +1,3 @@
-<!-- Document links. Please put all links here to make broken link checking easier. -->
 [av-panels]: /av-panels.md
 [clearcom]: /clearcom.md
 [control-room]: /control-room.md
@@ -9,8 +8,8 @@
 [mtl]: /mtl.md
 [video-switcher]: /video-switcher.md
 [workshop]: /workshop.md
-[helpdesk]: https://sites.google.com/umich.edu/pat/helpdesk
-[training]: https://sites.google.com/umich.edu/pat/training
+[helpdesk]: https://pat.smtd.umich.edu/helpdesk
+[training]: https://pat.smtd.umich.edu/training
 
 # AV Panels
 

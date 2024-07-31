@@ -1,4 +1,3 @@
-<!-- Document links. Please put all links here to make broken link checking easier. -->
 [av-panels]: /av-panels.md
 [clearcom]: /clearcom.md
 [control-room]: /control-room.md
@@ -9,25 +8,14 @@
 [mtl]: /mtl.md
 [video-switcher]: /video-switcher.md
 [workshop]: /workshop.md
-[helpdesk]: https://sites.google.com/umich.edu/pat/helpdesk
-[training]: https://sites.google.com/umich.edu/pat/training
-
-[dante-level-1]: https://www.audinate.com/learning/training-certification/video-tutorials/dante-overview-1-in-getting-started-with-dante-video-series-2
-[dante-controller]: https://www.audinate.com/products/software/dante-controller
-[download-dante-controller]: https://my.audinate.com/support/downloads/dante-controller
-[dante-controller-101]: https://www.audinate.com/learning/training-certification/video-tutorials/video-series-dante-controller-101
-[dante-controller-user-guide]: http://dev.audinate.com/GA/dante-controller/userguide/webhelp/
-[rednet-4pre]: https://pro.focusrite.com/category/audio-interfaces/item/red-4pre
-[dvs]: https://www.audinate.com/products/software/dante-virtual-soundcard
-[dante-via]: https://www.audinate.com/products/software/dante-via
-[dvs-101]: https://www.audinate.com/learning/training-certification/video-tutorials/dante-virtual-soundcard-4-in-getting-started-with-dante-video-series
-[rednet-download]: https://pro.focusrite.com/category/audiooverip/item/rednet-control-2.8
+[helpdesk]: https://pat.smtd.umich.edu/helpdesk
+[training]: https://pat.smtd.umich.edu/training
 
 # Dante
 
 Dante is required knowledge to get certified in the Machine Room, Davis Studio, and Control Room. Comprehensive information about Dante is covered in our Dante [training module][training].
 
-Additionally you can review the [Dante Level 1 Certification Training][dante-level-1] from Audinate.
+Additionally you can review the [Dante Level 1 Certification Training](https://www.audinate.com/learning/training-certification/video-tutorials/dante-overview-1-in-getting-started-with-dante-video-series-2) from Audinate.
 
 ## Important Reminders
 
@@ -42,10 +30,10 @@ Dante Controller is used to configure a Dante network.
 
 > The following resources are provided from Audinate, creator of Dante
 
-- [About Dante Controller][dante-controller]
-- [Download][download-dante-controller]
-- [Dante Controller 101 Video Series][dante-controller-101]
-- [User Guide][dante-controller-user-guide]
+- [About Dante Controller](https://www.audinate.com/products/software/dante-controller)
+- [Download](https://my.audinate.com/support/downloads/dante-controller)
+- [Dante Controller 101 Video Series](https://www.audinate.com/learning/training-certification/video-tutorials/video-series-dante-controller-101)
+- [User Guide](http://dev.audinate.com/GA/dante-controller/userguide/webhelp/)
 
 ## How to load a preset
 <!-- panels:start -->
@@ -129,10 +117,10 @@ There are multiple ways to send a receive audio on the Dante Network
 
 - On the Davis Computer, you can use the Focusrite PCIe Card. Simply select it from the list of audio devices on the computer.
 - On the Control Room Computer, you can use the HDX driver. See more on how to use it on the [Control Room][control-room] page.
-- You can borrow a Dante interface such as the [RedNet 4pre][rednet-4pre]. We have two of these available.
-- In the Edit Rooms and on your personal machine, you can use [Dante Virtual Soundcard (DVS)][dvs]. <br><small>With your personal machine, you will need to purchase a license and be connected to the [Tech Suite LAN][lan].</small>
-    - [Getting started with DVS (Video)][dvs-101]
-- You can also buy [Dante Via][dante-via] for your personal machine which functions similarly to DVS but with some additional features.
+- You can borrow a Dante interface such as the [RedNet 4pre](https://pro.focusrite.com/category/audio-interfaces/item/red-4pre). We have two of these available.
+- In the Edit Rooms and on your personal machine, you can use [Dante Virtual Soundcard (DVS)](https://www.audinate.com/products/software/dante-virtual-soundcard). <br><small>With your personal machine, you will need to purchase a license and be connected to the [Tech Suite LAN][lan].</small>
+    - [Getting started with DVS (Video)](https://www.audinate.com/learning/training-certification/video-tutorials/dante-virtual-soundcard-4-in-getting-started-with-dante-video-series)
+- You can also buy [Dante Via](https://www.audinate.com/products/software/dante-via) for your personal machine which functions similarly to DVS but with some additional features.
 
 ## RedNet
 
@@ -149,7 +137,7 @@ On computers with the Dante Presets folder on the Desktop, there is a **Default 
 
 Please **do not** update the device names using the text box at the top of each device.
 
-- [Download][rednet-download]
+- [Download](https://pro.focusrite.com/category/audiooverip/item/rednet-control-2.8)
 
 <!-- div:right-panel -->
 

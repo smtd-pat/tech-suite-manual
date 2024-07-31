@@ -1,1 +1,1 @@
-- [Submit a Studio Log](https://airtable.com/shr7JLVvBXZWAFSaD)
+- [Submit a Studio Log](https://pat.smtd.umich.edu/studiolog)

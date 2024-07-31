@@ -9,10 +9,8 @@
 [mtl]: /mtl.md
 [video-switcher]: /video-switcher.md
 [workshop]: /workshop.md
-[helpdesk]: https://sites.google.com/umich.edu/pat/helpdesk
-[training]: https://sites.google.com/umich.edu/pat/training
-
-[non-normalled]: https://www.sweetwater.com/insync/non-normalled/
+[helpdesk]: https://pat.smtd.umich.edu/helpdesk
+[training]: https://pat.smtd.umich.edu/training
 
 # The Machine Room <small>*Moore 372*</small>
 ?> The Machine Room requires a [certification][training] to use.
@@ -85,7 +83,7 @@ Cables come in three colors. While all cables are functionally the same, we can 
 - :green_heart: Green for Davis Ambisonic system speaker output **(do not use for other purposes or remove)**
 
 ### Tips
-- All connections are [non-normalled][non-normalled]
+- All connections are [non-normalled](https://www.sweetwater.com/insync/non-normalled/)
 - A tie line can be patched to any other tie line. *However* you must ensure that your signal is flowing in the correct direction or you will risk damaging equipment connected to the patch. Do not patch 2 transmitter devices or 2 receiver devices together. Your signal should always flow from a transmitter to a receiver.
 - All active tie line ports on the patch bays are labeled with their location and/or device.
 - Tie lines can be connected directly together

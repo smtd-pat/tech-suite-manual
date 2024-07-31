@@ -1,4 +1,3 @@
-<!-- Document links. Please put all links here to make broken link checking easier. -->
 <!-- Note: Equipment overview excluded -->
 [av-panels]: /av-panels.md
 [clearcom]: /clearcom.md
@@ -10,10 +9,8 @@
 [mtl]: /mtl.md
 [video-switcher]: /video-switcher.md
 [workshop]: /workshop.md
-[helpdesk]: https://sites.google.com/umich.edu/pat/helpdesk
-[training]: https://sites.google.com/umich.edu/pat/training
-
-[etc-offline]: https://www.etcconnect.com/Products/Consoles/Eos-Family/
+[helpdesk]: https://pat.smtd.umich.edu/helpdesk
+[training]: https://pat.smtd.umich.edu/training
 
 # The Davis Studio <small>*Moore 376*</small>
 
@@ -441,7 +438,7 @@ This manual only contains basic documentation on the lighting system. Keep in mi
 
 ### ETC Ion Basics
 
-ETC provides [offline software][etc-offline] that can be run on nearly any computer. This software includes a 3D visualizer that can be used to construct light plots and program shows without being in Davis.
+ETC provides [offline software](https://www.etcconnect.com/Products/Consoles/Eos-Family/) that can be run on nearly any computer. This software includes a 3D visualizer that can be used to construct light plots and program shows without being in Davis.
 
 A complete series of video tutorials on the EOS software that runs on the Ion is provided by ETC on their website. Simply find the feature you need help with. You can also hold down the “Help” key on the console or in the EOS offline software and press the key you need help with.
 

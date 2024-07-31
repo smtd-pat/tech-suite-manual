@@ -9,21 +9,9 @@
 [mtl]: /mtl.md
 [video-switcher]: /video-switcher.md
 [workshop]: /workshop.md
-[helpdesk]: https://sites.google.com/umich.edu/pat/helpdesk
-[training]: https://sites.google.com/umich.edu/pat/training
-[policies]: https://sites.google.com/umich.edu/pat/tech-suite/policies
-[slack]: http://um-smtd-tech-suite.slack.com
-[studio-log]: https://airtable.com/shr7JLVvBXZWAFSaD
-[smtd-it]: https://smtd.umich.edu/intranet-portal/it-resources/
-
-[learn-live]: https://www.ableton.com/en/live/learn-live/
-[learn-push]: https://www.ableton.com/en/push/learn-push/
-[novation-manual]: https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/novation/downloads/25432/english107.pdf
-[mac-audio-settings]: https://support.apple.com/guide/mac-help/quickly-change-settings-mchl50f94f8f/mac
-[ableton-audio-settings]: https://help.ableton.com/hc/en-us/articles/211476789-Setting-up-an-Audio-Interface
-[logic-audio-settings]: https://support.apple.com/guide/logicpro/devices-settings-lgcpbb81aca5/10.7.5/mac/12.3
-[protools-audio-settings]: https://obedia.com/how-to-setup-an-audio-interface-in-pro-tools/
-[reaper-audio-settings]: https://slatedigital.zendesk.com/hc/en-us/articles/360008932653-Reaper-I-O-Settings
+[helpdesk]: https://pat.smtd.umich.edu/helpdesk
+[training]: https://pat.smtd.umich.edu/training
+[studio-log]: https://pat.smtd.umich.edu/studiolog
 
 # The Music Technology Lab <small>*Moore 378*</small>
 ?> The MTL requires the completion of the [Tech Suite Orientation][training] to use.
@@ -34,7 +22,7 @@ The MTL is a classroom space featuring 12 audio workstations. Each workstation f
 
 ## Policies
 
-[View the full list of Tech Suite policies here][policies]
+[View the full list of Tech Suite policies here](https://pat.smtd.umich.edu/facilities/policies)
 
 - Adhere to all Tech Suite policies posted on the wiki
 - Remember, your files are not safe in the Tech Suite
@@ -67,9 +55,9 @@ The MTL is a classroom space featuring 12 audio workstations. Each workstation f
 <!-- panels:start -->
 
 <!-- div:left-panel -->
-The Ableton Push is made to be used with the software [Ableton Live][learn-live] but is also compatible with some other DAWs.
+The Ableton Push is made to be used with the software [Ableton Live](https://www.ableton.com/en/live/learn-live/) but is also compatible with some other DAWs.
 
-[Learn how to use][learn-push]
+[Learn how to use](https://www.ableton.com/en/push/learn-push/)
 
 <!-- TODO: Link "DAWs" to terminology page -->
 
@@ -121,7 +109,7 @@ This is called a headphone amplifier. It also can split audio output to up to fi
 <!-- div:left-panel -->
 This is a MIDI keyboard. It can be used to send MIDI piano data into a DAW or other software that supports MIDI. It also has a number of additional controls. What the other controls do varies based on what software you are using and how that software is configured.
 
-[View Manual][novation-manual]
+[View Manual](https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/novation/downloads/25432/english107.pdf)
 
 <!-- TODO: Link stuff to terminology page -->
 
@@ -136,13 +124,13 @@ This is a MIDI keyboard. It can be used to send MIDI piano data into a DAW or ot
 <!-- panels:start -->
 
 <!-- div:left-panel -->
-Using ![](/_media/control-center.webp ':no-zoom :size=30px') [Control Center][mac-audio-settings] menu in the top-right of the screen, set your system output device to **Scarlett 8i6 USB** as shown on the right.
+Using ![](/_media/control-center.webp ':no-zoom :size=30px') [Control Center](https://support.apple.com/guide/mac-help/quickly-change-settings-mchl50f94f8f/mac) menu in the top-right of the screen, set your system output device to **Scarlett 8i6 USB** as shown on the right.
 
 In a DAW you may need to change the output settings
-- [Ableton][ableton-audio-settings]
-- [Logic][logic-audio-settings]
-- [Pro Tools][protools-audio-settings]
-- [Reaper][reaper-audio-settings]
+- [Ableton](https://help.ableton.com/hc/en-us/articles/211476789-Setting-up-an-Audio-Interface)
+- [Logic](https://support.apple.com/guide/logicpro/devices-settings-lgcpbb81aca5/10.7.5/mac/12.3)
+- [Pro Tools](https://obedia.com/how-to-setup-an-audio-interface-in-pro-tools/)
+- [Reaper](https://slatedigital.zendesk.com/hc/en-us/articles/360008932653-Reaper-I-O-Settings)
 
 <!-- div:right-panel -->
 ![](/_media/mtl-audio-1.webp) ![](/_media/mtl-audio-2.webp)
@@ -270,4 +258,4 @@ If you are running into technical problems, [include it in your Studio Log][stud
 Remember to check the [known issues list](#known-issues)
 
 ### Live encountered a licensing error
-Try relaunching Live. If that doesn't work, please contact [SMTD IT][smtd-it] directly, as they are in charge of the licensing server.
+Try relaunching Live. If that doesn't work, please contact [SMTD IT](https://smtd.umich.edu/intranet-portal/it-resources/) directly, as they are in charge of the licensing server.

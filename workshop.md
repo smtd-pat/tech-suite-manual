@@ -1,4 +1,3 @@
-<!-- Document links. Please put all links here to make broken link checking easier. -->
 [av-panels]: /av-panels.md
 [clearcom]: /clearcom.md
 [control-room]: /control-room.md

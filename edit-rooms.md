@@ -1,4 +1,3 @@
-<!-- Document links. Please put all links here to make broken link checking easier. -->
 [av-panels]: /av-panels.md
 [clearcom]: /clearcom.md
 [control-room]: /control-room.md
@@ -10,19 +9,9 @@
 [davis]: /davis-studio.md
 [video-switcher]: /video-switcher.md
 [workshop]: /workshop.md
-[helpdesk]: https://sites.google.com/umich.edu/pat/helpdesk
-[training]: https://sites.google.com/umich.edu/pat/training
-[slack]: http://um-smtd-tech-suite.slack.com
-[studio-log]: https://airtable.com/shr7JLVvBXZWAFSaD
-
-[motu-drivers]: https://motu.com/en-us/download/
-
-[mac-audio-settings]: https://support.apple.com/guide/mac-help/quickly-change-settings-mchl50f94f8f/mac
-[windows-audio-settings]: https://www.makeuseof.com/windows-11-change-sound-output-device/
-[ableton-audio-settings]: https://help.ableton.com/hc/en-us/articles/211476789-Setting-up-an-Audio-Interface
-[logic-audio-settings]: https://support.apple.com/guide/logicpro/devices-settings-lgcpbb81aca5/10.7.5/mac/12.3
-[protools-audio-settings]: https://obedia.com/how-to-setup-an-audio-interface-in-pro-tools/
-[reaper-audio-settings]: https://slatedigital.zendesk.com/hc/en-us/articles/360008932653-Reaper-I-O-Settings
+[helpdesk]: https://pat.smtd.umich.edu/helpdesk
+[training]: https://pat.smtd.umich.edu/training
+[studio-log]: https://pat.smtd.umich.edu/studiolog
 
 # The Edit Rooms <small>*Moore 378A / 378B*</small>
 ?> The Edit Rooms require the completion of the [Tech Suite Orientation][training] to use.
@@ -117,13 +106,13 @@ This will allow you to use the audio interface, MIDI keyboard, and Ableton Push 
 <!-- div:left-panel -->
 2. Make sure the computer's output is set to **EVO 16**
 
-- On a Mac, you can use ![](/_media/control-center.webp ':no-zoom :size=30px') [Control Center][mac-audio-settings] as shown on the right.
-- On Windows, open your [sound settings][windows-audio-settings] from the taskbar. 
+- On a Mac, you can use ![](/_media/control-center.webp ':no-zoom :size=30px') [Control Center](https://support.apple.com/guide/mac-help/quickly-change-settings-mchl50f94f8f/mac) as shown on the right.
+- On Windows, open your [sound settings](https://www.makeuseof.com/windows-11-change-sound-output-device/) from the taskbar. 
 - In a DAW you may need to change the output settings
-    - [Ableton][ableton-audio-settings]
-    - [Logic][logic-audio-settings]
-    - [Pro Tools][protools-audio-settings]
-    - [Reaper][reaper-audio-settings]
+    - [Ableton](https://help.ableton.com/hc/en-us/articles/211476789-Setting-up-an-Audio-Interface)
+    - [Logic](https://support.apple.com/guide/logicpro/devices-settings-lgcpbb81aca5/10.7.5/mac/12.3)
+    - [Pro Tools](https://obedia.com/how-to-setup-an-audio-interface-in-pro-tools/)
+    - [Reaper](https://slatedigital.zendesk.com/hc/en-us/articles/360008932653-Reaper-I-O-Settings)
 
 > If you had to change the USB switcher in step 1, it may take around 10 seconds for the EVO 16 to show up in the audio devices.
 

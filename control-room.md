@@ -1,4 +1,3 @@
-<!-- Document links. Please put all links here to make broken link checking easier. -->
 [av-panels]: /av-panels.md
 [clearcom]: /clearcom.md
 [control-room]: /control-room.md
@@ -9,13 +8,9 @@
 [mtl]: /mtl.md
 [video-switcher]: /video-switcher.md
 [workshop]: /workshop.md
-[helpdesk]: https://sites.google.com/umich.edu/pat/helpdesk
-[training]: https://sites.google.com/umich.edu/pat/training
-[checkout]: https://sites.google.com/umich.edu/pat/checkout
-
-[mac-audio-settings]: https://support.apple.com/guide/mac-help/quickly-change-settings-mchl50f94f8f/mac
-[ableton-surround-panner]: https://www.ableton.com/en/packs/surround-panner/
-[cycling74-ableton-multichannel]: https://cycling74.com/articles/audio-routings-a-new-system-for-multi-channel-routing-in-ableton-live
+[helpdesk]: https://pat.smtd.umich.edu/helpdesk
+[training]: https://pat.smtd.umich.edu/training
+[checkout]: https://pat.smtd.umich.edu/checkout
 
 # The Control Room <small>*Moore 370*</small>
 
@@ -180,7 +175,7 @@ Set the output to **Stereo Dante** on the m908
 #### System Audio
 Make sure that your system audio output is set to **Digiface Dante USB**
 
-> **Tip:** you can do this using [Control Center][mac-audio-settings]
+> **Tip:** you can do this using [Control Center](https://support.apple.com/guide/mac-help/quickly-change-settings-mchl50f94f8f/mac)
 
 #### Pro Tools
 You need to make sure to configure Pro Tools to use the Digiface Dante playback engine. Usually you only need to do this once.

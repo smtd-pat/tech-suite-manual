@@ -1,1 +1,0 @@
-- Revert "document links" to normal markdown links for local links
