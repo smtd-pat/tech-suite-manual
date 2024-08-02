@@ -174,7 +174,7 @@ Use the HDMI switcher on the right side rack
 ![](/_media/mtl-student-station-mixers.webp)
 
 <!-- div:title-panel -->
-## Spaker Audio Output
+## Speaker Audio Output
 
 ![](/_media/mtl-mixer.webp ':size=50%')
 
