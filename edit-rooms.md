@@ -18,7 +18,7 @@
 
 The Edit Rooms are essentially more advanced versions of the MTL stations. They can be used for recording, mixing, mastering, and more!
 
-Each Edit Room has a different set of studio monitor speakers so you can listen to your work using real reference speakers. The two different models of speakers allows you compare and contrast on different setups. Instead of the red Scarlett audio interface, the Edit Rooms are equipped with a larger Audient EVO 16. Each Edit Room has a dynamic and condenser microphone.
+Each Edit Room has a different set of studio monitor speakers so you can listen to your work using real reference speakers. The two different models of speakers allows you compare and contrast on different setups. The Edit Rooms have a larger audio interface that allows for more inputs and outputs than the MTL. Each Edit Room has a dynamic and condenser microphone.
 
 For more advanced users, the Edit Rooms computers connected to the [Dante][dante] network and the Tech Suite [video switcher][video-switcher]. Both rooms also have an [AV panel][av-panels]. This means they can be used as isolation booths in conjunction with the [Control Room][control-room]. The can be used as remote mixing/recording/control stations for performances in [Davis][davis], Hankinson, Watkins, and MacIntosh. Submit a [Helpdesk Ticket][helpdesk] for assistance on setting up these advanced configurations.
 
@@ -38,11 +38,11 @@ For more advanced users, the Edit Rooms computers connected to the [Dante][dante
 <!-- tabs:start -->
 
 ### **Simple**
-- iMac
-- TV Screen
+- Mac Studio
+- 4K Monitor *x2*
 - Dynamic Microphone
 - Condenser Microphone
-- Audio Interface (EVO 16)
+- Audio Interface
 - [Ableton Push 2](https://www.ableton.com/en/push/learn-push/) Controller
 - [Arturia MiniBrute 2S](https://www.arturia.com/minibrute-2s/resources) Step Sequencing Analog Synth
 - MIDI Keyboard Controller
@@ -50,38 +50,25 @@ For more advanced users, the Edit Rooms computers connected to the [Dante][dante
 - Subwoofer
 
 ### **With Make/Model**
-- iMac
-- TV Screen
-- Dynamic Microphone + cable + stand — *Shure BETA 58A*
-- Condenser Microphone + cable + stand — *Audio Technica AT2020*
-- Audio Interface — *Audient EVO 16*
+- Mac Studio (M2 Max, 64 GB Memory)
+- ASUS ProArt PA320CRV 4K Monitor *x2*
+- Shure BETA 58A Dynamic Microphone
+- Audio Technica AT2020 Condenser Microphone
+- Tascam US-16x08 Audio Interface
 - [Ableton Push 2](https://www.ableton.com/en/push/learn-push/) Controller
 - [Arturia MiniBrute 2S](https://www.arturia.com/minibrute-2s/resources) Step Sequencing Analog Synth
 
 #### Edit Room A
 - MIDI Keyboard Controller — *[M-audio Code 61](https://m-audio.com/support/documents-search)*
-- Studio Monitors — *Neumann _*
-- Subwoofer — *Neumann _*
+- Studio Monitors — *Neumann KH120A*
+- Subwoofer — *Neumann KH 805*
 
 #### Edit Room B
 - MIDI Keyboard Controller — *[Novation Impulse 61](https://downloads.novationmusic.com/novation/impulse/impulse-61)*
-- Studio Monitors — *Dynaudio _*
-- Subwoofer — *Dynaudio _*
+- Studio Monitors — *Dynaudio BM6 mkIII*
+- Subwoofer — *Dynaudio BM6S II*
 
 <!-- tabs:end -->
-
-## Turning the room on/off
-<!-- panels:start -->
-
-<!-- div:left-panel -->
-The Edit Rooms use a sequenced power switch. All you need to do is tilt the switch labeled **Power Button** towards the **On** or **Off** position (it will not stay there, its only a momentary switch). Just wait for all the status lights to light up orange.
-
-!> Always turn the power off when you are done!
-
-<!-- div:right-panel -->
-![](/_media/er-rack.webp)
-
-<!-- panels:end -->
 
 ## Using your own laptop
 ![](/_media/er-usb.webp ':size=50%')
@@ -97,16 +84,17 @@ This will allow you to use the audio interface, MIDI keyboard, and Ableton Push 
 <!-- div:left-panel -->
 1. Check the USB switcher.
 
-- Make sure **1** is chosen if you are using the iMac
-- Make sure **2** is chosen if you are using your own computer. You may need to [install drivers](https://evo.audio/products/audio-interfaces/evo-16/downloads/) to make it work.
+- Make sure **1** is chosen if you are using the Mac Studio
+- Make sure **2** is chosen if you are using your own computer
+    - Windows users will need to [install drivers](https://asio4all.org/about/download-asio4all/). Make sure to include the offline settings in the installer.
 
 <!-- div:right-panel -->
 ![](/_media/er-usb.webp)
 
 <!-- div:left-panel -->
-2. Make sure the computer's output is set to **EVO 16**
+2. Make sure the computer's output is set to **US-16x08**
 
-- On a Mac, you can use ![](/_media/control-center.webp ':no-zoom :size=30px') [Control Center](https://support.apple.com/guide/mac-help/quickly-change-settings-mchl50f94f8f/mac) as shown on the right.
+- On a Mac, you can use ![](/_media/sw-control-center.webp ':no-zoom :size=30px') [Control Center](https://support.apple.com/guide/mac-help/quickly-change-settings-mchl50f94f8f/mac) as shown on the right.
 - On Windows, open your [sound settings](https://www.makeuseof.com/windows-11-change-sound-output-device/) from the taskbar. 
 - In a DAW you may need to change the output settings
     - [Ableton](https://help.ableton.com/hc/en-us/articles/211476789-Setting-up-an-Audio-Interface)
@@ -114,25 +102,19 @@ This will allow you to use the audio interface, MIDI keyboard, and Ableton Push 
     - [Pro Tools](https://obedia.com/how-to-setup-an-audio-interface-in-pro-tools/)
     - [Reaper](https://slatedigital.zendesk.com/hc/en-us/articles/360008932653-Reaper-I-O-Settings)
 
-> If you had to change the USB switcher in step 1, it may take around 10 seconds for the EVO 16 to show up in the audio devices.
-
 <!-- div:right-panel -->
-![](/_media/control-center-1.webp)
+![](/_media/sw-control-center-1.webp)
 
 <!-- div:left-panel -->
-3. On the EVO 16, select the monitor **(10)** button and turn up the main control knob **(9)**
-
-> You can also plug in headphones **(3)** and control the volume **(9)** of each channel in the same way as the monitor using the corresponding numbered button **(12)**
+3. On the audio interface, turn up the **Line Out 1-2** knob.
 
 <!-- div:right-panel -->
-![](/_media/evo16.webp)
+![](/_media/er-interface-lineout.webp)
 
 <!-- panels:end -->
 
 ## Microphones
-
 <!-- panels:start -->
-
 <!-- div:left-panel -->
 - Both mics are equipped with pop guards. Please be gentle with the pop guard on the condenser as it is fragile.
 - The condenser mic requires phantom power to use (see [audio input](#audio-input) guide below)
@@ -145,38 +127,28 @@ This will allow you to use the audio interface, MIDI keyboard, and Ableton Push 
 
 
 ## Audio Input
-
 <!-- panels:start -->
 
 <!-- div:left-panel -->
+Audio input is as simple as plugging in the device you wish to record with and setting the gain using the respective knob for that input. If your microphone needs **phantom power**, use the switches on the left to turn it on.
 
-- To control input gain on the EVO, hit the numbered button corresponding to your channel number and rotate the main control knob **(9)**
-- The condenser mic (the AT2020) requires phantom power! To turn on phantom power, hit the numbered button corresponding to your channel number and hit the <kbd>48V</kbd> **(7)** button.
-- Some line-level instruments like guitars require additional amplification. To turn on instrument mode for a channel, hit the numbered button corresponding to your channel number and hit the guitar **(8)** button.
-- See the quick start guide to learn more about the EVO 16's smart gain feature
+If you are using input 9 or 10, you can switch between **LINE** and **INST** or instrument. **Line** is good for most electronic instruments like synths, while **inst** is best used with instruments that have pickups like electric guitars or basses. If you can't hear your instrument on one setting, try the other.
 
-To learn more about how to use the EVO 16, follow this [quick start guide](https://d9w4fhj63j193.cloudfront.net/EVO/EVO%2016/EVO%2016%20Quick%20Start%20Guide%20V1%20(Web%20Version).pdf) or [flip through the manual](https://d9w4fhj63j193.cloudfront.net/2022/EVO%2016/6.%20User%20Guide/EVO%2016%20Manual%20V2.2.pdf)
+> Its ok to have phantom power turned on for channels that do not require it. Almost all modern microphones and XLR line-in devices will safely ignore phantom power.
 
 <!-- div:right-panel -->
-![](/_media/evo16.webp)
+![](/_media/er-interface.webp)
 
 <!-- panels:end -->
 
-## Using the TV
-The TV is controlled using the provided TV remote. **DON'T LOSE IT!** Put it back on top of the rack when you aren't using it.
-
-- HDMI 1 is the video switcher, if you know how to use it
-- HDMI 2 is the computer so you can use the TV as a second monitor
-
-Make sure to turn it off when you are done.
+## Using the video switcher
+The top computer monitor is also hooked up to the the [Video Switcher](video-switcher) which can be used to view the cameras in the Davis Studio, Hankinson, Watkins, Britton, and MacIntosh. Switch the top monitor to HDMI 2 to use the video switcher. 
 
 ## Zero Setting
-
-- <input type="checkbox"> Turn off the rack
 - <input type="checkbox"> Log out
 - <input type="checkbox"> Push the chairs in
-- <input type="checkbox"> Coil up (using over-under!) and hang blue XLR cables
-- <input type="checkbox"> Put the mics off to the side of the room out of the way
+- <input type="checkbox"> Coil up (using over-under!) and hang yellow XLR cables
+- <input type="checkbox"> Put the mics off to the side of the room and make sure they aren't blocking the door
 - <input type="checkbox"> Fill out the studio log
 - <input type="checkbox"> Take all your personal belongings with you
 
@@ -184,9 +156,5 @@ Make sure to turn it off when you are done.
 
 ## Troubleshooting tips
 - Remember to check the [known issues list](#known-issues)
-- If the EVO 16 doesn't connect:
-    1. Try turning the rack off and on again
-    2. Restart the computer
-    3. Make sure you have the latest version of the EVO 16 driver
 
 > If you continue to have issues or your issue isn't listed here, [include it in your Studio Log][studio-log] or submit a [Helpdesk Ticket][helpdesk] if its an urgent issue.

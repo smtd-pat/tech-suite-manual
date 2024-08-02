@@ -13,13 +13,11 @@
 [training]: https://pat.smtd.umich.edu/training
 
 # The Davis Studio <small>*Moore 376*</small>
-
 ?> The Davis Studio requires a [certification][training] to use.
 
 The Davis Studio is a multipurpose adaptable classroom/studio/performance space with 2 multichannel speaker arrays, a lighting system, Motion Capture System, and VR Station. It is available for recitals, project documentation, installations, rehearsals, prototyping, system testing, and much more.
 
 ## Known Issues
-
 **Found an urgent issue?** Submit a [Helpdesk Ticket][helpdesk].
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrY8Y1hhs8iuaIfF?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="600px" style="background: transparent; border: 1px solid #ccc;"></iframe>
@@ -37,13 +35,14 @@ The Davis Studio is a multipurpose adaptable classroom/studio/performance space 
 
 ### **Sound System**
 - [Roland OHRCA M-5000 Live Mixing Console](https://proav.roland.com/global/support/by_product/m-5000/owners_manuals/)
-- Mac Pro 2013
-- ExpressBox 1T
-- Focusrite RedNet PCIe
+- Mac Studio (M1 Ultra, 64 GB Memory)
+- Digiface Dante
 - Genelec 8050B *x12* (Surround System)
 - Genelec 8040B *x20* (Ambisonic System)
 - Genelec 1037C *x2* (Front Stereo)
 - RCF Sub 8004-AS
+
+> Computer is connected to Projector
 
 ### **Lighting System**
 - [ETC Ion Lighting Console](https://www.etcconnect.com/Products/Legacy/Console/Eos-Family/Ion/Documentation.aspx)
@@ -61,20 +60,26 @@ The Davis Studio is a multipurpose adaptable classroom/studio/performance space 
 - Qualisys Wired Trigger
 - Qualisys Windows Desktop Tower
 - MOTU 828 mk3 Hybrid
-- Middle Atlantic Products PD-915R
+- Middle Atlantic PD-915R Power Supply
 
-### **VR System**
-- [HTC VIVE](https://www.vive.com/us/support/vive/)
+> Computer can be connected to Projector via SDI
+
+### **VR Station**
 - Alienware Aurora R7 | [Service Tag: J76HBM2](https://www.dell.com/support/home/en-us/product-support/servicetag/0-MitvNnJzSEEwWm1RVHp3TnN4RkpGZz090/overview)
 
-### **Teaching Station**
-- Focusrite Scarlett 6i6
+Computer can be connected to Projector via SDI
+
+### **Lectern**
+- Yamaha MG10XU Mixer / Audio interface
 - USB-C to HDMI dongle
 - USB-C to Ethernet dongle
 - AVerVision CP135 Document Camera + Power Adaptor
+- Projector remote
+
+> There is also a shorted twist-lock connector in the drawer to power the Genelec 1037Cs when the lectern is not present
 
 ### **Projection**
-- NEC PX602UL-BK Projector + Remote
+- NEC PX602UL-BK Projector
 
 ### **Davis Quick Specs**
 - DMX-controllable House/Work Lights
@@ -97,36 +102,32 @@ The Davis Studio is a multipurpose adaptable classroom/studio/performance space 
 <!-- tabs:end -->
 
 ## Zero Setting
-
 !>Check this list every time you leave the studio
 
-- <input type="checkbox"> [Projector should be set back to **Davis Teacher**](video-switcher)
-- <input type="checkbox"> Tables should be arranged as shown on the diagram posted on the support beam
+- <input type="checkbox"> [Projector should be set back to **Davis Lectern**](video-switcher)
+- <input type="checkbox"> Tables should be arranged to fit within the labled orange spike tape on the floor
 - <input type="checkbox"> Both wheels on all tables should be locked
 - <input type="checkbox"> Extra chairs should be stacked on the chair racks
-- <input type="checkbox"> Chair racks should be neatly up against a wall
+- <input type="checkbox"> Chair racks should be neatly up against the left wall
 - <input type="checkbox"> Extra equipment and cables should be returned to their respective homes
 - <input type="checkbox"> Ensure music stands have been returned to where they were borrowed from, if any.<br><small>Do not keep any music stands in the Davis Studio.</small>
+- <input type="checkbox"> Laptop stands should be placed together next to the chair racks on the left side of the room
 - <input type="checkbox"> [Both speaker switches should be turned off](#speaker-power-switches)
-- <input type="checkbox"> Podium should be next to the teaching station equipment
-- <input type="checkbox"> Teaching station routing knob should be set to the Audio interface
-- <input type="checkbox"> Piano should be covered returned to its normal storage location (back left corner next to the audio console)
+- <input type="checkbox"> Piano should be covered returned to its normal storage location (back left corner)
 - <input type="checkbox"> M-5000 should be off and covered
 - <input type="checkbox"> ETC Ion should be off and covered
-- <input type="checkbox"> House lights should be set to Preset 6.<br><small>This can also be achieved by pressing the blue illuminated wall switch by the main exit door until the lights turn off.</small>
+- <input type="checkbox"> Turn off the lights
 - <input type="checkbox"> Fill out the Studio Log
 
 **No non-Davis equipment is to be stored in Davis unless you have explicit permission from the Studio Coordinator**
 
 ## House Lights
-
-<!-- TODO: Images -->
-
 The house/work lights in Davis, along with the vestibule and adjacent hallway, are controlled by a single system that integrates with the Davis lighting system. Small buttons on black panels that illuminate blue can be used to control a specific zone such as the vestibule and hallway lights when needed. The Davis lighting is controlled by a touch panel on the back wall next to the door leading to the hallway or using the illuminated blue button next to the main exit door.
 
 ?> **Tip:** Pressing the blue button next to the main exit door can turn the Davis house lights on and off. If the lights were turned on using the touch panel, you may need to press this button a few times to turn the lights off.
 
-### Presets
+### Touch Panel
+!> The layout of the touch panel is getting updated in the near future. This section may no longer be relevent.
 
 ?> Use Preset 6 when leaving the room
 
@@ -147,11 +148,11 @@ The house/work lights in Davis, along with the vestibule and adjacent hallway, a
 
 <!-- div:left-panel -->
 
-The Genelec 1037Cs are the large “front-of-house” speakers on either side of the projection screen. Their power is controlled by a black light switch by the teaching station.
+The Genelec 1037Cs are the large “front-of-house” speakers on either side of the projection screen. Their power is controlled by a black power switch on the lectern.
 
 <!-- div:right-panel -->
 
-![](/_media/main-speaker-switch.webp ':size=50%')
+![](/_media/davis-lectern-speaker-power.webp)
 
 <!-- div:left-panel -->
 
@@ -163,18 +164,14 @@ This switch is always unlocked.
 
 <!-- div:right-panel -->
 
-![](/_media/speaker-system-switch.webp)
+![](/_media/davis-speaker-system-switch.webp)
 
 <!-- panels:end -->
 
 ## Power Outlets
 
-<center>
-
-![](/_media/black-outlet.webp 'Building Mains Power :size=60%') ![](/_media/grey-outlet.webp 'Programmable / Isolated Ground :size=60%')
-
-</center>
-
+<!-- panels:start -->
+<!-- div:left-panel -->
 The grey outlets can be programmed by the Tech Suite administrators to turn on and off in a specific order using the [speaker system power switch](#speaker-system-power). The sequence is very rarely changed.
 
 All outlets are labeled as shown above, replacing ## with a unique number.
@@ -183,6 +180,12 @@ All outlets are labeled as shown above, replacing ## with a unique number.
 All grey outlets are programmed to be perpetually on, except for **RP-372-14** which provides power to a few speakers and hence is turned on and off using the [speaker system power switch](#speaker-system-power).
 
 They grey outlets also provide an **Isolated Ground**. This can help reduce or eliminate RF interference that can often affect sensitive audio equipment and speakers.
+
+<!-- div:right-panel -->
+![](/_media/davis-black-outlet.webp 'Building Mains Power :size=60%')
+![](/_media/davis-grey-outlet.webp 'Programmable / Isolated Ground :size=60%')
+
+<!-- panels:end -->
 
 ## Projector
 
@@ -245,7 +248,7 @@ The main "front-of-house" speakers are Genelec 1037Cs. They can be routed to the
 
 <!-- div:left-panel -->
 
-![](/_media/ambisonic-speaker-map.webp)
+![](/_media/davis-ambisonic-speaker-map.webp)
 
 <!-- div:right-panel -->
 
@@ -282,14 +285,19 @@ The main "front-of-house" speakers are Genelec 1037Cs. They can be routed to the
 
 The smaller Genelec 8040B speakers are part of a 22-channel ambisonic isohedron aimed at the spike at the center of the room.
 
-<!-- TODO: Detailed guide for ambisonic playback -->
-
 The ambisonic system is best utilized through a specialized Max patch or the Ambisonic Playback template file for Reaper, both of which are in the shared drive on the Davis Computer. Please consult the Studio Coordinator on proper usage.
 
 <!-- panels:end -->
 
+### Loudspakers
+The ElectroVoice ETX-10Ps are high SPL loudspeakers that can be used during concerts. Please consult the Studio Coordinator if you wish to use these.
+
+!> **You must use a mixer in the signal chain leading to these speakers!** Do NOT attempt to route anything directly to these speakers via Dante or otherwise or you will quickly learn what Tinnitus sounds like.
+
 ## Roland M-5000 Basics
 The power switch to the M-5000 is located on the back of the console above the power cable. Generally the console saves all your changes as you make them, so when you are done you can just turn the console off. However to ensure you can get back to your configuration if someone changes it, you should save it as a project file.
+
+> You may ask the Studio Coordinator about how to use the Diffusion and EV Speakers project files.
 
 ### Using the Default Project
 
@@ -337,8 +345,6 @@ The power switch to the M-5000 is located on the back of the console above the p
 
 **Assigning a channel to output groups**
 
-<!-- TODO: Get images with only 7 groups -->
-
 <!-- panels:start -->
 
 <!-- div:left-panel -->
@@ -362,7 +368,7 @@ Each of the 7 groups in the default project corresponds to a stereo pair of spea
 
 <!-- div:right-panel -->
 
-![](/_media/simple-speaker-map.webp)
+![](/_media/davis-simple-speaker-map.webp)
 
 <!-- div:title-panel -->
 
@@ -374,7 +380,7 @@ Each of the 7 groups in the default project corresponds to a stereo pair of spea
 
 <!-- div:right-panel -->
 
-![](/_media/group-assign-2.webp)
+![](/_media/davis-group-assign-2.webp)
 
 <!-- div:title-panel -->
 
@@ -386,7 +392,7 @@ Each of the 7 groups in the default project corresponds to a stereo pair of spea
 
 <!-- div:right-panel -->
 
-![](/_media/group-assign-3.webp)
+![](/_media/davis-group-assign-3.webp)
 
 <!-- div:title-panel -->
 
@@ -400,7 +406,7 @@ Tap the **X** on the *CH EDIT* window or press <kbd>SEL</kbd> again on the selec
 
 **Sending a channel to the subwoofers**
 
-?> **Update:** This has been changed slightly in the latest version of the default project file. However this guide should still mostly be correct. It will be updated in the future. <!-- TODO -->
+?> **Update:** Both subs are now on a single stereo aux send that will follow the panning of the current channel.
 
 <!-- panels:start -->
 
@@ -409,14 +415,14 @@ Tap the **X** on the *CH EDIT* window or press <kbd>SEL</kbd> again on the selec
 
 <!-- div:right-panel -->
 
-![](/_media/subwoofer-1.webp)
+![](/_media/davis-subwoofer-1.webp)
 
 <!-- div:left-panel -->
 2. The bottom row of knobs under the touchscreen should turn yellow. Use the first two knobs to assign the send level to SUB L and SUB R.
 
 <!-- div:right-panel -->
 
-![](/_media/subwoofer-2.webp)
+![](/_media/davis-subwoofer-2.webp)
 
 <!-- div:title-panel -->
 3. Tap the X on the channel edit window or press <kbd>SEL</kbd> on the selected channel strip to deselect the channel.
@@ -426,7 +432,7 @@ Tap the **X** on the *CH EDIT* window or press <kbd>SEL</kbd> again on the selec
 
 <!-- div:right-panel -->
 
-![](/_media/subwoofer-3.webp)
+![](/_media/davis-subwoofer-3.webp)
 
 <!-- panels:end -->
 

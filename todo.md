@@ -1,0 +1,3 @@
+- Motion capture guide
+- Finish workshop manual
+- Create ambisonics guide

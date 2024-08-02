@@ -42,20 +42,20 @@ Dante Controller is used to configure a Dante network.
 1. Helpful Dante presets for the Tech Suite are placed on your desktop automatically on all the relevant Tech Suite computers.
 
 <!-- div:right-panel -->
-![](/_media/presets-folder.webp)
+![](/_media/dante-presets-folder.webp)
 
 <!-- div:left-panel -->
 2. In Dante Controller, click the :file_folder: **Load a Preset** button.
 
 <!-- div:right-panel -->
-![](/_media/load-preset-2.webp)
+![](/_media/dante-load-preset-2.webp)
 
 <!-- div:left-panel -->
 3. Sometimes the file browser dialog isn’t in the right folder. To get it to the Dante Presets folder, drag it from your Desktop into the dropdown bar at the top of the window.
 <br/><br/> Then you can open a preset file.
 
 <!-- div:right-panel -->
-![](/_media/load-preset-3.webp)
+![](/_media/dante-load-preset-3.webp)
 
 <!-- panels:end -->
 
@@ -83,7 +83,7 @@ By default when you create a preset in Dante Controller, it creates a full-syste
 
 <!-- div:right-panel -->
 
-![](/_media/safe-presets-2.webp 'Click the "Advanced" button')
+![](/_media/dante-safe-presets-2.webp 'Click the "Advanced" button')
 
 <!-- div:left-panel -->
 
@@ -91,7 +91,7 @@ By default when you create a preset in Dante Controller, it creates a full-syste
 
 <!-- div:right-panel -->
 
-![](/_media/safe-presets-3.webp 'Select the devices you are using')
+![](/_media/dante-safe-presets-3.webp 'Select the devices you are using')
 
 <!-- div:left-panel -->
 
@@ -107,7 +107,7 @@ Then click save
 
 <!-- div:right-panel -->
 
-![](/_media/safe-presets-4.webp 'Select relevant parameters for the preset')
+![](/_media/dante-safe-presets-4.webp 'Select relevant parameters for the preset')
 
 <!-- panels:end -->
 
@@ -115,10 +115,10 @@ Then click save
 
 There are multiple ways to send a receive audio on the Dante Network
 
-- On the Davis Computer, you can use the Focusrite PCIe Card. Simply select it from the list of audio devices on the computer.
-- On the Control Room Computer, you can use the HDX driver. See more on how to use it on the [Control Room][control-room] page.
+- On the Davis Computer, you can use the Digiface Dante. Simply select it from the list of audio devices on the computer.
+- On the Control Room Computer, you can use the Digiface Dante. 
 - You can borrow a Dante interface such as the [RedNet 4pre](https://pro.focusrite.com/category/audio-interfaces/item/red-4pre). We have two of these available.
-- In the Edit Rooms and on your personal machine, you can use [Dante Virtual Soundcard (DVS)](https://www.audinate.com/products/software/dante-virtual-soundcard). <br><small>With your personal machine, you will need to purchase a license and be connected to the [Tech Suite LAN][lan].</small>
+- In the Edit Rooms and on your personal machine, you can use [Dante Virtual Soundcard (DVS)](https://www.audinate.com/products/software/dante-virtual-soundcard) while connected to the [Tech Suite LAN][lan]. We have a number of licenses availible to lend out on an as-needed basis.
     - [Getting started with DVS (Video)](https://www.audinate.com/learning/training-certification/video-tutorials/dante-virtual-soundcard-4-in-getting-started-with-dante-video-series)
 - You can also buy [Dante Via](https://www.audinate.com/products/software/dante-via) for your personal machine which functions similarly to DVS but with some additional features.
 
@@ -175,7 +175,7 @@ The [Machine Room][machine-room] has three RedNet MP8Rs. All the I/O for the MP8
 
 <!-- div:right-panel -->
 
-![](/_media/mp8r.webp)
+![](/_media/rednet-mp8r.webp)
 
 <!-- panels:end -->
 
@@ -193,7 +193,7 @@ The gain of an analog mic preamp can be set by clicking and dragging on the circ
 You can also click the channel name text to edit the channel name. Make sure to reload the **Default Preset** at the end of your session if you do this.
 
 <!-- div:right-panel -->
-![](/_media/mp8r-1.webp)
+![](/_media/rednet-mp8r-1.webp)
 
 <!-- panels:end -->
 
@@ -214,7 +214,7 @@ You get the following parameters for each channel, shown in order
 !> Always open the **Default Settings.rc2snap** preset from the Dante Presets folder at the end of your session.<br/><small>This will reset the settings for the preamps to ensure microphones or other hardware is not accidentally damaged from phantom power or unmuted preamps.</small>
 
 <!-- div:right-panel -->
-![](/_media/mp8r-2.webp)
+![](/_media/rednet-mp8r-2.webp)
 
 <!-- panels:end -->
 

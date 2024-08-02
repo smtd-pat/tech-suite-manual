@@ -13,16 +13,12 @@
 [checkout]: https://pat.smtd.umich.edu/checkout
 
 # The Control Room <small>*Moore 370*</small>
-
 ?> The Control Room requires a [certification][training] to use.
 
 The Control Room is a state-of-the-art digital audio studio system that can be used for recording, mixing, and mastering. The control room is connected to nearly every large rehearsal and performance space in the Moore building via a Dante audio network and cameras.
 
 ## Known Issues
-
-**Found an urgent issue?** Submit a [Helpdesk Ticket][helpdesk].
-
-Also see [Troubleshooting](#troubleshooting)
+**Found an urgent issue?** Check if its answered in [troubleshooting](#troubleshooting). If not, submit a [Helpdesk Ticket][helpdesk].
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrt3ZlN4uSplxlpO?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="600px" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
@@ -32,13 +28,16 @@ Also see [Troubleshooting](#troubleshooting)
 <!-- tabs:start -->
 
 ### **Control Room**
+![](/_media/cr-room.webp ':size=50%')
 - Avid S6
 - Grace m908 Monitor Controller (RCU)
 - Meyer Sound HD1 *x2*
 - Genelec 8050B *x5*
+- Auratone 5C *x2*
 - Samsung UN55J6300 TV 
 
 ### **Sidecar Rack**
+![](/_media/cr-sidecar-rack.webp ':size=50%')
 - Grace m908 Monitor Controller (ACU)
 - LynTec Audio System Power Rack *x2*
 - Kramer VS-62H 6x2 HDMI Switcher
@@ -51,6 +50,7 @@ Also see [Troubleshooting](#troubleshooting)
 - Focusrite RedNet 2
 
 ### **Synth Rack**
+![](/_media/cr-synth-rack.webp ':size=50%')
 - Korg SQ-1
 - Sequential Circuits Pro One
 - Arp Odyssey
@@ -60,12 +60,14 @@ Also see [Troubleshooting](#troubleshooting)
 - Korg microKorg
 
 ### **Storage Closet Rack**
+![](_media/cr-closet-rack.webp ':size=50%')
 - Focusrite RedNet HD32R
 - Focusrite RedNet D16R
 - 12 port XLRP patch bays *x3*
 - 12 port XLRS patch bays *x2*
 - Black Box IC402A USB 2.0 over Ethernet *x2*
-- Magma ExpressBox 3T Thunderbolt Chassis
+- Sonnettech xMacStudio with Echo III PCIe Chassis
+    - Apple Mac Studio (M1 Ultra, 64 GB Memory)
     - Avid HDX PCIe Card
     - Universal Audio UAD-2 OCTO Core PCIe DSP Accelerator
 - G-Technology 8TB G-RAID External Hard Drive Array with Thunderbolt
@@ -73,6 +75,8 @@ Also see [Troubleshooting](#troubleshooting)
 - SurgeX SU-1000Li UPS *x2*
 
 ### **Portable Equipment**
+![](/_media/cr-portable-racks.webp ':size=50%')
+
 More information can be found on the [checkout system][checkout]
 
 - Red4Pre Portable Rack *x2*
@@ -91,13 +95,8 @@ More information can be found on the [checkout system][checkout]
 <!-- tabs:end -->
 
 ## Startup
-
 1. Login to the computer (optional)
-
-?><small>Upon your first time signing in to the Control Room computer, you will be prompted to allow Python to make changes. You may also be asked to allow network access for Dante Controller and RedNet Control 2. Click Allow for all the above.</small>
-
 2. Turn on the sidecar rack power switch
-
 3. Turn on relevant speaker set from sidecar rack using the LynTec rack units
 
 ## Shutdown
@@ -119,14 +118,20 @@ More information can be found on the [checkout system][checkout]
 - <input type="checkbox"> Close all doors
 
 ## Line Level Patching
-
+<!-- panels:start -->
+<!-- div:left-panel -->
 There is a 24x2 patch bay located in the sidecar rack that can be used to reroute nearly any signal path in the Control Room using TT patch cables. Make sure the patch cables are pushed all the way in when you patch something. 
 
 The top row outputs signals, the bottom row are inputs. Ports **1-32** are [half-normalled](https://www.sweetwater.com/sweetcare/articles/what-normalling-what-difference-between-full-normal-half-nornal/). The rest are non-normalled.
 
 > This patch bay does not prevent you from doing stupid things like patching outputs to outputs or inputs to inputs. Please don't do this. 
 
+<!-- div:right-panel -->
+![](/_media/cr-patchbay.webp)
+<!-- panels:end -->
+
 ## Monitor Controller
+![](/_media/cr-m908.webp ':size=50%')
 
 The Grace m908 controls the speakers in the Control Room.
 
@@ -135,41 +140,33 @@ The Grace m908 controls the speakers in the Control Room.
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pZBdihS4UWE?si=JlHOVtxEoJRzfKkL&amp;start=346" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Input Information
+Currently the Control Room has 3 input sources:
 
-Currently the Control Room has 2 input sources:
-
-- Stereo Dante
-- Stereo USB - via the m908 USB cable on the sidecar
+- 5.1 Dante
+- 5.1 USB - via the m908 USB cable on the sidecar
 - Stereo Patch - via the Sidecar patchbay
-
-<!--TODO-->
-> Additional input options will be added in the future as additional hardware is installed
 
 See how to use these in [Audio Output](#audio-output)
 
 ### Output Information
 
 - **CR1** - Stereo output from the Meyer HD-1s
-
-<!--TODO-->
-> Currently the Control Room only has stereo monitoring via the Meyer HD-1s. Additional out options will be added in the future as additional hardware is installed
+- **CR2** - 5.1 output from Genelec 8050Bs
+- **CR3** - Stereo output from Auratone 5Cs (no bass management)
 
 See how to use these in [Audio Output](#audio-output)
 
 ### Talkback
-
 The talkback microphone is the microphone peeking over the screen of the [S6 master module](#s6-basics).
 
 See how to route the talkback mic in [Talkback](#talkback-1)
 
 ## Audio Output
-
 The standard sample rate for the Tech Suite is 48kHz.
 
 <!-- tabs:start -->
 
-### **Via iMac**
-
+### **Via Mac**
 Set the output to **Stereo Dante** on the m908
 
 #### System Audio
@@ -190,35 +187,33 @@ You need to make sure to configure Pro Tools to use the Digiface Dante playback 
 3. Set the input and output device to **Digiface Dante**
 
 #### Ableton Live
-
 1. In the menubar, go to **Live > Preferences**
 2. In the **Audio** tab, set the **Input Device** to **Digiface Dante** and **Output Device** to **Digiface Dante**
 
 ### **Via Laptop**
-
 1. Set the output to **Stereo USB** on the m908
-
 2. Plug in your laptop to the USB cable hanging on the left side of the sidecar rack and use the **m908** output device.
 
 ### **Via Patchbay**
-
 1. Set the output to **Stereo Patch** on the m908
-
 2. Connect to patchbay inputs **33** and **34**
 
 <!-- tabs:end -->
 
 ## Synth Rack
-
+<!-- panels:start -->
+<!-- div:left-panel -->
 The synth rack is routed via patch bay outputs **9-16**, which are half-normalled to transmitters **9-16** on the RedNet 2.
+<!-- div:right-panel -->
+![](/_media/cr-synth-rack.webp)
+<!-- panels:end -->
 
 ## TV and Computer Monitor
 <!-- panels:start -->
 <!-- div:left-panel -->
 The TV and computer monitor on the S6 can change inputs using the matrix switcher in the sidecar rack.
 <!-- div:right-panel -->
-<!--TODO-->
-[IMAGE]
+![](/_media/cr-matrix-switcher.webp)
 <!-- panels:end -->
 
 ### TV
@@ -310,12 +305,12 @@ The **S6 Fader Module** contains the faders along with important buttons like se
 <!-- panels:start -->
 <!-- div:left-panel -->
 Patching for the m801 can be found in the Control Room closet. This XLR patch bay exposes inputs from the Machine Room microphone patch bay as well as the Tech Suite AV panels in Hankinson, Watkins, MacIntosh, and Britton. 
-<!-- div:right-panel -->
-<!--TODO-->
-[IMAGES]
-<!-- panels:end -->
 
 The output of the m801 is routed via patch bay outputs **1-8** to transmitters **1-8** on the RedNet 2
+<!-- div:right-panel -->
+![](/_media/cr-closet-patchbay.webp)
+![](/_media/cr-grace.webp)
+<!-- panels:end -->
 
 ## Headphone Monitoring
 The headphone monitoring system is contained within a portable rack stored in the Control Room. The rack contains drawers of black ethernet of various lengths and a set of headphones that are intended to be used exclusively with the Aviom system.
@@ -326,9 +321,9 @@ The headphone monitoring system is contained within a portable rack stored in th
 3. Set up the **A320 personal mixers** in your desired locations and then connect them to the **A-Net** In ports on the **Aviom D400**
 4. **In Dante Controller:** Route your desired outputs to the Aviom receiver channels in your desired configuration
 <!-- div:right-panel -->
-![](/_media/d400.webp 'Aviom D400')
+![](/_media/cr-d400.webp 'Aviom D400')
 
-![](/_media/a320.webp 'Aviom A320 personal mixer')
+![](/_media/cr-a320.webp 'Aviom A320 personal mixer')
 <!-- panels:end -->
 
 The volume of each channel can be set on the **A320 personal mixers**.
@@ -336,10 +331,14 @@ The volume of each channel can be set on the **A320 personal mixers**.
 ?> More information on the Aviom kit can be found [on the inventory system](https://app.cheqroom.com/pHMoanvebv1NemoreoyF74/items/5mhueusqJziGJSHfDcQ9Xm).
 
 ## Talkback
-
+<!-- panels:start -->
+<!-- div:left-panel -->
 The talkback microphone is routed through the Grace m908 via its Dante outputs on channels **1** and **2**.
 
 The mic can be controlled via the **Talkback** button on the m908 RCU.
+<!-- div:right-panel -->
+![](/_media/cr-talkback-mic.webp)
+<!-- panels:end -->
 
 ## Troubleshooting
 
@@ -351,26 +350,29 @@ Remember to check the [known issues list](#known-issues)
 - [Computer not waking up](#computer-not-waking-up)
 
 ### S6 is not communicating with Pro Tools
-
 <!-- panels:start -->
 <!-- div:left-panel -->
+1. Make sure the EUCON toggle button is viisible on the toolbar
+2. Click on the EUCON toggle to turn it on
+3. If the EUCON toggle is on, toggle it off and back on again
 
-> Avid has recently changed this. The EUCON toggle is now in the edit window of Pro Tools. Guide coming soon...
-
+<!-- div:right-panel -->
+![](/_media/sw-protools-eucon.webp)
+![](/_media/sw-eucon-select.webp)
 <!-- panels:end -->
 
 ### S6 is not communicating with the computer
 <!-- panels:start -->
 <!-- div:title-panel -->
-1. Restart the S6 driver by clicking the S6 WSControl icon in the menubar ![](/_media/ws-control-error.webp)
+1. Restart the S6 driver by clicking the S6 WSControl icon in the menubar ![](/_media/cr-ws-control-error.webp)
 <!-- div:left-panel -->
 2. Click **Network Setup…**
 <!-- div:right-panel -->
-![](/_media/ws-control-menu.webp)
+![](/_media/cr-ws-control-menu.webp)
 <!-- div:left-panel -->
 3. Then click **Apply and relaunch**
 <!-- div:right-panel -->
-![](/_media/ws-control.webp)
+![](/_media/cr-ws-control.webp)
 <!-- panels:end -->
 
 ### Computer not waking up

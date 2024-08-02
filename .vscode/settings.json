@@ -23,5 +23,6 @@
         "wirelessly",
         "XLRP",
         "XLRS"
-    ]
+    ],
+    "markdown.updateLinksOnFileMove.enabled": "always"
 }

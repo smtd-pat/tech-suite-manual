@@ -62,7 +62,7 @@ The Ableton Push is made to be used with the software [Ableton Live](https://www
 <!-- TODO: Link "DAWs" to terminology page -->
 
 <!-- div:right-panel -->
-![](/_media/push.webp)
+![](/_media/mtl-push.webp)
 
 <!-- panels:end -->
 
@@ -82,7 +82,7 @@ This is called an Audio Interface. It allows to to...
 It can do all of that and more!
 
 <!-- div:right-panel -->
-![](/_media/8i6.webp)
+![](/_media/mtl-8i6.webp)
 
 <!-- panels:end -->
 
@@ -97,7 +97,7 @@ This is called a headphone amplifier. It also can split audio output to up to fi
 <!-- TODO: Link stuff to terminology page -->
 
 <!-- div:right-panel -->
-![](/_media/rolls.webp)
+![](/_media/mtl-rolls.webp)
 
 <!-- panels:end -->
 
@@ -114,7 +114,7 @@ This is a MIDI keyboard. It can be used to send MIDI piano data into a DAW or ot
 <!-- TODO: Link stuff to terminology page -->
 
 <!-- div:right-panel -->
-![](/_media/keyboard.webp)
+![](/_media/mtl-keyboard.webp)
 
 <!-- panels:end -->
 
@@ -124,7 +124,7 @@ This is a MIDI keyboard. It can be used to send MIDI piano data into a DAW or ot
 <!-- panels:start -->
 
 <!-- div:left-panel -->
-Using ![](/_media/control-center.webp ':no-zoom :size=30px') [Control Center](https://support.apple.com/guide/mac-help/quickly-change-settings-mchl50f94f8f/mac) menu in the top-right of the screen, set your system output device to **Scarlett 8i6 USB** as shown on the right.
+Using ![](/_media/sw-control-center.webp ':no-zoom :size=30px') [Control Center](https://support.apple.com/guide/mac-help/quickly-change-settings-mchl50f94f8f/mac) menu in the top-right of the screen, set your system output device to **Scarlett 8i6 USB** as shown on the right.
 
 In a DAW you may need to change the output settings
 - [Ableton](https://help.ableton.com/hc/en-us/articles/211476789-Setting-up-an-Audio-Interface)
@@ -162,95 +162,80 @@ This will allow you to use the audio interface, MIDI keyboard, and Ableton Push 
 <!-- div:left-panel -->
 Looking for the aux cable? Want to hook up your laptop to the projector or audio interface? Need power? That can all be found in the cable cubby!
 <!-- div:right-panel -->
-![](/_media/mtl-cubby.webp)
+![](/_media/mtl-cable-pocket.webp)
 
 <!-- div:title-panel -->
 ### Changing the projector input
 
 <!-- div:left-panel -->
-Use the Extron rack.
-
-- **Input 1:** Laptop VGA
-
-- **Input 3:** Teaching station / iMac
-
-- **Input 4:** Laptop HDMI
+Use the HDMI switcher on the right side rack
 
 <!-- div:right-panel -->
-<!--TODO-->
-[IMAGE]
+![](/_media/mtl-student-station-mixers.webp)
 
 <!-- div:title-panel -->
 ## Spaker Audio Output
 
-![](/_media/mtl-lectern-controller.webp ':size=50%')
+![](/_media/mtl-mixer.webp ':size=50%')
 
 <!-- div:title-panel -->
 ### Turn the room speakers on
 
 <!-- div:left-panel -->
-Turn the volume all the way down on the monitor station (see above). Flip the labeled switches on the wall.
+Turn the master volume all the way down on the mixer. Flip the labeled switches on the wall.
 <!-- div:right-panel -->
-<!--TODO-->
-[IMAGE]
+![](/_media/mtl-speaker-power-switches.webp)
 
 <!-- div:title-panel -->
-### From the iMac
-
-<!-- div:left-panel -->
-**Step 1:** Turn the volume knob down
-
-**Step 2:** Make sure the iMac audio output is set to "Clarett 8pre". If you don't see "Clarett 8pre" then turn the audio interface off and back on again.
-
-**Step 3:** Ensure "Clarett 8pre" is selected on the monitor controller.
-
-<!-- div:right-panel -->
-<!--TODO-->
-[IMAGES]
+### From the Lectern Computer
+1. Ensure the USB switcher is set to 1
+2. Turn the master volume down
+3. Make sure the Lectern Computer audio output is set to **MG-XU**
+4. Turn up inputs **9/10** (labled MG-XU USB) and the master volume *slowly*
 
 <!-- div:title-panel -->
 ### From the aux cable
-
-<!-- div:left-panel -->
-**Step 1:** Turn the volume knob down
-
-**Step 2:** Plug in your device to the aux cable in the cable cubby.
-
-**Step 3:** On the Monitor Controller under "Main Source", make sure "AUX" is illuminated
-<!-- div:right-panel -->
-<!--TODO-->
-[IMAGE]
+1. Turn the master volume down
+2. Plug in your aux device to the aux cable in the cable cubby
+3. Turn up inputs **5/6** (labled AUX) and the master volume *slowly*
 
 <!-- div:title-panel -->
 ### From your own computer
-
-<!-- div:left-panel -->
-**Step 1:** Turn the volume knob down
-
-**Step 2:** Plug in your computer to the USB cable in the cable cubby and press the button on the top right of the monitor controller until "2" is illuminated.
-
-**Step 3:** On the Monitor Controller under "Main Source", make sure "ST1" is illuminated
-
-> If "Clarett 8pre" doesn't show up as an output device on your computer, turn the Clarett off and back on again
-
-<!-- div:right-panel -->
-<!--TODO-->
-[IMAGE]
+1. Ensure the USB switcher is set to 1
+2. Turn the master volume down
+3. Make sure the Lectern Computer audio output is set to **MG-XU**
+4. Turn up inputs **9/10** (labled MG-XU USB) and the master volume *slowly*
 
 <!-- div:title-panel -->
 ### From the student stations
 
 <!-- div:left-panel -->
-**Step 1:** Turn the volume knob down
+1. Turn the master volume down
+2. Turn up the desired student station on the lectern mixers on the right side lectern rack<br><small>Also ensure the volume knob labled **Master Volume** is set to **5**</small>
+3. Ensure the **Monitor** knob on the respective station is turned up
+4. Slowly turn up inputs **7/8** (labled Student Stations) and the master volume
 
-**Step 2:** Make sure the "monitor" knob on the audio interface of the desired student station is turned up.
-
-**Step 3:** On the Monitor Controller under "Main Source", make sure "ST2" is illuminated
 <!-- div:right-panel -->
-<!--TODO-->
-[IMAGE]
+![](/_media/mtl-student-station-mixers.webp)
 
 <!-- panels:end -->
+
+## Multichannel Output
+On the lectern computer, select the **8M** audio output device.
+
+!> **Warning:** Volume is controlled via whatever software you are playing audio from. There is no volume knob for this system. System volume control does not work, nor will the Master Volume on the MG10XU mixer.
+
+### Channel order
+1. Left
+2. Right
+3. Left Wide
+4. Right Wide
+5. Center (doesn't actually exist in the room)
+6. LFE
+7. Left Side
+8. Right Side
+9. Left Rear
+10. Right Rear
 
 ## Need help?
 If you are running into technical problems, [include it in your Studio Log][studio-log] or submit a [Helpdesk Ticket][helpdesk] if its an urgent issue.

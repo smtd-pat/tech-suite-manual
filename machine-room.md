@@ -19,8 +19,6 @@ The machine room is the heart of the Tech Suite, and arguably, the heart of the 
 
 The switches for the [Tech Suite LAN][lan] are also located in the Machine Room.
 
-<!-- TODO: More Images -->
-
 ## Known Issues
 
 **Found an urgent issue?** Submit a [Helpdesk Ticket][helpdesk].
@@ -66,7 +64,7 @@ Long pigtails should be folded in half twice, tied in a loose knot, and hung on 
 
 ## Tie Line Patch Bay
 
-![A 48-port Longframe patch bay](/_media/patch-bay.webp ':size=80%')
+![A 48-port Longframe patch bay](/_media/mr-patch-bay.webp ':size=80%')
 
 Tie lines can be used to route line level audio to and from the RedNet 2 Dante audio interfaces or to another AV panel.
 
