@@ -191,20 +191,20 @@ Turn the master volume all the way down on the mixer. Flip the labeled switches 
 1. Ensure the USB switcher is set to 1
 2. Turn the master volume down
 3. Make sure the Lectern Computer audio output is set to **MG-XU**
-4. Turn up inputs **9/10** (labled MG-XU USB) and the master volume *slowly*
+4. Turn up inputs **9/10** (labled MG-XU USB) and the red master volume knob *slowly*
 
 <!-- div:title-panel -->
 ### From the aux cable
 1. Turn the master volume down
 2. Plug in your aux device to the aux cable in the cable cubby
-3. Turn up inputs **5/6** (labled AUX) and the master volume *slowly*
+3. Turn up inputs **5/6** (labled AUX) and the red master volume knob *slowly*
 
 <!-- div:title-panel -->
 ### From your own computer
 1. Ensure the USB switcher is set to 1
 2. Turn the master volume down
 3. Make sure the Lectern Computer audio output is set to **MG-XU**
-4. Turn up inputs **9/10** (labled MG-XU USB) and the master volume *slowly*
+4. Turn up inputs **9/10** (labled MG-XU USB) and the red master volume knob *slowly*
 
 <!-- div:title-panel -->
 ### From the student stations
@@ -213,12 +213,29 @@ Turn the master volume all the way down on the mixer. Flip the labeled switches 
 1. Turn the master volume down
 2. Turn up the desired student station on the lectern mixers on the right side lectern rack<br><small>Also ensure the volume knob labled **Master Volume** is set to **5**</small>
 3. Ensure the **Monitor** knob on the respective station is turned up
-4. Slowly turn up inputs **7/8** (labled Student Stations) and the master volume
+4. Slowly turn up inputs **7/8** (labled Student Stations) and the red master volume knob
 
 <!-- div:right-panel -->
 ![](/_media/mtl-student-station-mixers.webp)
 
 <!-- panels:end -->
+
+## Mixer as audio interface
+
+The Yamaha MG10XU will show up as **MG-XU** in the audio device list on the MTL computer or your laptop if its plugged into USB.
+
+### Audio Out
+1. Ensure the **USB/Line** button is pressed for USB on channel 9/10 
+2. Ensure the **TO MON/TO ST** button is depressed for TO MON
+3. Turn up the red master volume knob
+
+### Audio In
+Audio input can be recieved from channels 1 and 2
+
+1. Press the **Stereo Mute** button above the master volume. This will stop the mixer from its default behavior of directly outputting sound to the speakers from the inputs.
+2. In your software of choice, set the input to 1 or 2. Ensure the gain and volume on channels 1 and/or 2 are set to your desired levels.
+
+!> Make sure to turn down the master volume when depressing the **Stereo Mute** button! Otherwise you could be in for a lot of sound!
 
 ## Multichannel Output
 On the lectern computer, select the **8M** audio output device.

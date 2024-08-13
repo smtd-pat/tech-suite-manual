@@ -187,6 +187,29 @@ They grey outlets also provide an **Isolated Ground**. This can help reduce or e
 
 <!-- panels:end -->
 
+## Lectern
+
+### How to turn on the speakers
+
+See [Main L-R Pair Speaker Power](#main-l-r-pair-speaker-power) 
+
+### Mixer as audio interface
+
+The Yamaha MG10XU will show up as **MG-XU** in the audio device list on the MTL computer or your laptop if its plugged into USB.
+
+#### Audio Out
+1. Ensure the **USB/Line** button is pressed for USB on channel 9/10 
+2. Ensure the **TO MON/TO ST** button is depressed for TO MON
+3. Turn up the red master volume knob
+
+#### Audio In
+Audio input can be recieved from channels 1 and 2
+
+1. Press the **Stereo Mute** button above the master volume. This will stop the mixer from its default behavior of directly outputting sound to the speakers from the inputs.
+2. In your software of choice, set the input to 1 or 2. Ensure the gain and volume on channels 1 and/or 2 are set to your desired levels.
+
+!> Make sure to turn down the master volume when depressing the **Stereo Mute** button! Otherwise you could be in for a lot of sound!
+
 ## Projector
 
 !> Please be extremely careful around the projector screen. Please don't put chairs or tables up against it and use care not to scuff, scratch, or rip it.

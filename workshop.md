@@ -288,6 +288,14 @@ Note that some types of fires require special fire retardants that may not be av
 
 ## Securing your workpiece
 
+## Laser Cutter
+
+## 3D Printer
+
+## Sewing/Embroidery Machine
+
+## Craft Cutter
+
 ## The ABCs of handtools
 
 ## How to use a utility knife 
@@ -317,13 +325,3 @@ Note that some types of fires require special fire retardants that may not be av
 ### Tin your tip!
 
 ### Use the fume extractor!
-
-## Machine Information
-
-### Laser Cutter
-
-### 3D Printer
-
-### Sewing/Embroidery Machine
-
-### Craft Cutter
