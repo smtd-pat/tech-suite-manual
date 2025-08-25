@@ -15,6 +15,8 @@
 
 ?> The Workshop requires a [certification][training] to use.
 
+!> This manual page is under construction
+
 The Workshop is a full fledged makerspace, complete with components, materials, and tools that can be used to learn, explore, tinker, and create nearly anything.
 
 <small>Portions of the Workshop manual are adapted from the DMC Fabrication Studio [Hand Tool & Lab Safety Guide](https://docs.google.com/document/d/1_UUlCxHIcBc7m9qFVm5ajBPhVqiN_UXCHvv_EPUr--0/edit) which is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).</small>

@@ -17,6 +17,8 @@ The Davis Studio is outfitted with a Qualisys Miqus motion capture system.
 
 ?> In order to get the most accurate calibration and use, the area should be cleared of all reflective surfaces, tables, chairs and the whiteboard.
 
+!> This manual page is under construction
+
 ## Startup
 <!-- panels:start -->
 <!-- div:left-panel -->

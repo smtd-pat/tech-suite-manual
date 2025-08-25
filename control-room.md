@@ -15,6 +15,8 @@
 # The Control Room <small>*Moore 370*</small>
 ?> The Control Room requires a [certification][training] to use.
 
+!> This manual page is outdated due to numerous updates to the system and should only be used as a reference. Updates will be made soon...
+
 The Control Room is a state-of-the-art digital audio studio system that can be used for recording, mixing, and mastering. The control room is connected to nearly every large rehearsal and performance space in the Moore building via a Dante audio network and cameras.
 
 ## Known Issues
@@ -32,7 +34,8 @@ The Control Room is a state-of-the-art digital audio studio system that can be u
 - Avid S6
 - Grace m908 Monitor Controller (RCU)
 - Meyer Sound HD1 *x2*
-- Genelec 8050B *x5*
+- Genelec 8050B *x7*
+- Genelec 8340A *x4*
 - Auratone 5C *x2*
 - Samsung UN55J6300 TV 
 
