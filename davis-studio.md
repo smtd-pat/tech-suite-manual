@@ -148,11 +148,11 @@ They grey outlets also provide an **Isolated Ground**. This can help reduce or e
 
 ## Lectern
 
+<!-- panels:start -->
+<!-- div:left-panel -->
 See the [Quick Start Guide](https://docs.google.com/document/d/1CkapqFUlVhaqYsr85JZ8te_b2eaqECYWuA0ZS0bVFDg/edit?usp=sharing)
 
-This is a printed information packet that is usually on the sidecar rack
-
-![](/_media/hw-mg10xu.webp)
+This is a printed information packet that is usually on lectern or in the lectern's storage drawer
 
 Contains information on...
 
@@ -160,6 +160,11 @@ Contains information on...
 - Laptop audio input from mixer
 - How to manipulate the extension table wings on the lectern
 - How to get help
+
+<!-- div:right-panel -->
+![](/_media/hw-mg10xu.webp ':size=60%')
+
+<!-- panels:end -->
 
 ## Projector
 

@@ -15,8 +15,6 @@
 # The Control Room <small>*Moore 370*</small>
 ?> The Control Room requires a [certification][training] to use.
 
-!> This manual page is outdated due to numerous updates to the system and should only be used as a reference. Updates will be made soon...
-
 The Control Room is a state-of-the-art digital audio studio system that can be used for recording, mixing, and mastering. The control room is connected to nearly every large rehearsal and performance space in the Moore building via a Dante audio network and cameras.
 
 ## Known Issues
