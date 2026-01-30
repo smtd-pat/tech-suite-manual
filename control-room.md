@@ -97,6 +97,19 @@ More information can be found on the [checkout system][checkout]
 
 <!-- tabs:end -->
 
+## Quick Start Guide
+
+[View the Quick Start Guide](https://docs.google.com/document/d/1nZsRmK9yBv51Kq1g_L7DeaCBAtM3iawYvvnVvzvJShw/edit?usp=sharing)
+
+This is a printed information packet that is usually on the sidecar rack
+
+Contains information on...
+- Power up / shut down
+- Basic audio output
+- Zero setting
+- How to use the Grace m908
+- Output channel order
+
 ## Startup
 1. Login to the computer (optional)
 2. Turn on the sidecar rack power switch
@@ -120,19 +133,6 @@ More information can be found on the [checkout system][checkout]
 - <input type="checkbox"> Cover the S6
 - <input type="checkbox"> Close all doors
 
-## Line Level Patching
-<!-- panels:start -->
-<!-- div:left-panel -->
-There is a 24x2 patch bay located in the sidecar rack that can be used to reroute nearly any signal path in the Control Room using TT patch cables. Make sure the patch cables are pushed all the way in when you patch something. 
-
-The top row outputs signals, the bottom row are inputs. Ports **1-32** are [half-normalled](https://www.sweetwater.com/sweetcare/articles/what-normalling-what-difference-between-full-normal-half-nornal/). The rest are non-normalled.
-
-> This patch bay does not prevent you from doing stupid things like patching outputs to outputs or inputs to inputs. Please don't do this. 
-
-<!-- div:right-panel -->
-![](/_media/cr-patchbay.webp)
-<!-- panels:end -->
-
 ## Monitor Controller
 ![](/_media/cr-m908.webp ':size=50%')
 
@@ -145,17 +145,16 @@ The Grace m908 controls the speakers in the Control Room.
 ### Input Information
 Currently the Control Room has 3 input sources:
 
-- 5.1 Dante
-- 5.1 USB - via the m908 USB cable on the sidecar
-- Stereo Patch - via the Sidecar patchbay
+- 7.1.4 Dante
+- 7.1.4 USB - via the m908 USB cable on the sidecar
 
 See how to use these in [Audio Output](#audio-output)
 
 ### Output Information
 
 - **CR1** - Stereo output from the Meyer HD-1s
-- **CR2** - 5.1 output from Genelec 8050Bs
-- **CR3** - Stereo output from Auratone 5Cs (no bass management)
+- **CR2** - 7.1.4 output from Genelec 8050Bs
+- **CR3** - Stereo output from Auratone 5Cs
 
 See how to use these in [Audio Output](#audio-output)
 
@@ -170,7 +169,7 @@ The standard sample rate for the Tech Suite is 48kHz.
 <!-- tabs:start -->
 
 ### **Via Mac**
-Set the output to **Stereo Dante** on the m908
+Set the output to **7.1.4 Dante** on the m908
 
 #### System Audio
 Make sure that your system audio output is set to **Digiface Dante USB**
@@ -194,22 +193,10 @@ You need to make sure to configure Pro Tools to use the Digiface Dante playback 
 2. In the **Audio** tab, set the **Input Device** to **Digiface Dante** and **Output Device** to **Digiface Dante**
 
 ### **Via Laptop**
-1. Set the output to **Stereo USB** on the m908
+1. Set the output to **7.1.4 USB** on the m908
 2. Plug in your laptop to the USB cable hanging on the left side of the sidecar rack and use the **m908** output device.
 
-### **Via Patchbay**
-1. Set the output to **Stereo Patch** on the m908
-2. Connect to patchbay inputs **33** and **34**
-
 <!-- tabs:end -->
-
-## Synth Rack
-<!-- panels:start -->
-<!-- div:left-panel -->
-The synth rack is routed via patch bay outputs **9-16**, which are half-normalled to transmitters **9-16** on the RedNet 2.
-<!-- div:right-panel -->
-![](/_media/cr-synth-rack.webp)
-<!-- panels:end -->
 
 ## TV and Computer Monitor
 <!-- panels:start -->

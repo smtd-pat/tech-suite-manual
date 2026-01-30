@@ -17,6 +17,9 @@
 
 The Davis Studio is a multipurpose adaptable classroom/studio/performance space with 36.2 channel speaker array, lighting system, Motion Capture System, and VR Station. It is available for recitals, project documentation, installations, rehearsals, prototyping, system testing, and much more.
 
+- [View/Edit the Davis Studio Stage Plot](https://docs.google.com/drawings/d/1G7z2yxYAHYZVGNaJArUsPDGy7mog41sPqWUZHx4Kwho/edit?usp=drive_link)
+- [Download the Davis Studio Vectorworks template](https://drive.google.com/file/d/16OE1htrv75jV4hYbMe8WNOZdPk8W0IiV/view?usp=sharing)
+
 ## Known Issues
 **Found an urgent issue?** Submit a [Helpdesk Ticket][helpdesk].
 
@@ -38,8 +41,8 @@ The Davis Studio is a multipurpose adaptable classroom/studio/performance space 
 - Mac Studio (M1 Ultra, 64 GB Memory)
 - Digiface Dante
 - Genelec 8050B *x14*
-- Genelec 8040B *x20*
-- RCF Sub 8004-AS
+- Genelec 8040B *x22*
+- RCF Sub 8004-AS *x2*
 
 > Computer is connected to Projector
 
@@ -75,7 +78,7 @@ Computer can be connected to Projector via SDI
 - Projector remote
 
 ### **Projection**
-- NEC PX602UL-BK Projector
+- Epson PowerLite L895E
 
 ### **Davis Quick Specs**
 - DMX-controllable House/Work Lights
@@ -116,6 +119,7 @@ Computer can be connected to Projector via SDI
 **No non-Davis equipment is to be stored in Davis unless you have explicit permission from the Studio Coordinator**
 
 ## House Lights
+<!--TODO: Images of lights and controllers-->
 The house/work lights in Davis, along with the vestibule and adjacent hallway, are controlled by a single system that integrates with the Davis lighting system. Small buttons on black panels that illuminate blue can be used to control a specific zone such as the vestibule and hallway lights when needed. The Davis lighting is controlled by a touch panel on the back wall next to the door leading to the hallway or using the illuminated blue button next to the main exit door.
 
 ?> **Tip:** Pressing the blue button next to the main exit door can turn the Davis house lights on and off. If the lights were turned on using the touch panel, you may need to press this button a few times to turn the lights off.
@@ -144,34 +148,30 @@ They grey outlets also provide an **Isolated Ground**. This can help reduce or e
 
 ## Lectern
 
-### Mixer as audio interface
+See the [Quick Start Guide](https://docs.google.com/document/d/1CkapqFUlVhaqYsr85JZ8te_b2eaqECYWuA0ZS0bVFDg/edit?usp=sharing)
 
-The Yamaha MG10XU will show up as **MG-XU** in the audio device list on the MTL computer or your laptop if its plugged into USB.
+This is a printed information packet that is usually on the sidecar rack
 
-#### Audio Out
-1. Ensure the **USB/Line** button is pressed for USB on channel 9/10 
-2. Ensure the **TO MON/TO ST** button is depressed for TO MON
-3. Turn up the red master volume knob
+![](/_media/hw-mg10xu.webp)
 
-#### Audio In
-Audio input can be received from channels 1 and 2
+Contains information on...
 
-1. Press the **Stereo Mute** button above the master volume. This will stop the mixer from its default behavior of directly outputting sound to the speakers from the inputs.
-2. In your software of choice, set the input to 1 or 2. Ensure the gain and volume on channels 1 and/or 2 are set to your desired levels.
-
-!> Make sure to turn down the master volume when depressing the **Stereo Mute** button! Otherwise you could be in for a lot of sound!
+- Ways to enable audio output from laptop and related devices
+- Laptop audio input from mixer
+- How to manipulate the extension table wings on the lectern
+- How to get help
 
 ## Projector
 
 !> Please be extremely careful around the projector screen. Please don't put chairs or tables up against it and use care not to scuff, scratch, or rip it.
 
-The projector power is controlled via a remote on the teaching station. This remote must be plugged into its ⅛” adapter in order to communicate with the projector.
+The HDMI input of the projector is controlled with the [Video Switcher][video-switcher] via the [Tech Suite LAN](lan)
 
-The projector input is controlled with the [Video Switcher][video-switcher] which can be accessed from the Davis Computer.
+Learn more in the [Quick Start Guide](https://docs.google.com/document/d/1CkapqFUlVhaqYsr85JZ8te_b2eaqECYWuA0ZS0bVFDg/edit?usp=sharing)
 
 ## Speakers and routing
 
-?> The system was recently updated and new documentation is in the works.
+[View the Speaker Plot](https://drive.google.com/file/d/1O6rk6ebE5IZsObW_8u7gAIbtR0acKRuL/view?usp=sharing)
 
 ## Lighting System
 
