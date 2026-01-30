@@ -12,6 +12,6 @@
 - [Video Switcher](/video-switcher.md)
 - [ClearCom](/clearcom.md)
 - [Motion Capture System](/motion-capture.md)
-- **Guides *(Coming Soon)***
+- **Guides**
 - [Room Numbers & Zones](room-numbers)
-- Ambisonic Playback
+- [Ambisonic Playback](ambisonics)
